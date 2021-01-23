@@ -12,35 +12,13 @@ import { COOKIE_AUTH_KEY, API } from "./constants";
 import { getCookie } from "./utils";
 
 const fetchUser = (token, setUser) => {
-  // axios.get(API.USER.GET, {
-  //   credentials: "same-origin",
-  //   mode: "no-cors",
-  //   withCredentials: true,
-  //   crossdomain: true,
-  //   headers: {
-  // 		'Access-Control-Allow-Origin': '*',
-  // 		Accept: 'application/json',
-  // 		'Content-Type': 'application/json',
-  // 	},
-  // }).then(res => res.json())
-  // .then((data) => {
-  //   console.log(data);
-  //   setUser(data);
-  // })
-  // .catch((err) => console.log(err));
   try {
-    
     fetch(API.USER.GET, {
-      credentials: "include",
-      mode: "no-cors"
+      credentials: "include",      
     })
-      .then((res) => {
-        const json = res.json();
-        return json;
-      })
+      .then((res) => res.json())
       .then((data) => {
-        console.log(data);
-        // return setUser(data);
+        return setUser(data);
       })
       .catch((err) => console.log(err));
   } catch (error) {
@@ -57,14 +35,12 @@ const Router = () => {
       fetchUser(token, setUser);
     }
   }, []);
-  const toggleUser = () => setUser(!user);
   return (
     <BrowserRouter>
-      <Nav />
-      <button onClick={toggleUser}>toggle</button>
+      {user && <Nav user={user}/>}
       <Switch>
         <Route path="/login" children={<Login />} user={user} />
-        <ProtectedRoute path="/panel" children={<Panel />} user={user} />
+        <ProtectedRoute path="/" children={<Panel />} user={user} />
       </Switch>
     </BrowserRouter>
   );
