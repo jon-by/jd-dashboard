@@ -1,48 +1,51 @@
-import { useState, useEffect } from "react";
+import { useReducer, useEffect } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import axios from "axios";
+import { reducer, initialState } from "./AuthReducer";
 
 import "./App.css";
 import Nav from "./Nav";
 import ProtectedRoute from "./ProtectedRoute";
 import Panel from "./Panel";
 import Login from "./Login";
+import { API } from "./constants";
 
-import { COOKIE_AUTH_KEY, API } from "./constants";
-import { getCookie } from "./utils";
-
-const fetchUser = (token, setUser) => {
+const fetchUser = (dispatch) => {
+  dispatch({ type: "setLoading", payload: true })
   try {
     fetch(API.USER.GET, {
-      credentials: "include",      
+      credentials: "include",
     })
-      .then((res) => res.json())
-      .then((data) => {
-        return setUser(data);
-      })
-      .catch((err) => console.log(err));
+    .then((res) => res.json())
+    .then((data) => {
+      return dispatch({ type: "setUser", payload: data });
+    })
+    .catch((err) => {
+      dispatch({ type: "setLoading", payload: false })
+      console.log(err)
+    });
   } catch (error) {
-    console.log(error)
+    dispatch({ type: "setLoading", payload: false })
+    console.log(error);
   }
-
 };
 
 const Router = () => {
-  const [user, setUser] = useState(null);
+  const [state, dispatch] = useReducer(reducer, initialState);
   useEffect(() => {
-    const token = getCookie(COOKIE_AUTH_KEY);
-    if (token) {
-      fetchUser(token, setUser);
+    if (state.token) {
+      fetchUser(dispatch);
     }
-  }, []);
-  return (
+  }, [state.token]);
+  return !state.loading ? (
     <BrowserRouter>
-      {user && <Nav user={user}/>}
+      {state.token && <Nav user={state.user} logout={() => dispatch({type: 'logout'})} />}
       <Switch>
-        <Route path="/login" children={<Login />} user={user} />
-        <ProtectedRoute path="/" children={<Panel />} user={user} />
+        <Route path="/login" children={<Login />} />
+        <ProtectedRoute path="/" children={<Panel />} user={state.token} />
       </Switch>
     </BrowserRouter>
+  ) : (
+    <div>loading...</div>
   );
 };
 

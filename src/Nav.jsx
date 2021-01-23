@@ -5,13 +5,14 @@ import { Link } from 'react-router-dom'
 
 const routes = [{ title: 'login', path: '/login' }, { title: 'panel', path: '/' }]
 
-const Nav = ({user}) => {
+const Nav = ({user, logout}) => {
     return (
         <nav className="nav-wrapper">
             <ul className="nav-list-conainer">
                 {routes.map(({ title, path }, idx) => {
                     return <li className="nav-list-item" key={idx}> <Link to={path}>{title}</Link> </li>
                 })}
+                <li><button onClick={logout}>logout</button></li>
             </ul>
             {user && <div className="user-display">
                 <img className="user-avatar" src={user.profile_image_url} alt={user.display_name + ' avatar'}/>
