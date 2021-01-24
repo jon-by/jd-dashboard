@@ -3,7 +3,7 @@ import './Nav.css';
 
 import { Link } from 'react-router-dom'
 
-const routes = [{ title: 'login', path: '/login' }, { title: 'panel', path: '/' }]
+const routes = [{ title: 'panel', path: '/' }]
 
 const Nav = ({user, logout}) => {
     return (

@@ -1,0 +1,14 @@
+.create-reward {
+  display: flex;
+}
+.create-reward-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.create-reward-form label {
+  margin: 8px;
+}
+.create-reward-form label input {
+  margin-left: 16px;
+}
