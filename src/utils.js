@@ -24,3 +24,8 @@ export const setCookie = (cname, cvalue, exdays) => {
 export const deleteCookie = ( name ) => {
   setCookie(name, '', -1);
 }
+export const deleteCookies = ( array ) => {
+  array.forEach(name => {
+    deleteCookie(name)
+  });
+}

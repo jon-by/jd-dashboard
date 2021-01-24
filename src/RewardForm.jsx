@@ -3,21 +3,21 @@ import {updateReward, createReward} from "./TwitchApi";
 import "./RewardForm.css";
 
 
-const RewardForm = ({ data }) => {
+const RewardForm = ({ data, onSave }) => {
   const [title, setTitle] = useState(data?.title || '');
   const [cost, setCost] = useState(data?.cost || 100);
   const [tickets, setTickets] = useState(data?.tickets || 1);
   const onSubmit = e => {
     e.preventDefault()
     if (data?.id) {
-      updateReward({title, cost, tickets});
+      updateReward({title, cost, tickets}, onSave);
     } else {
-      createReward({title, cost, tickets});
+      createReward({title, cost, tickets}, onSave);
     }
   }
   return (
-    <div classtitle="create-reward">
-      <form classtitle="create-reward-form" onSubmit={onSubmit}>
+    <div className="create-reward">
+      <form className="create-reward-form" onSubmit={onSubmit}>
         Create reward
         <label htmlFor="reward-title">
           Reward title:

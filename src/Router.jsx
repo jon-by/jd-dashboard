@@ -21,7 +21,6 @@ const fetchUser = (dispatch) => {
       })
       .catch((err) => {
         dispatch({ type: "setLoading", payload: false });
-        console.log(err);
       });
   } catch (error) {
     dispatch({ type: "setLoading", payload: false });
