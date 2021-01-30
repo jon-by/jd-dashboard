@@ -1,4 +1,5 @@
 import React, { useEffect, useReducer } from "react";
+import Tooltip from "@material-ui/core/Tooltip";
 import { reducer, initialState } from "./RewardsReducer";
 import { makeStyles } from "@material-ui/core/styles";
 import { getAllRewards } from "./TwitchApi";
@@ -58,9 +59,11 @@ const Panel = () => {
         rewards={state.rewards}
         onDelete={(id) => dispatch({ type: "deleteReward", payload: id })}
       />
-      <Fab className={classes.fab} color="primary" onClick={handleOpen}>
-        <AddIcon />
-      </Fab>
+      <Tooltip title="Add Custom Reward">
+        <Fab className={classes.fab} color="primary" onClick={handleOpen}>
+          <AddIcon />
+        </Fab>
+      </Tooltip>
     </div>
   ) : (
     <div>{state.error.message}</div>

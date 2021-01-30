@@ -8,9 +8,18 @@ import Button from "@material-ui/core/Button";
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    position: "absolute",
     padding: "20px",
+    display: "inline-block",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
   },
   form: {
+    width: `calc(25ch + ${theme.spacing(1)}px * 2)`,
+    display: "inline-flex",
+    justifyContent: "center",
+    flexWrap: "wrap",
     "& > *": {
       margin: theme.spacing(1),
       width: "25ch",

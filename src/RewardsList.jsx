@@ -33,25 +33,13 @@ const RewardsList = ({ rewards, onDelete, onEdit }) => {
               />
               <ListItemSecondaryAction>
                 <Tooltip title="Edit">
-                  <IconButton
-                    edge="end"
-                    aria-label="edit"
-                    alt="edit"
-                    onClick={() => onEdit(reward)}
-                  >
+                  <IconButton aria-label="edit" onClick={() => onEdit(reward)}>
                     <EditIcon />
-                  </IconButton>
-                </Tooltip>
-
-                <Tooltip title="Play/Pause">
-                  <IconButton edge="end" aria-label="play-pause">
-                    <PlayIcon />
                   </IconButton>
                 </Tooltip>
 
                 <Tooltip title="Delete">
                   <IconButton
-                    edge="end"
                     aria-label="delete"
                     onClick={() => deleteReward(reward.id, onDelete)}
                   >
