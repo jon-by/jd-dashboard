@@ -2,14 +2,29 @@ const initialState = {
   rewards: [],
   loading: false,
   error: null,
+  isEditModalOpen: false,
+  editingReward: null,
 };
 
-function reducer(state, {type, payload}) {
+function reducer(state, { type, payload }) {
   switch (type) {
     case "setLoading":
       return {
         ...state,
         loading: payload,
+      };
+
+    case "setEditingReward":
+      return {
+        ...state,
+        editingReward: payload,
+        isEditModalOpen: true,
+      };
+
+    case "setEditModalOpen":
+      return {
+        ...state,
+        isEditModalOpen: payload,
       };
     case "setError":
       return {
@@ -25,6 +40,7 @@ function reducer(state, {type, payload}) {
       return {
         ...state,
         rewards: [...state.rewards, payload],
+        isEditModalOpen: false,
       };
     case "updateReward":
       return {
@@ -32,13 +48,12 @@ function reducer(state, {type, payload}) {
         rewards: state.rewards.map((rew) =>
           rew.id === payload.id ? payload : rew
         ),
+        isEditModalOpen: false,
       };
     case "deleteReward":
       return {
         ...state,
-        rewards: state.rewards.filter((rew) =>
-          rew.id !== payload
-        ),
+        rewards: state.rewards.filter((rew) => rew.id !== payload),
       };
     default:
       return state;

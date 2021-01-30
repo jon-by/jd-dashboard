@@ -5,3 +5,18 @@ export const API = {
   USER: BASE_URL + "/user",
   CUSTOM_REWARDS: BASE_URL + "/rewards",
 };
+
+export const COLORS = {
+  CIANO: "#39f8ff",
+  BLUE: "#2572fe",
+  GOLD: "#ff9c00",
+  RED: "#ff0d7b",
+  LIME: "#47ee3e",
+  DARK_PINK: "rgb(255, 0, 179)",
+  YELLOW: "#feca29",
+  BLACK: "#312610",
+  DARK_GREY: "#333333",
+  PURPLE: "#4b0f98",
+  LIGHT_PURPLE: "#c115f8",
+  LIGHT_GRAY: "#efefef",
+};

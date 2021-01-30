@@ -1,10 +1,24 @@
 import React, { useEffect, useReducer } from "react";
 import { reducer, initialState } from "./RewardsReducer";
+import { makeStyles } from "@material-ui/core/styles";
 import { getAllRewards } from "./TwitchApi";
 import RewardForm from "./RewardForm";
 import RewardsList from "./RewardsList";
+import Modal from "@material-ui/core/Modal";
+import Fab from "@material-ui/core/Fab";
+import AddIcon from "@material-ui/icons/Add";
+import { green } from "@material-ui/core/colors";
+
+const useStyles = makeStyles((theme) => ({
+  fab: {
+    position: "absolute",
+    bottom: theme.spacing(2),
+    right: theme.spacing(2),
+  },
+}));
 
 const Panel = () => {
+  const classes = useStyles();
   const [state, dispatch] = useReducer(reducer, initialState);
   useEffect(() => {
     getAllRewards((data, error) => {
@@ -15,10 +29,38 @@ const Panel = () => {
       }
     });
   }, []);
+
+  const handleEdit = (reward) => {
+    dispatch({ type: "setEditingReward", payload: reward });
+  };
+
+  const handleClose = () =>
+    dispatch({ type: "setEditModalOpen", payload: false });
+
+  const handleOpen = () =>
+    dispatch({ type: "setEditModalOpen", payload: true });
+
   return !state.error ? (
     <div>
-      <RewardForm onSave={data => dispatch({type: 'createReward', payload: data})}/>
-      <RewardsList rewards={state.rewards} onDelete={id => dispatch({type: 'deleteReward', payload: id})} />
+      <Modal
+        open={state.isEditModalOpen}
+        onClose={handleClose}
+        aria-labelledby="simple-modal-title"
+        aria-describedby="simple-modal-description"
+      >
+        <RewardForm
+          onSave={(data) => dispatch({ type: "createReward", payload: data })}
+          reward={state.editingReward}
+        />
+      </Modal>
+      <RewardsList
+        onEdit={handleEdit}
+        rewards={state.rewards}
+        onDelete={(id) => dispatch({ type: "deleteReward", payload: id })}
+      />
+      <Fab className={classes.fab} color="primary" onClick={handleOpen}>
+        <AddIcon />
+      </Fab>
     </div>
   ) : (
     <div>{state.error.message}</div>
