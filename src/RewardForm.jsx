@@ -27,17 +27,40 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const RewardForm = ({ onSave, reward }) => {
+const RewardForm = ({ onSave, reward, onClose }) => {
   const classes = useStyles();
-  const [title, setTitle] = useState(reward?.title || "");
+  const [title, setTitle] = useState(
+    reward?.title.slice(
+      0,
+      reward?.title.indexOf(` (${reward?.tickets} Tickets)`)
+    ) || ""
+  );
   const [cost, setCost] = useState(reward?.cost || 100);
   const [tickets, setTickets] = useState(reward?.tickets || 1);
+
   const onSubmit = (e) => {
     e.preventDefault();
+    const newTitle = `${title} (${tickets} Tickets)`;
+    console.log(newTitle);
     if (reward?.id) {
-      updateReward({ id: reward.id, title, cost, tickets }, onSave);
+      const newObj = {};
+      const rewardState = { title, cost, tickets };
+
+      const keys = Object.keys(rewardState);
+
+      for (let i = 0; i < keys.length; i++) {
+        const key = keys[i];
+        if (reward[key] !== rewardState[key]) {
+          newObj[key] = key === "title" ? newTitle : rewardState[key];
+        }
+      }
+      if (Object.keys(newObj).length > 0) {
+        updateReward({ id: reward.id, ...newObj }, onSave);
+      } else {
+        onClose();
+      }
     } else {
-      createReward({ title, cost, tickets }, onSave);
+      createReward({ title: newTitle, cost, tickets }, onSave);
     }
   };
   return (

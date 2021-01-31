@@ -50,8 +50,9 @@ const Panel = () => {
         aria-describedby="simple-modal-description"
       >
         <RewardForm
-          onSave={(data) => dispatch({ type: "createReward", payload: data })}
+          onSave={(payload, type) => dispatch({ type, payload })}
           reward={state.editingReward}
+          onClose={handleClose}
         />
       </Modal>
       <RewardsList

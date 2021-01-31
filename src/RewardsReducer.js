@@ -25,6 +25,7 @@ function reducer(state, { type, payload }) {
       return {
         ...state,
         isEditModalOpen: payload,
+        editingReward: payload ? state.editingReward : null,
       };
     case "setError":
       return {
@@ -49,6 +50,7 @@ function reducer(state, { type, payload }) {
           rew.id === payload.id ? payload : rew
         ),
         isEditModalOpen: false,
+        editingReward: null,
       };
     case "deleteReward":
       return {
