@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { COLORS } from "./constants";
 
 export const Card = styled.div`
+  position: relative;
   box-sizing: border-box;
   display: flex;
   background-color: white;
@@ -12,10 +13,10 @@ export const Card = styled.div`
   color: ${COLORS.DARK_GRAY};
   padding: 8px;
   margin: 4px 0;
-  height: 84px;
-  width: 95%;
   cursor: pointer;
   transition: all 150ms ease;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
+  z-index: 1;
   &:hover {
     box-shadow: 0 0 5px 0 ${COLORS.GRAY};
   }

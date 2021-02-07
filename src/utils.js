@@ -4,10 +4,10 @@ export const getCookie = (cname) => {
   var ca = decodedCookie.split(";");
   for (var i = 0; i < ca.length; i++) {
     var c = ca[i];
-    while (c.charAt(0) == " ") {
+    while (c.charAt(0) === " ") {
       c = c.substring(1);
     }
-    if (c.indexOf(name) == 0) {
+    if (c.indexOf(name) === 0) {
       return c.substring(name.length, c.length);
     }
   }
@@ -21,11 +21,11 @@ export const setCookie = (cname, cvalue, exdays) => {
   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 };
 
-export const deleteCookie = ( name ) => {
-  setCookie(name, '', -1);
-}
-export const deleteCookies = ( array ) => {
-  array.forEach(name => {
-    deleteCookie(name)
+export const deleteCookie = (name) => {
+  setCookie(name, "", -1);
+};
+export const deleteCookies = (array) => {
+  array.forEach((name) => {
+    deleteCookie(name);
   });
-}
+};

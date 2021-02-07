@@ -2,7 +2,7 @@ import React from "react";
 import TicketIcon from "./TicketIcon";
 import { Header, Title, Filter } from "./FilterSection.styled";
 
-const FilterSection = ({ tickets = 5, value, onChange }) => {
+const FilterSection = ({ tickets, value, onChange }) => {
   return (
     <Header>
       <Title>

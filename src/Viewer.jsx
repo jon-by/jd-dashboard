@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import FilterSection from "./FilterSection";
-import { io } from "socket.io-client";
+import { Manager } from "socket.io-client";
 import SongCard from "./SongCard";
 import songList from "./jd-tracklist.json";
 import { SONG_TYPES } from "./constants";
@@ -28,6 +28,7 @@ const handleFilter = (text) => {
 const Viewer = () => {
   const [songList, setSongList] = useState(filteredSongs);
   const [filter, setFilter] = useState("");
+  const [tickets, setTickets] = useState(0);
   const debouncedFilter = useDebounce(filter, 500);
 
   useEffect(() => {
@@ -40,20 +41,30 @@ const Viewer = () => {
   }, [debouncedFilter]);
 
   useEffect(() => {
-    const socket = io("http://localhost:3000", {
+    const manager = new Manager("http://localhost:3000", {
       transports: ["websocket"],
     });
-    socket.on("connection", (soc) => {
-      console.log(soc);
+    const socket = manager.socket("/tickets", {
+      auth: { broadcaster: 148003044, viewer: 148003044 },
     });
+    socket.on("connect", () => {
+      console.log("connected");
+    });
+    socket.on("148003044-148003044", ({ current }) => {
+      setTickets(current);
+    });
+
+    // socket.on("148003044", (msg) => {
+    //   console.log(msg);
+    // });
   }, []);
 
   return (
     <Scope>
-      <FilterSection value={filter} onChange={setFilter} />
+      <FilterSection value={filter} tickets={tickets} onChange={setFilter} />
       <Main>
-        {songList.map((song) => {
-          return <SongCard {...song} />;
+        {songList.map((song, index) => {
+          return <SongCard key={index} {...song} />;
         })}
       </Main>
     </Scope>

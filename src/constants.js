@@ -23,3 +23,9 @@ export const COLORS = {
   PURPLE: "#4b0f98",
   LIGHT_PURPLE: "#c115f8",
 };
+
+export const STATUS = {
+  active: "active",
+  paused: "paused",
+  done: "done",
+};
