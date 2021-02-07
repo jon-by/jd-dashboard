@@ -6,6 +6,8 @@ import "./Router.css";
 import Nav from "./Nav";
 import ProtectedRoute from "./ProtectedRoute";
 import Panel from "./Panel";
+import Viewer from "./Viewer";
+import Broadcaster from "./Broadcaster";
 import Login from "./Login";
 import { API } from "./constants";
 
@@ -30,6 +32,7 @@ const fetchUser = (dispatch) => {
 
 const Router = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
+  //console.log(process.env.REACT_APP_ENV);
   useEffect(() => {
     if (state.token) {
       fetchUser(dispatch);
@@ -43,7 +46,18 @@ const Router = () => {
       <main className="main">
         <Switch>
           <Route path="/login" children={<Login />} />
-          <ProtectedRoute path="/" children={<Panel />} user={state.token} />
+          <ProtectedRoute
+            path="/"
+            exact
+            children={<Panel />}
+            user={state.token}
+          />
+          {process.env.REACT_APP_ENV === "dev" && (
+            <>
+              <Route path="/viewer" children={<Viewer />} />
+              <Route path="/broadcaster" children={<Broadcaster />} />
+            </>
+          )}
         </Switch>
       </main>
     </BrowserRouter>

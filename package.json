@@ -14,12 +14,15 @@
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "socket.io-client": "^3.1.1",
     "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "PORT=3001 react-scripts start",
-    "build": "react-scripts build",
+    "start": "REACT_APP_ENV=dev PORT=3001 react-scripts start",
+    "build:dashboard": "react-scripts build",
+    "build:viewer": "REACT_APP_BUILD_TARGET=viewer react-scripts build",
+    "build:broadcaster": "REACT_APP_BUILD_TARGET=broadcaster react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
