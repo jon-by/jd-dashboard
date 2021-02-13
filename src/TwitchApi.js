@@ -1,4 +1,9 @@
-import { API, COOKIE_AUTH_KEY, COOKIE_BROADCASTER_ID_KEY } from "./constants";
+import {
+  API,
+  COOKIE_AUTH_KEY,
+  COOKIE_BROADCASTER_ID_KEY,
+  BASE_URL,
+} from "./constants";
 import { deleteCookies } from "./utils";
 
 async function handleErrors(response) {
@@ -87,4 +92,11 @@ export const getAllRewards = (callback) => {
     .catch((err) => {
       callback(null, err);
     });
+};
+
+export const createList = (broadcasterId) => {
+  fetch(BASE_URL + "/createlist", {
+    ...postOptions,
+    body: JSON.stringify({ broadcasterId }),
+  });
 };

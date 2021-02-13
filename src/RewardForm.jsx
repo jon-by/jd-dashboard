@@ -91,7 +91,7 @@ const RewardForm = ({ onSave, reward, onClose }) => {
           variant="outlined"
         />
         <Button type="submit" variant="contained" color="primary" type="submit">
-          Cadastrar
+          {reward?.id ? "Editar" : "Cadastrar"}
         </Button>
       </form>
     </Paper>

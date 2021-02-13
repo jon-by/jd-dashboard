@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { COLORS } from "./constants";
 
 export const Card = styled.div`
+  width: 100%;
   position: relative;
   box-sizing: border-box;
   display: flex;
