@@ -9,9 +9,17 @@ const getTrackCost = (difficulty) => {
 const difficulties = [null, "Easy", "Medium", "Hard", "Extreme"];
 const modes = [null, "Solo", "Duet", "Trio", "Dance Crew"];
 
-const SongCard = ({ name, artist, difficulty, coaches, thumb, source }) => {
+const SongCard = ({
+  name,
+  artist,
+  difficulty,
+  coaches,
+  thumb,
+  source,
+  ...props
+}) => {
   return (
-    <Card>
+    <Card {...props}>
       <Thumb>
         <img loading="lazy" src={thumb} alt={name + " - " + artist} />
         <Source>{source}</Source>

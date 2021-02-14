@@ -1,20 +1,9 @@
 import styled from "styled-components";
 import { COLORS } from "./constants";
 
-export const Header = styled.header`
-  background-color: ${COLORS.PURPLE};
-  padding: 8px;
-`;
-
-export const Title = styled.div`
-  display: flex;
-  margin-bottom: 4px;
-  color: #fff;
-  justify-content: space-between;
-`;
-
 export const Filter = styled.div`
   display: flex;
+  border: 2px solid ${COLORS.PURPLE};
   & input {
     box-sizing: border-box;
     background-color: white;

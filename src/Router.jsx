@@ -54,8 +54,8 @@ const Router = () => {
           />
           {process.env.REACT_APP_ENV === "dev" && (
             <>
-              <Route path="/viewer" children={<Viewer />} />
-              <Route path="/broadcaster" children={<Broadcaster />} />
+              <Route path="**/viewer.html" children={<Viewer />} />
+              <Route path="**/broadcaster.html" children={<Broadcaster />} />
             </>
           )}
         </Switch>

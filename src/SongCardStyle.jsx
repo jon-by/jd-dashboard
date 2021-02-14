@@ -6,7 +6,7 @@ export const Card = styled.div`
   width: 100%;
   position: relative;
   box-sizing: border-box;
-  display: flex;
+  display: inline-flex;
   background-color: white;
   border: 3px solid ${COLORS.DARK_PINK};
   border-radius: 8px;

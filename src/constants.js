@@ -12,7 +12,7 @@ export const COLORS = {
   CIANO: "#39f8ff",
   BLUE: "#2572fe",
   GOLD: "#ff9c00",
-  RED: "#ff0d7b",
+  RED: "#ff133b",
   LIME: "#47ee3e",
   DARK_PINK: "rgb(255, 0, 179)",
   YELLOW: "#feca29",
@@ -22,6 +22,7 @@ export const COLORS = {
   DARK_GRAY: "#333333",
   PURPLE: "#4b0f98",
   LIGHT_PURPLE: "#c115f8",
+  GREEN: "#19bc10",
 };
 
 export const STATUS = {

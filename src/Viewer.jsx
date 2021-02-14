@@ -6,6 +6,10 @@ import songList from "./jd-tracklist.json";
 import { SONG_TYPES } from "./constants";
 import { Scope, Main } from "./Viewer.styled";
 import useDebounce from "./useDebounce";
+import ViewerSongList from "./ViewerSongList";
+import ListHeader from "./ListHeader";
+import SelectedSong from "./SelectedSong";
+import { addSongList } from "./TwitchApi";
 
 const tracks = songList.find(({ game }) => {
   return (game = "2021");
@@ -25,13 +29,27 @@ const handleFilter = (text) => {
   });
 };
 
+const handleAddSong = (userToken, song, setLoading, setError) => {
+  setLoading(true);
+  addSongList(userToken, song);
+};
+
 const Viewer = () => {
   const [songList, setSongList] = useState(filteredSongs);
   const [filter, setFilter] = useState("");
   const [tickets, setTickets] = useState(0);
+  const [selectedSong, setSelectedSong] = useState(null);
   const debouncedFilter = useDebounce(filter, 500);
+  const [auth, setAuth] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
+    window.Twitch.ext.onAuthorized(function (authentication) {
+      console.log("auth: ", authentication);
+      setAuth(authentication.token);
+    });
+
     if (debouncedFilter) {
       console.log(debouncedFilter);
       setSongList(handleFilter(debouncedFilter));
@@ -61,11 +79,21 @@ const Viewer = () => {
 
   return (
     <Scope>
-      <FilterSection value={filter} tickets={tickets} onChange={setFilter} />
+      <ListHeader tickets={tickets} />
+      <FilterSection value={filter} onChange={setFilter} />
+
       <Main>
-        {songList.map((song, index) => {
-          return <SongCard key={index} {...song} />;
-        })}
+        {!selectedSong ? (
+          <ViewerSongList onSelect={setSelectedSong} songList={songList} />
+        ) : (
+          <SelectedSong
+            song={selectedSong}
+            onCancel={() => setSelectedSong(null)}
+            onConfirm={() =>
+              handleAddSong(auth, selectedSong, setLoading, setError)
+            }
+          />
+        )}
       </Main>
     </Scope>
   );
@@ -73,11 +101,7 @@ const Viewer = () => {
 
 const Wrapper = (props) => {
   if (process.env.REACT_APP_ENV === "dev") {
-    return (
-      <div style={{ width: 320, height: 500, overflow: "auto" }}>
-        <Viewer {...props} />
-      </div>
-    );
+    return <Viewer {...props} />;
   }
   return <Viewer {...props} />;
 };

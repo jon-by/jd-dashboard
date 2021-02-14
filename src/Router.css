@@ -1,3 +1,4 @@
 .main {
-  padding: 16px;
+  overflow: hidden;
+  height: 100%;
 }
