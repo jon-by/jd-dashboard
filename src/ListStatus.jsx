@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { STATUS } from "./constants";
 import Toggle from "./Toggle";
-import { StatusWrapper } from "./ListStatus.styled";
+import { StatusWrapper, StatusToggle } from "./ListStatus.styled";
 import Button from "./Button";
 import { COLORS } from "./constants";
 const ListStatus = ({ songListStatus, onChange }) => {
@@ -13,11 +13,13 @@ const ListStatus = ({ songListStatus, onChange }) => {
   return (
     <div>
       <StatusWrapper>
-        Status:{songListStatus}
-        <Toggle
-          value={songListStatus === STATUS.active}
-          onChange={handleChangeStatus}
-        />
+        <StatusToggle>
+          Status: {songListStatus}
+          <Toggle
+            value={songListStatus === STATUS.active}
+            onChange={handleChangeStatus}
+          />
+        </StatusToggle>
         <Button bgColor={COLORS.PURPLE}>Close List</Button>
       </StatusWrapper>
     </div>

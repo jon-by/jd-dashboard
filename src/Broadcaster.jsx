@@ -31,11 +31,14 @@ const Broadcaster = () => {
   return songListStatus === STATUS.active ||
     songListStatus === STATUS.paused ? (
     <div>
-      <ListStatus songListStatus={false} onChange={setSongListStatus} />
+      <ListStatus
+        songListStatus={songListStatus}
+        onChange={setSongListStatus}
+      />
       {songList.map((song, index) => {
         return (
           <Song key={index}>
-            <SongCard {...song.song} />
+            <SongCard showControls={true} {...song.song} />
             <Requester {...song.viewer} />
           </Song>
         );

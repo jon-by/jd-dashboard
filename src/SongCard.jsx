@@ -1,6 +1,7 @@
 import React from "react";
 import TicketIcon from "./TicketIcon";
 import { Card, Thumb, Source, Info, Difficulty } from "./SongCardStyle";
+import SongControls from "./SongControls";
 const getTrackCost = (difficulty) => {
   const cost = difficulty === 4 ? 5 : 1;
   return cost;
@@ -16,6 +17,7 @@ const SongCard = ({
   coaches,
   thumb,
   source,
+  showControls = false,
   ...props
 }) => {
   return (
@@ -39,6 +41,8 @@ const SongCard = ({
           <Difficulty>{modes[coaches]}</Difficulty>
         </div>
       </Info>
+
+      {showControls && <SongControls />}
     </Card>
   );
 };

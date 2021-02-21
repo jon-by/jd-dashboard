@@ -11,7 +11,7 @@ export const Name = styled.div`
   width: calc(100% - 10px);
   text-align: center;
   position: relative;
-  margin: 5px;
+  margin: 0 5px 5px 5px;
   padding: 4px;
   font-size: 14px;
   background-color: ${COLORS.BLUE};

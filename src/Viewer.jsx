@@ -10,15 +10,19 @@ import ViewerSongList from "./ViewerSongList";
 import ListHeader from "./ListHeader";
 import SelectedSong from "./SelectedSong";
 import { addSongList } from "./TwitchApi";
+import unlimitedList from "./Unlimited.json";
 
 const tracks = songList.find(({ game }) => {
   return (game = "2021");
 }).tracks;
 
-const filteredSongs = Object.keys(tracks)
-  .filter((type) => SONG_TYPES.includes(type))
-  .map((key) => tracks[key])
-  .flat();
+const filteredSongs = [
+  ...Object.keys(tracks)
+    .filter((type) => SONG_TYPES.includes(type))
+    .map((key) => tracks[key])
+    .flat(),
+  ...unlimitedList,
+];
 
 const handleFilter = (text) => {
   return filteredSongs.filter((song) => {
@@ -71,6 +75,8 @@ const Viewer = () => {
     socket.on("148003044-148003044", ({ current }) => {
       setTickets(current);
     });
+
+    console.log(unlimitedList);
 
     // socket.on("148003044", (msg) => {
     //   console.log(msg);
