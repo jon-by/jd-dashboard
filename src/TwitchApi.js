@@ -101,9 +101,9 @@ export const createList = (broadcasterId) => {
   });
 };
 
-export const addSongList = (userToken, song) => {
+export const addSongToList = (userToken, song) => {
   console.log(userToken, song);
-  fetch(BASE_URL + "/addsong", {
+  return fetch(BASE_URL + "/addsong", {
     ...postOptions,
     body: JSON.stringify({ userToken, song }),
   });

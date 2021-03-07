@@ -1,31 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useReducer } from "react";
 import FilterSection from "./FilterSection";
 import { Manager } from "socket.io-client";
 import SongCard from "./SongCard";
-import songList from "./jd-tracklist.json";
-import { SONG_TYPES } from "./constants";
+import { TRACKLIST_URL } from "./constants";
 import { Scope, Main } from "./Viewer.styled";
 import useDebounce from "./useDebounce";
 import ViewerSongList from "./ViewerSongList";
 import ListHeader from "./ListHeader";
 import SelectedSong from "./SelectedSong";
-import { addSongList } from "./TwitchApi";
-import unlimitedList from "./Unlimited.json";
+import { initialState, reducer } from "./ViewerSongListReducer";
+import ViewerView from "./ViewerView";
 
-const tracks = songList.find(({ game }) => {
-  return (game = "2021");
-}).tracks;
-
-const filteredSongs = [
-  ...Object.keys(tracks)
-    .filter((type) => SONG_TYPES.includes(type))
-    .map((key) => tracks[key])
-    .flat(),
-  ...unlimitedList,
-];
-
-const handleFilter = (text) => {
-  return filteredSongs.filter((song) => {
+const handleFilter = (text, songList) => {
+  return songList.filter((song) => {
     return (
       song.name.toLowerCase().indexOf(text.toLowerCase()) > -1 ||
       song.artist.toLowerCase().indexOf(text.toLowerCase()) > -1
@@ -33,36 +20,43 @@ const handleFilter = (text) => {
   });
 };
 
-const handleAddSong = (userToken, song, setLoading, setError) => {
-  setLoading(true);
-  addSongList(userToken, song);
-};
-
 const Viewer = () => {
-  const [songList, setSongList] = useState(filteredSongs);
-  const [filter, setFilter] = useState("");
-  const [tickets, setTickets] = useState(0);
-  const [selectedSong, setSelectedSong] = useState(null);
-  const debouncedFilter = useDebounce(filter, 500);
-  const [auth, setAuth] = useState(null);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
+  const [state, dispatch] = useReducer(reducer, initialState);
+  const debouncedFilter = useDebounce(state.filter, 500);
+
+  useEffect(() => {
+    const list = [].concat(
+      state.songList[state.currentGame],
+      state.unlimited ? state.songList.unlimited : []
+    );
+    if (debouncedFilter !== state.filter) {
+      dispatch({
+        type: "setFilteredSongs",
+        payload: handleFilter(debouncedFilter, list),
+      });
+    } else {
+      dispatch({ type: "setFilteredSongs", payload: list });
+    }
+  }, [debouncedFilter, state.unlimited, state.currentGame]);
 
   useEffect(() => {
     window.Twitch.ext.onAuthorized(function (authentication) {
       console.log("auth: ", authentication);
-      setAuth(authentication.token);
+      dispatch({ type: "setAuth", payload: authentication.token });
     });
-
-    if (debouncedFilter) {
-      console.log(debouncedFilter);
-      setSongList(handleFilter(debouncedFilter));
-    } else {
-      setSongList(filteredSongs);
-    }
-  }, [debouncedFilter]);
-
-  useEffect(() => {
+    fetch(TRACKLIST_URL).then((response) =>
+      response
+        .json()
+        .then((data) => {
+          dispatch({
+            type: "setSongList",
+            payload: data,
+          });
+        })
+        .catch((err) => {
+          dispatch({ type: "setLoading", payload: false });
+        })
+    );
     const manager = new Manager("http://localhost:3000", {
       transports: ["websocket"],
     });
@@ -73,33 +67,22 @@ const Viewer = () => {
       console.log("connected");
     });
     socket.on("148003044-148003044", ({ current }) => {
-      setTickets(current);
+      dispatch({ type: "setTickets", payload: current });
     });
-
-    console.log(unlimitedList);
-
-    // socket.on("148003044", (msg) => {
-    //   console.log(msg);
-    // });
   }, []);
 
   return (
     <Scope>
-      <ListHeader tickets={tickets} />
-      <FilterSection value={filter} onChange={setFilter} />
+      <ListHeader tickets={state.tickets} />
+      {!state.loading && !state.selectedSong && (
+        <FilterSection
+          value={state.filter}
+          onChange={(value) => dispatch({ type: "setFilter", payload: value })}
+        />
+      )}
 
       <Main>
-        {!selectedSong ? (
-          <ViewerSongList onSelect={setSelectedSong} songList={songList} />
-        ) : (
-          <SelectedSong
-            song={selectedSong}
-            onCancel={() => setSelectedSong(null)}
-            onConfirm={() =>
-              handleAddSong(auth, selectedSong, setLoading, setError)
-            }
-          />
-        )}
+        <ViewerView dispatch={dispatch} state={state} />
       </Main>
     </Scope>
   );

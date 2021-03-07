@@ -1,0 +1,5146 @@
+[
+  {
+    "name": "Hot N Cold",
+    "artist": "Katy Perry",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/45/Hotncold_cover_JDNOW.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "U Can’t Touch This",
+    "artist": "MC Hammer(Groove Century)",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/f4/CantTouchThis_jdnow_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Hey Ya",
+    "artist": "Outkast",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/37/HeyYa_jdn_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Jai Ho (You Are My Destiny)",
+    "artist": "A.R. Rahman and the Pussycat Dolls ft. Nicole Scherzinger",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/dc/Jaiho_jdnow_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Kung Fu Fighting",
+    "artist": "Carl Douglass",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c7/Kungfu_now.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Sway (Quién Será)",
+    "artist": "Michael Bublé(Marine Band)",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/23/Sway_jdn_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "You Can’t Hurry Love",
+    "artist": "The Supremes",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/bf/Canthurrylove.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "I Was Made For Lovin’ You",
+    "artist": "Kiss",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a1/Iwasmadequat.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "She’s Got Me Dancing",
+    "artist": "Tommy Sparks",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/da/Gotmedancing.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Somethin’ Stupid",
+    "artist": "Robbie Williams and Nicole Kidman",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/88/Somethinstupid.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Can’t Take My Eyes Off You",
+    "artist": "Boys Town Gang",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/87/Canttakemyeyes.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Diggin’ in the Dirt",
+    "artist": "Stefanie Heinzmann",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/2e/Diggin_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Hit ’Em Up Style (Oops!)",
+    "artist": "Blu Cantrell",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/34/HitEmUp_Cover_Generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Oops!...I Did It Again",
+    "artist": "Britney Spears(The Girly Team)",
+    "difficulty": 2,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/74/Ididitagainquat.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "You’re the First, the Last, My Everything",
+    "artist": "Barry White",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d2/You%27re_the_first_the_last_my_everything_jdn.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Can’t Get Enough",
+    "artist": "Becky G ft. Pitbull",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/9f/Cantgetenoughdlc_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "C’Mon",
+    "artist": "Ke$ha",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/b6/Cmon_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Don’t You Worry Child",
+    "artist": "Swedish House Mafia ft. John Martin",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/90/Dontyouworrydlc.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "It’s You",
+    "artist": "Duck Sauce",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/9c/Itsyou_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Dark Horse",
+    "artist": "Katy Perry",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/91/Darkhorse_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Smile(Улыбайся)",
+    "artist": "IOWA",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/5d/Ulibayssia.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Rock n’ Roll (Will Take You to the Mountain)",
+    "artist": "Skrillex",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/32/Rocknroll_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Better When I’m Dancin’",
+    "artist": "Meghan Trainor",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/68/Betterwheni%27m_jdnow.jpeg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Tetris",
+    "artist": "Hirokazu Tanaka(Dancing Bros.)",
+    "difficulty": 3,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/6f/Tetris_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "It’s Raining Men",
+    "artist": "The Weather Girls",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/80/Itsrainingmen_jdu_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "A Pirate You Shall Be",
+    "artist": "Tom Zehnder",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/35/KIDSPirateYouShallBe_Cover_Generic.tga.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Alphabet Song",
+    "artist": "The Just Dance Kids",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d5/KidsABC_jdn_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "The Lion Sleeps Tonight",
+    "artist": "The Tokens (The Just Dance Kids)",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/61/Kidsthelionsleepstonight_jdnow_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Juju On That Beat",
+    "artist": "Zay Hilfigerrr & Zayion McCall",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/ec/Juju_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Don’t Worry",
+    "artist": "Madcon ft. Ray Dalton",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/ff/DontWorryMadcon_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "I’m An Albatraoz",
+    "artist": "AronChupa",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/5a/AlbatraozSqu.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "How Deep Is Your Love",
+    "artist": "Calvin Harris ft. Disciples",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/3d/HowDeep_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "You’re The One That I Want",
+    "artist": "John Travolta & Olivia Newton-John(From The Movie Grease)",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/8f/YoureTheOneSqu.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Don’t Let Me Down",
+    "artist": "The Chainsmokers ft. Daya",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/63/DontLet_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "These Boots Are Made For Walking",
+    "artist": "Nancy Sinatra (The Girly Team)",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/71/TheseBootsSqu.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Ain’t My Fault",
+    "artist": "Zara Larsson",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/44/AintMy_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Can’t Feel My Face",
+    "artist": "The Weeknd",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/94/Cantfeelmyface.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Don’t Stop Me Now",
+    "artist": "Queen",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d6/Dontstopme_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Don’t Wanna Know",
+    "artist": "Maroon 5",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/42/RedMangoose_Cover_Generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Dragostea Din Tei",
+    "artist": "O-Zone",
+    "difficulty": 1,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a9/Dragosteadintei.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Hips Don’t Lie",
+    "artist": "Shakira ft. Wyclef Jean",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/38/Hips.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "I Love Rock ‘N’ Roll",
+    "artist": "Joan Jett & The Blackhearts(Fast Forward Highway)",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/cf/Iloverock.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Tico-Tico No Fubá",
+    "artist": "Zequinha de Abreu(The Frankie Bostello Orchestra)",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/bb/Ticotico.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Watch Me (Whip/Nae Nae)",
+    "artist": "Silentó",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/de/Naenae.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "J’suis pas jalouse",
+    "artist": "Andy Raconte",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/ab/Andy_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Error",
+    "artist": "Natalia Nykiel",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/4b/Error_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "That’s Not My Name",
+    "artist": "The Ting Tings",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/94/ThatsNotMyName_JDU_Cover_Generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "I’ve Been Working on The Railroad",
+    "artist": "The Just Dance Kids",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/51/KIDSWorkingOnTheRailroad_Cover_Generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Fraggle Rock Theme",
+    "artist": "The Cast of Fraggle Rock(The Just Dance Kids)",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/3b/Kidsfragglerock_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Beep Beep I’m A Sheep",
+    "artist": "LilDeuceDeuce ft. BlackGryph0n & TomSka",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/78/Beepbeep_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Carmen (Overture)",
+    "artist": "Georges Bizet (The Just Dance Orchestra)",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/34/Carmen_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "How Far I’ll Go",
+    "artist": "Auli'i Cravlho (Disney’s Moana)",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/bc/Howfar_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "New Face",
+    "artist": "PSY",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/5a/Newface_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "There Is Nothing Better In The World",
+    "artist": "Oleg Anofriev(credited as Bremenskiye Muzykanty)",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/97/Bremen_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Leg Song",
+    "artist": "LULU",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/e8/Legsongchn_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Mayores",
+    "artist": "Becky G, Bad Bunny",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/07/Mayores_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "I’m Still Standing",
+    "artist": "Elton John(Top Culture)",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/29/Imstillstanding_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Miłość w Zakopanem",
+    "artist": "Sławomir",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/2b/Miloscw_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Sweet Sensation",
+    "artist": "Flo Rida",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/07/Sweetsensation_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "10.000 luchtballonnen",
+    "artist": "K3",
+    "difficulty": 1,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c7/10000Lucht_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Spinning (Кружит)",
+    "artist": "Monatik",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/cb/Spinning_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Panini",
+    "artist": "Lil Nas X",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/40/Panini_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Sucker",
+    "artist": "Jonas Brothers",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/35/Sucker_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Don't Call Me Up",
+    "artist": "Mabel",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/bd/Dontcall_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "1999",
+    "artist": "Charli XCX & Troye Sivan",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/5e/1999_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Troublemaker",
+    "artist": "Olly Murs ft. Flo Rida",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/87/Troublemaker_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Woman Like Me",
+    "artist": "Little Mix ft. Nicki Minaj",
+    "difficulty": 1,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/3f/WomanLikeMe_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Pump Up the Volume",
+    "artist": "M/A/R/R/S",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/b7/Pumpup.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "X",
+    "artist": "Nicky Jam & J Balvin",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/0f/EQUIS_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Forget You",
+    "artist": "CeeLo Green",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/03/ForgetYou_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Barbra Streisand",
+    "artist": "Duck Sauce",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/f4/Barbrastreisand_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Hype",
+    "artist": "Dizzee Rascal & Calvin Harris",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c0/Hype_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "La Respuesta",
+    "artist": "Becky G ft. Maluma",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/da/Larespuesta_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Crayon",
+    "artist": "G-Dragon",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/3d/Crayon_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "White Noise",
+    "artist": "Disclosure ft. AlunaGeorge",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d0/WhiteNoise_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Chicken Payback",
+    "artist": "A Band of Bees",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/45/ChickenPayback_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Jungle Boogie",
+    "artist": "Kool & the Gang (Studio Musicians)",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/2d/JungleBoogie_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "I Don't Feel Like Dancin'",
+    "artist": "Scissor Sisters",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/2e/Feellikedancing_jd3_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Everybody (Backstreet’s Back)",
+    "artist": "Backstreet Boys (Millennium Alert)",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/35/Everybody_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "I Don’t Care",
+    "artist": "Ed Sheeran & Justin Bieber",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/80/Idontcare_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "MA ITU",
+    "artist": "Stella Mwangi",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/05/Maitu_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Magical Morning (K)",
+    "artist": "The Just Dance Orchestra",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/8e/Wizardkids_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Stop Movin’",
+    "artist": "Royal Republic",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/1e/Stopmovin_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Ugly Beauty (​怪美的​)",
+    "artist": "Jolin Tsai",
+    "difficulty": 1,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/31/Uglybeauty_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Dans van de Farao",
+    "artist": "K3",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/4a/Dansvandefarao_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "U.S.A.",
+    "artist": "Da Pump",
+    "difficulty": 2,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/9f/Usa_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Drum Go Dum",
+    "artist": "K/DA ft. Aluna, Wolftyla, and Bekuh BOOM",
+    "difficulty": 4,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/54/Kdance_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "The Fox (What Does The Fox Say?)",
+    "artist": "Ylvis",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/26/Thefox_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Tusa",
+    "artist": "KAROL G & Nicki Minaj",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/3e/Tusa_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Only You (And You Alone)",
+    "artist": "The Platters(Love Letter)",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a1/Onlyyou_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Stupid Love",
+    "artist": "Lady Gaga",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c2/Stupidlove_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Burn",
+    "artist": "Ellie Goulding",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/74/Burn_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Girls Like",
+    "artist": "Tinie Tempah ft. Zara Larsson",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/22/GirlsLike_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "It’s Not Unusual",
+    "artist": "Tom Jones",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/e5/Unusual_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Can’t Take My Eyes Off You(Wrestler Version)",
+    "artist": "Boys Town Gang",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/7b/Canttakemyeyesalt.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "It’s You (Sweat)",
+    "artist": "Duck Sauce",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/00/Itsyouswt_jdu_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Don’t Stop Me Now (Panda Version)",
+    "artist": "Queen",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/25/Dontstopmealt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Hips Don’t Lie (Sumo Version)",
+    "artist": "Shakira ft. Wyclef Jean",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/1e/Hipsalt.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Watch Me (Whip/Nae Nae) (Family Battle Version)",
+    "artist": "Silentó",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/36/Naenaealt.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Fine China (Extreme Version)",
+    "artist": "Chris Brown",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/50/Finechinaalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "I Am the Best (Extreme Version)",
+    "artist": "2NE1",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/16/Iamthebestalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Old Town Road (Line Dance Version)",
+    "artist": "Lil Nas X ft. Billy Ray Cyrus",
+    "difficulty": 1,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/65/Oldtownroadalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Juice (VIPMADE)",
+    "artist": "Lizzo",
+    "difficulty": 3,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c4/Juicevip_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Cotton Eye Joe",
+    "artist": "Rednex",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/3d/Cotton_jdu_cover_generic_updated.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Eye of the Tiger",
+    "artist": "Survivor",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/17/Eyeofthetiger_jdnow.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Fame",
+    "artist": "Irene Cara(The Girly Team)",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/09/Fame_square.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Heart of Glass",
+    "artist": "Blondie",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/ff/Heartofglass.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "I Get Around",
+    "artist": "The Beach Boys",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/54/GetAround_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Step by Step",
+    "artist": "New Kids on the Block",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/19/StepByStep_jdnow_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "That’s the Way (I Like It)",
+    "artist": "KC and the Sunshine Band",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/bc/Thatstheway_jdnow_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Who Let the Dogs Out?",
+    "artist": "Baha Men(The Sunlight Shakers)",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/07/Dogsout_jdnow_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Baby Girl",
+    "artist": "LT and Rican (Reggaeton)",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/09/BabyGirl_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Big Girl (You Are Beautiful)",
+    "artist": "MIKA",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/58/Biggirl_jdnow_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Cosmic Girl",
+    "artist": "Jamiroquai",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/2a/Cosmicgirl_jdnow_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Crazy Christmas",
+    "artist": "Santa Clones",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/52/Xmascoach.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Down By The Riverside",
+    "artist": "The Reverend Horatio Duncan & Amos Sweets",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/f6/Riversidenow.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Firework",
+    "artist": "Katy Perry",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/8a/Firework_jdu_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Funkytown",
+    "artist": "Lipps Inc.(Sweat Invaders)",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/be/Funkytown_jdnow_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Futebol Crazy",
+    "artist": "Paul J. Borg(The World Cup Girls)",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/49/Futebol.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Girlfriend",
+    "artist": "Avril Lavigne",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/6a/Girlfriend_jdn_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Hot Stuff",
+    "artist": "Donna Summer",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c2/HotStuff_jdn_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Idealistic",
+    "artist": "Digitalism",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/0f/Idealistic_jdn_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "I Want You Back",
+    "artist": "The Jackson 5",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/09/IWantYouBack_jdn_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Katti Kalandal",
+    "artist": "Bollywood",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/f9/Kattikalandal.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Mambo No. 5 (A Little Bit of Monika)",
+    "artist": "Lou Bega(The Lemon Cubes)",
+    "difficulty": 3,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d2/Mambo5big.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Monster Mash",
+    "artist": "Boris Pickett and & The Crypt-Kickers(The Frighteners)",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a2/MonsterMash_jdn_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Mugsy Baloney",
+    "artist": "Charleston",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/1d/MugsyBaloney_jdn_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Nine In The Afternoon",
+    "artist": "Panic! At the Disco",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/68/Nineafternoon_now.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Professor Pumplestickle",
+    "artist": "Nick Phoenix and Thomas J. Bergersen",
+    "difficulty": 3,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/6d/ProfesseurDLC_jdn_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Rasputin",
+    "artist": "Boney M.",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/cb/Rasputin_jdnow_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "TiK ToK",
+    "artist": "Ke$ha",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/01/Tiktok_jdn_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Walk Like an Egyptian",
+    "artist": "The Bangles",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/2d/Walklike_jdnow_cover_generic.jpeg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Baby One More Time",
+    "artist": "Britney Spears(The Girly Team)",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/53/Baby_one_more_time_jdn.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Boogie Wonderland",
+    "artist": "Earth, Wind and Fire ft. The Emotions(Groove Century)",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/28/Boogiewonderquat.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Boom",
+    "artist": "MC Magico and Alex Wilson(Reggaeton Storm)",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/97/Boomdlc_cover_generic_jdu_updated.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "California Gurls",
+    "artist": "Katy Perry ft. Snoop Dogg",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/6b/CaliforniaGurls_jdn_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Crazy Little Thing Called Love",
+    "artist": "Queen",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/85/Crazylittle_jdnow_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Dynamite",
+    "artist": "Taio Cruz",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a6/Dynamitequat_jdnow_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "E.T.",
+    "artist": "Katy Perry",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/5d/ET.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Hungarian Dance No. 5",
+    "artist": "Johannes Brahms by Just Dance Classical Orchestra",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c7/Hungariandance_jdnow_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Jambo Mambo",
+    "artist": "Olé Orquestra",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/15/Jambomambo_jdnow_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Kurio ko uddah le jana",
+    "artist": "Bollywood Rainbow",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/91/Kurio_jdnow_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Land Of 1000 Dances",
+    "artist": "Wilson Pickett",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a7/Athousanddances.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Lollipop",
+    "artist": "MIKA",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/1c/Lollipop.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Mamasita",
+    "artist": "Daddy P, Spike T and Da Digger (Latino Sunset)",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/9d/Mamasita.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "No Limit",
+    "artist": "2 Unlimited",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/23/Nolimit.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Party Rock Anthem",
+    "artist": "LMFAO ft. Lauren Bennett & GoonRock",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/f3/Partyrock.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Soul Searchin’",
+    "artist": "Stephen Emil Dudas and Mark G. Hart (Groove Century)",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/9e/Soulsearch.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Take On Me",
+    "artist": "a-ha",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/3a/Takeonme_jdnow_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Teenage Dream",
+    "artist": "Katy Perry",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/96/Teenagedream.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "This is Halloween",
+    "artist": "Danny Elfman",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a9/Halloweenquat_jdnow_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Twist and Shake It",
+    "artist": "Ben Wheeler and Tara Chinn(The Girly Team)",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/e0/Twistshakeit.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Beauty And A Beat",
+    "artist": "Justin Bieber ft. Nicki Minaj",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/43/Beautyandabeatdlc_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Beware of the Boys (Mundian To Bach Ke)",
+    "artist": "Panjabi MC",
+    "difficulty": 2,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a1/Bewareof.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Cercavo Amore",
+    "artist": "Emma Marrone",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/74/Amore.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Crucified",
+    "artist": "Army of Lovers",
+    "difficulty": 2,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/9a/Crucifiedquat.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Die Young",
+    "artist": "Ke$ha",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a5/Dieyoungdlc.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Domino",
+    "artist": "Jessie J",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/e6/Domino_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Gangnam Style",
+    "artist": "PSY",
+    "difficulty": 3,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/ae/Gangnamstyledlc.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Good Feeling",
+    "artist": "Flo Rida",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/bb/Goodfeeling.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Heavy Cross",
+    "artist": "Gossip",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a3/Heavycross_jdu_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Hit The Lights",
+    "artist": "Selena Gomez & The Scene",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a5/Hitthelights.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "I Like It",
+    "artist": "The Blackout Allstars",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/54/ILikeItLike_jdu_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Istanbul (Not Constantinople)",
+    "artist": "They Might Be Giants",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/97/Istanbulquat.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Jailhouse Rock",
+    "artist": "Elvis Presley",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a7/Jailhousequat.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Love You Like A Love Song",
+    "artist": "Selena Gomez & The Scene",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/b6/Loveyoulike_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Moves Like Jagger",
+    "artist": "Maroon 5 ft. Christina Aguilera",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/f4/Moveslikedlc_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Mr. Saxobeat",
+    "artist": "Alexandra Stan",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/2c/Mrsaxobeat.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Oh No!",
+    "artist": "Marina and the Diamonds",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/95/Ohno.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Part Of Me",
+    "artist": "Katy Perry",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/8b/Partofmedlc_jdu_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Primadonna",
+    "artist": "Marina and the Diamonds",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/17/Primadonna.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "So Glamorous",
+    "artist": "Harlin James & Clav (The Girly Team)",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/17/Glamorouscusto.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Super Bass",
+    "artist": "Nicki Minaj",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/1b/Superbass.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Superstition",
+    "artist": "Stevie Wonder",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/94/Superstitionjustdance4.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "The Final Countdown",
+    "artist": "Europe",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/8c/Thefinalcountdown.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Time Warp",
+    "artist": "The Rocky Horror Picture Show Cast (Halloween Thrills)",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/21/TimeWarpQUAT_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Tribal Dance",
+    "artist": "2 Unlimited",
+    "difficulty": 3,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/08/Tribaldance.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Want U Back",
+    "artist": "Cher Lloyd ft. Astro",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d2/Wantuback.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "We No Speak Americano",
+    "artist": "Yolanda Be Cool and DCUP(Hit the Electro Beat)",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/b4/Americano.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "We R Who We R",
+    "artist": "Ke$ha",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/8d/Werwhowerdlc_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "You Make Me Feel...",
+    "artist": "Cobra Starship feat. Sabi",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/63/Youmakemefeeldlc_jdnow_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "#thatPOWER",
+    "artist": "will.i.am ft. Justin Bieber",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/66/Thatpower_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "99 Luftballons",
+    "artist": "Nena(Rutschen Planeten)",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/0e/Luftballons_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "American Girl",
+    "artist": "Bonnie McKee",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/1c/Americangirldlc_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Applause",
+    "artist": "Lady Gaga",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/90/Limagolf1_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Aquarius/Let the Sunshine In",
+    "artist": "The 5th Dimension (The Sunlight Shakers)",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/64/Aquarius_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Blurred Lines",
+    "artist": "Robin Thicke ft. Pharrell Williams",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/f0/Blurredlines_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Danse (Pop Version)",
+    "artist": "Tal",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/84/Danse_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Gentleman",
+    "artist": "PSY",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/29/Gentleman_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Ghostbusters",
+    "artist": "Ray Parker, Jr.",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/e6/Ghostbusters_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Gimme! Gimme! Gimme! (A Man After Midnight)",
+    "artist": "ABBA",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/86/Gimmegimme_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "I Kissed a Girl",
+    "artist": "Katy Perry",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c7/Ikissed_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "I Will Survive",
+    "artist": "Gloria Gaynor",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/1f/Iwillsurvive_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Just A Gigolo",
+    "artist": "Louis Prima",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/f4/Gigolo_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Just Dance",
+    "artist": "Lady Gaga feat. Colby O'Donis",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a4/Justdance_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Love Boat",
+    "artist": "Jack Jones (Frankie Bostello)",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/70/Loveboat_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Miss Understood",
+    "artist": "Sammie",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/b4/Misunderstood_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Moskau",
+    "artist": "Dschinghis Khan (Dancing Bros.)",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/bf/Moskau_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "My Main Girl",
+    "artist": "MainStreet",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/af/Maingirldlc_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Nitro Bot",
+    "artist": "Sentai Express",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c2/Robotrock_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Pound The Alarm",
+    "artist": "Nicki Minaj",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/b0/Poundthealarm_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Roar",
+    "artist": "Katy Perry",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/38/Kilopapadlc.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Rock N Roll",
+    "artist": "Avril Lavigne",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/b9/Rocknrolldlc2014.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Safe And Sound",
+    "artist": "Capital Cities",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/9f/Safeandsound_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Sexy And I Know It",
+    "artist": "LMFAO",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/39/Sexyandiknowitdlc.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Starships",
+    "artist": "Nicki Minaj",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/aa/Starships_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "The Other Side",
+    "artist": "Jason Derulo",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/7b/Otherside_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "The Way",
+    "artist": "Ariana Grande ft. Mac Miller",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d1/Theway_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "The World is Ours",
+    "artist": "David Correy ft. Monobloco",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/84/TheWorldDLC_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Turn Up the Love",
+    "artist": "Far East Movement feat. Cover Drive",
+    "difficulty": 3,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/e7/Turnupthelove_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Wake Me Up",
+    "artist": "Avicii ft. Aloe Blacc",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/20/Wakemeupdlc.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Waking Up in Vegas",
+    "artist": "Katy Perry",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/b3/Wakingup_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "What About Love",
+    "artist": "Austin Mahone",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c5/Whataboutlovedlc.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Wild",
+    "artist": "Jessie J ft. Big Sean",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a0/Wild_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Y.M.C.A.",
+    "artist": "Village People",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d6/Ymca_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Bad Romance",
+    "artist": "Lady Gaga",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/fd/Badromance_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Bang Bang",
+    "artist": "Jessie J, Ariana Grande and Nicki Minaj",
+    "difficulty": 3,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/6d/Balance_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Birthday",
+    "artist": "Katy Perry",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/88/Birthday_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Boom Clap",
+    "artist": "Charli XCX",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/9c/Boomclapdlc_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Break Free",
+    "artist": "Ariana Grande ft. Zedd",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/7b/Breakfreedlc_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Built For This",
+    "artist": "Becky G",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/eb/Builtforthis_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Don’t Worry Be Happy",
+    "artist": "Bobby McFerrin (The Bench Men)",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/59/Dontworry_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Happy",
+    "artist": "Pharrell Williams",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/28/Happy_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Let It Go",
+    "artist": "Idina Menzel(Disney's Frozen)",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/1a/Letitgo_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Love Is All",
+    "artist": "Roger Glover and The Butterfly Ball(The Sunlight Shakers)",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/b1/Loveisall_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Maps",
+    "artist": "Maroon 5",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/5c/Mad_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Never Can Say Goodbye",
+    "artist": "Gloria Gaynor",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/26/Nevercansay_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Till I Find You",
+    "artist": "Austin Mahone",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a5/Findyou_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Walk This Way",
+    "artist": "Run DMC ft. Aerosmith",
+    "difficulty": 3,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c8/Walkthisway_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Movement is Happiness (Find Your Thing)",
+    "artist": "Avishay Goren & Yossi Cohen",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/12/Findyourmove_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Cheerleader (Felix Jaehn Remix)",
+    "artist": "OMI",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c4/Cheerleader_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Mashed Potato Time",
+    "artist": "Dee Dee Sharp",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/76/Potato.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Aserejé (The Ketchup Song)",
+    "artist": "Las Ketchup",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/1f/KetchupSong_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Prince Ali",
+    "artist": "Robin Williams (Disney's Aladdin)",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/24/Princeali_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Airplanes",
+    "artist": "B.o.B. ft. Hayley Williams of Paramore",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/ba/Airplanes_jdn_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Oath",
+    "artist": "Cher Lloyd ft. Becky G",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/61/Oath2.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Flashdance... What A Feeling",
+    "artist": "Irene Cara(The Girly Team)",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/95/Whatafeeling_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Girls Just Want to Have Fun",
+    "artist": "Cyndi Lauper",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a1/Girlsjustwant_jdnow_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "The Master Blaster",
+    "artist": "Inspector Marceau",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/54/Masterblaster.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Maneater",
+    "artist": "Nelly Furtado",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/2d/Maneater.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Shut Up and Dance",
+    "artist": "Walk The Moon",
+    "difficulty": 3,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/10/Shutup_jdn.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Le Freak",
+    "artist": "Chic",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/13/Lefreak.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Move Your Feet",
+    "artist": "Junior Senior",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/90/Moveyourfeet_jdnow_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Jump (For My Love)",
+    "artist": "The Pointer Sisters(Girls Aloud)",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/32/Jumpga.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Promiscuous",
+    "artist": "Nelly Furtado ft. Timbaland",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c4/Promiscuous_jdnow_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Get Ugly",
+    "artist": "Jason Derulo",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/30/GetUgly.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Taste The Feeling",
+    "artist": "Avicii ft. Conrad Sewell",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/6c/Tastethefeeling_updated.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Crying Blood",
+    "artist": "V V Brown",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/93/Cryingblood-0.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Apache (Jump On It)",
+    "artist": "The Sugarhill Gang",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/72/Apachejdn.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "One Way Or Another (Teenage Kicks)",
+    "artist": "One Direction",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/6b/Onewaydlcupdated.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Summer",
+    "artist": "Calvin Harris",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/86/Summer_jdu_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Am I Wrong",
+    "artist": "Nico & Vinz",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a3/AmIWrong.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Holiday",
+    "artist": "Madonna(The Hit Crew)",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/f0/Holiday_jdn_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "I Need Your Love",
+    "artist": "Calvin Harris ft. Ellie Goulding",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/8b/Ineedyourlovedlc_jdu_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Hold My Hand",
+    "artist": "Jess Glynne",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/20/Holdmyhand_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Acceptable in the 80s",
+    "artist": "Calvin Harris",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/1d/Acceptable_jdn_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "I Feel Love",
+    "artist": "Donna Summer",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/65/Ifeellove_jdu_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Holding Out for a Hero",
+    "artist": "Bonnie Tyler",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/2c/Holdingout_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Take Me Out",
+    "artist": "Franz Ferdinand",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/ca/TakeMeOut_jdn_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Ona tańczy dla mnie",
+    "artist": "Weekend",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/dc/OnaTanczyDlaMnie_Cover_Phone.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Imya 505 (Имя 505)",
+    "artist": "Время и Стекло",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/17/Imya505_Cover_Phone.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Let Me Love You (F)",
+    "artist": "DJ Snake feat. Justin Bieber",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/59/Blackmamba_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Let Me Love You (F)",
+    "artist": "DJ Snake feat. Justin Bieber",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/59/Blackmamba_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "YOUTH",
+    "artist": "Troye Sivan",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/dd/Youth_Cover_Generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Je sais pas danser",
+    "artist": "Natoo",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/0f/Natoodance.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Je sais pas danser",
+    "artist": "Natoo",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/0f/Natoodance.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "The Greatest",
+    "artist": "Sia",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/0b/TheGreatest_Cover_Generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Hickory Dickory Dock",
+    "artist": "Tom Zehnder",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/f5/KIDSHickoryDickoryDock_Cover_Generic.tga.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Mary Had A Little Lamb",
+    "artist": "Tom Zehnder",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/1e/KIDSMaryHadALittleLamb_Cover_Generic.tga.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "We Go Well Together",
+    "artist": "Goldheart",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/0c/KIDSWeGoWellTogether_Cover_Generic.tga.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Jingle Bells",
+    "artist": "The Just Dance Kids",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c2/Kidsjinglebells_jdn_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "I Like to Move It",
+    "artist": "Reel 2 Reel ft. The Mad Stuntman (The Just Dance Kids)",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/7c/Kidsiliketomoveit_jdn_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Under the Sea",
+    "artist": "Disney's \"The Little Mermaid\"",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/12/UnderTheSeaSqu.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "I Gotta Feeling",
+    "artist": "The Black Eyed Peas",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/72/IGotAFeelingSqu.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "All About That Bass",
+    "artist": "Meghan Trainor",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/40/Aboutthatbass_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Animals",
+    "artist": "Martin Garrix",
+    "difficulty": 3,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d5/AnimalsSqu.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Blame",
+    "artist": "Calvin Harris ft. John Newman",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/e4/BlameSqu.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Born This Way",
+    "artist": "Lady Gaga",
+    "difficulty": 3,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/46/BornThisWaySqu.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Cool For The Summer",
+    "artist": "Demi Lovato",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/03/Coolos_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Hangover (BaBaBa)",
+    "artist": "Buraka Som Sistema",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a6/HangoverSqu.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Kaboom Pow",
+    "artist": "Nikki Yanofsky",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/41/KaboomPowSqu.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Teacher",
+    "artist": "Nick Jonas",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/6f/Teacher.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Me Too",
+    "artist": "Meghan Trainor",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/17/MeToo_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Last Christmas",
+    "artist": "Wham!  (Santa Clones)",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/17/Lastchristmas.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Last Christmas",
+    "artist": "Wham!  (Santa Clones)",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/17/Lastchristmas.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Like I Would",
+    "artist": "ZAYN",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/08/Likeiwould.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Like I Would",
+    "artist": "ZAYN",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/08/Likeiwould.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Drop the Mambo",
+    "artist": "Diva Carmina",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/e6/Electromambo.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Kool Kontact",
+    "artist": "Glorious Black Belts",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/1f/Kungfunk.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Balkan Blast Remix",
+    "artist": "Angry Birds",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/86/Angrybirds_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Boys (Summertime Love)",
+    "artist": "Sabrina Salerno (The Lemon Cubes)",
+    "difficulty": 1,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/7e/BoysBoysSqu.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Chiwawa (N-Switch)",
+    "artist": "Wanko Ni Mero Mero",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/0e/Chiwawa_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Circus",
+    "artist": "Britney Spears",
+    "difficulty": 2,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/fc/Circus.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Copacabana",
+    "artist": "Barry Manilow (Frankie Bostello)",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/0d/CopaCabanaSqu.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Fun",
+    "artist": "Pitbull Ft. Chris Brown",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/cc/FunSqu.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Hey Mama",
+    "artist": "David Guetta Ft. Nicki Minaj, Bebe Rexha & Afrojack",
+    "difficulty": 3,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/33/HeyMamaSqu.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Irish Meadow Dance",
+    "artist": "O'Callaghan's Orchestra",
+    "difficulty": 2,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/ac/SaintPatrickSqu.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "HandClap",
+    "artist": "Fitz and the Tantrums",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/0a/HandClap_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Fancy",
+    "artist": "Iggy Azalea ft. Charli XCX",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/46/Fancy_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Gibberish",
+    "artist": "MAX",
+    "difficulty": 3,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/e6/GibberishSqu.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Hit The Road Jack",
+    "artist": "Ray Charles (Charles Percy)",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/7c/HitTheRoad.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Let’s Groove",
+    "artist": "Earth, Wind & Fire (Equinox Stars)",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/4c/LetsGrooveSqu.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Lights",
+    "artist": "Ellie Goulding",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/59/Lights.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "No Control",
+    "artist": "One Direction",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a9/NoControlSqu.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Stadium Flow",
+    "artist": "Imposs",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/6f/Stadiumflow.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Stuck On A Feeling",
+    "artist": "Prince Royce",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/72/StuckOnAFeeling.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Uptown Funk",
+    "artist": "Mark Ronson Ft. Bruno Mars",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c4/UptownFunkSqu.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Macarena",
+    "artist": "Los Del Rio (The Girly Team)",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/53/Macarena_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Heartbeat Song",
+    "artist": "Kelly Clarkson",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/0b/HeartbeatSqu.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Junto a Ti",
+    "artist": "Martina Stoessel & Lodovica Comello (Disney’s \"Violetta\")",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/ea/JuntoATi.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Rabiosa",
+    "artist": "Shakira ft. El Cata",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c1/Rabiosa_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "The Choice Is Yours",
+    "artist": "Darius Dante Van Dijk",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c0/TheChoiceSqu.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "This Is How We Do",
+    "artist": "Katy Perry",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a3/Thisishow_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Want To Want Me",
+    "artist": "Jason Derulo",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/ba/WantToWantMe.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "When The Rain Begins To Fall",
+    "artist": "Jermaine Jackson and Pia Zadora (Sky Trucking)",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/40/WhenTheRainSqu.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "You Never Can Tell",
+    "artist": "Chuck Berry (A. Caveman & The Backseats)",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/86/Younevercan_jd2016_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Wake Me Up Before You Go-Go",
+    "artist": "Wham!",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/92/WakeMeUp_jdn_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "All About Us",
+    "artist": "Jordan Fisher",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/51/Allaboutus.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Bailar",
+    "artist": "Deorro ft. Elvis Crespo",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/9c/Bailar.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Bang",
+    "artist": "Anitta",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/45/Bang_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Bonbon",
+    "artist": "Era Istrefi",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/61/Bonbon.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Cake By The Ocean",
+    "artist": "DNCE",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a6/Cakebytheocean_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Carnaval Boom",
+    "artist": "Latino Sunset",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/50/Samba_Cover_Generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Cheap Thrills",
+    "artist": "Sia ft. Sean Paul",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/61/Cheapthrills.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Cola Song",
+    "artist": "INNA ft. J Balvin",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/49/Colasong_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "El Tiki",
+    "artist": "Maluma",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/14/Eltiki.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Ghost In The Keys",
+    "artist": "Halloween Thrills",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/69/Ghostinthekeys.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Groove",
+    "artist": "Jack & Jack",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/cb/Groove_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Into You",
+    "artist": "Ariana Grande",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/e1/Intoyou_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "La Bicicleta",
+    "artist": "Carlos Vives & Shakira",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/b9/Bicicleta_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Lean On",
+    "artist": "Major Lazer & DJ Snake ft. MØ",
+    "difficulty": 2,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/11/Leanon.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Leila",
+    "artist": "Cheb Salama",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/b5/Leila.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Little Swing",
+    "artist": "AronChupa ft. Little Sis Nora",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/92/Littleswing.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Oishii Oishii",
+    "artist": "Wanko Ni Mero Mero",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d4/Oishii.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "PoPiPo",
+    "artist": "Hatsune Miku",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/66/Popipo_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "RADICAL",
+    "artist": "Dyro & Dannic",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/05/Radical.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Run the Night",
+    "artist": "Gigi Rowe",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/ce/Runthenight_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "September",
+    "artist": "Earth, Wind & Fire  (Equinox Stars)",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/9e/September_jdn.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Single Ladies (Put a Ring on It)",
+    "artist": "Beyoncé",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/00/Singleladies_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Sorry",
+    "artist": "Justin Bieber",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/fc/Sorry_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Te Dominar",
+    "artist": "Daya Luz",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/ce/Tedominar.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Titanium",
+    "artist": "David Guetta ft. Sia",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/cc/Titanium.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "What Is Love",
+    "artist": "Haddaway(Ultraclub 90)",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/36/Whatislove_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Wherever I Go",
+    "artist": "OneRepublic",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/50/Whereverigo.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Worth It",
+    "artist": "Fifth Harmony ft. Kid Ink",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/bd/Worthit.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "William Tell Overture (N-Switch)",
+    "artist": "Rossini",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/aa/Williamtell.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Thumbs (F)",
+    "artist": "Sabrina Carpenter",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/28/Thumbs_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Sun",
+    "artist": "DEMO",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a0/Sun_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Dagomba",
+    "artist": "Sorcerer",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/22/ElectroTribalDLC_jdn_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Spectronizer",
+    "artist": "Sentai Express",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/8f/Spectronizer_jdn_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Feel So Right",
+    "artist": "Imposs ft. Konshens",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/81/Feelsoright_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Isidora",
+    "artist": "Bog Bog Orkestar",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/3d/Zagreb_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Epic Sirtaki",
+    "artist": "The Cast of Zorba the Greek (The Bouzouki's)",
+    "difficulty": 3,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/29/Sirtaki_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "XMas Tree",
+    "artist": "Bollywood Santa",
+    "difficulty": 3,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/23/Bollywoodxmas_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Feel It Still",
+    "artist": "Portugal. The Man",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/6a/Feelit_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Five Little Monkeys",
+    "artist": "The Just Dance Kids",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/b4/Kidsfivelittlemonkeys_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Mi Gente",
+    "artist": "J Balvin & Willy William",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/4a/Migente_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Day-O (The Banana Boat Song)",
+    "artist": "Harry Belafonte(The Just Dance Kids)",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/75/KIDSDayO_Cover_Generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Fernando (N2016)",
+    "artist": "ABBA",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/e9/Abbafernando.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Gimme! Gimme! Gimme! (A Man After Midnight) (N2016)",
+    "artist": "ABBA",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/19/Abbagimmegimme_jdu_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Honey, Honey (N2016)",
+    "artist": "ABBA",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/04/Abbahoneyhoney_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Lay All Your Love On Me (N2016)",
+    "artist": "ABBA",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/46/Abbalayallyourlove_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Super Trouper (N2016)",
+    "artist": "ABBA",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/1b/Abbasupertrooper_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "The Winner Takes It All (N2016)",
+    "artist": "ABBA",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/e2/Abbathewinner.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Waterloo (N2016)",
+    "artist": "ABBA",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c0/Abbawaterloo_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Sax",
+    "artist": "Fleur East",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c2/Sax_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Accidentally in Love",
+    "artist": "Counting Crows(The Just Dance Kids)",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/36/KIDSAccidentallyInLove_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Wheels on The Bus",
+    "artist": "The Just Dance Kids",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/90/KIDSWheelsOnTheBus_Cover_Generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "You Spin Me Round (Like a Record)",
+    "artist": "Dead or Alive",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a0/SpinMeRoundNew.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "What Lovers Do",
+    "artist": "Maroon 5 ft. SZA",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/45/Whatloversdo_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Dancing Queen (N2016)",
+    "artist": "ABBA",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/6c/Abbadancingqueen_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Knowing Me, Knowing You (N2016)",
+    "artist": "ABBA",
+    "difficulty": 2,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/21/Abbaknowingme_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Mamma Mia (N2016)",
+    "artist": "ABBA",
+    "difficulty": 2,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/1e/Abbamammamia_Cover_Generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Money, Money, Money (N2016)",
+    "artist": "ABBA",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/09/Abbamoneymoney_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "SOS (N2016)",
+    "artist": "ABBA",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/ca/Abbasos_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Take a Chance on Me (N2016)",
+    "artist": "ABBA",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/3e/Abbatakeachancea_Cover_Generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Voulez-Vous (N2016)",
+    "artist": "ABBA",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/3f/Abbavoulezvous_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "If You’re Happy and You Know It",
+    "artist": "The Just Dance Kids",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/89/KIDSIfYoureHappy_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Dame Tu Cosita",
+    "artist": "El Chombo ft. Cutty Ranks",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/32/Dametu_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Dancing Queen",
+    "artist": "ABBA",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/4e/Dancingqueen_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "No Lie",
+    "artist": "Sean Paul ft. Dua Lipa",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/fa/Nolie_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "24K Magic",
+    "artist": "Bruno Mars",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/3a/24k_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "All You Gotta Do (Is Just Dance)",
+    "artist": "The Just Dance Band",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/df/Allyougotta_cover_generic_8thgen.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Amazing Girl (K)",
+    "artist": "The Girly Team",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/3b/Missamazingkids_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Another One Bites the Dust",
+    "artist": "Queen",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/be/Anotherone_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Automaton",
+    "artist": "Jamiroquai",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d6/Automaton_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Bad Liar",
+    "artist": "Selena Gomez",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/61/Badliar_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Blow Your Mind (Mwah)",
+    "artist": "Dua Lipa",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/fb/Blowyourmind_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Blue (Da Ba Dee)",
+    "artist": "Eiffel 65 (Hit the Electro Beat)",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/e0/Blue_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Boom Boom",
+    "artist": "Iggy Azalea ft. Zedd",
+    "difficulty": 1,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/fa/Copperhead_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Bubble Pop!",
+    "artist": "HyunA",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/2d/Bubblepop_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Chantaje",
+    "artist": "Shakira ft. Maluma",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/68/Chantaje_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Daddy Cool",
+    "artist": "Boney M. (Groove Century)",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/50/Daddycool_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Despacito",
+    "artist": "Luis Fonsi ft. Daddy Yankee",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d2/Despacito.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Dharma",
+    "artist": "Headhunterz & KSHMR",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a6/Dharma_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Diggy",
+    "artist": "Spencer Ludwig",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/9a/Diggy_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Fearless Pirate (K)",
+    "artist": "Marine Band",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/8f/Fearlesspiratekids_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Fight Club",
+    "artist": "Lights",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/33/Sidewinder_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Footloose",
+    "artist": "Kenny Loggins (Top Culture)",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d3/Footloose.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Funky Robot (K)",
+    "artist": "Dancing Bros.",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/08/Funkyrobotkids_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Got That",
+    "artist": "Gigi Rowe",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/5b/Gotthat_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Happy Farm (K)",
+    "artist": "Groove Century",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/01/Happyfarmkids_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "In the Hall of the Pixel King",
+    "artist": "Dancing Bros.",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/dc/8bitretake_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Instruction",
+    "artist": "Jax Jones ft. Demi Lovato & Stefflon Don",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/8c/Instruction_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Itsy Bitsy Teenie Weenie Yellow Polka Dot Bikini",
+    "artist": "Bryan Hayland (The Sunlight Shakers)",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/91/Itsybitsyretake_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "John Wayne",
+    "artist": "Lady Gaga",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/34/Johnw_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Keep on Moving",
+    "artist": "Michelle Delamor",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/ab/Keepon_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Kissing Strangers",
+    "artist": "DNCE ft. Nicki Minaj",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/62/Kissingstrangers_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Love Ward",
+    "artist": "Hatsune Miku",
+    "difficulty": 3,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/80/Loveward_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Magic Halloween (K)",
+    "artist": "Halloween Thrills",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/6d/Magichalloweenkids_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Make It Jingle",
+    "artist": "Big Freedia",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/dc/Makeitjingle_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Naughty Girl",
+    "artist": "Beyoncé",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/cd/Naughtygirl_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Pixie Land (K)",
+    "artist": "The Sunlight Shakers",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/08/Pixielandkids_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Risky Business",
+    "artist": "Jorge Blanco",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/96/Riskybusiness_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Rockabye",
+    "artist": "Clean Bandit ft. Sean Paul and Anne-Marie",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/18/Rockabye.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Sayonara",
+    "artist": "Wanko Ni Mero Mero",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/08/Sayonararetake_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Shape of You",
+    "artist": "Ed Sheeran",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/3e/Shapeofyou_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Side to Side",
+    "artist": "Ariana Grande ft. Nicki Minaj",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d0/Sideto_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Sugar Dance",
+    "artist": "The Just Dance Band",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/4d/Sugardance_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Swish Swish",
+    "artist": "Katy Perry ft. Nicki Minaj",
+    "difficulty": 2,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/e1/Swishswish_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "The Way I Are (Dance With Somebody)",
+    "artist": "Bebe Rexha ft. Lil Wayne",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/7d/Cottonmouth_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Tumbum",
+    "artist": "Yemi Alade",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/19/Tumbum_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Waka Waka (This Time for Africa)",
+    "artist": "Shakira",
+    "difficulty": 1,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/90/Wakawaka_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Slumber Party",
+    "artist": "Britney Spears ft. Tinashe",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/45/Slumberparty_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Hala Bel Khamis",
+    "artist": "Maan Barghouth",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/89/Halabel_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "On Ne Porte Pas De Sous-Vêtements",
+    "artist": "McFly & Carlito",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/4f/Onneportepas_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Done For Me",
+    "artist": "Charlie Puth ft. Kehlani",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/76/Doneforme_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Medicina",
+    "artist": "Anitta",
+    "difficulty": 2,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/b9/Medicina_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Barbie Girl",
+    "artist": "Aqua (Countdown Dee’s Hit Explosion)",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d3/Barbiegirl_now.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Lush Life",
+    "artist": "Zara Larsson",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/dd/Lush_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Rockafeller Skank",
+    "artist": "Fatboy Slim",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/31/Rockafeller_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Criminal",
+    "artist": "Natti Natasha x Ozuna",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/b7/Criminal_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Scream & Shout",
+    "artist": "will.i.am ft. Britney Spears",
+    "difficulty": 3,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/46/Screamnshout_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Fine China",
+    "artist": "Chris Brown",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/87/FineChina_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Jump",
+    "artist": "Major Lazer ft. Busy Signal",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/b7/JumpMaLa_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Peanut Butter Jelly",
+    "artist": "Galantis",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/80/Peanut_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Venus",
+    "artist": "Bananarama",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/09/Venusb_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Me And My Broken Heart",
+    "artist": "Rixton",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/38/Brokenheart_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Proud Mary",
+    "artist": "Ike & Tina Turner",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/89/Proudmary_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "You Don’t Know Me",
+    "artist": "Jax Jones ft. Raye",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/3b/DontKnowMe_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Lump",
+    "artist": "The Presidents of the United States of America",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/5a/Lump_jdu_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Boys",
+    "artist": "Lizzo",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/7e/Boys_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Soul Bossa Nova",
+    "artist": "Quincy Jones and His Orchestra",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/f6/SoulBossaNova_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "A Little Party Never Killed Nobody (All We Got)",
+    "artist": "Fergie ft. Q-Tip and GoonRock",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/dc/Littleparty_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Adeyyo",
+    "artist": "Ece Seçkin",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/af/Adeyyo_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Bang Bang Bang",
+    "artist": "BIGBANG",
+    "difficulty": 3,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/f5/Bang2019_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Boogiesaurus (K)",
+    "artist": "John Anthony(A. Caveman and the Backseats)",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d1/Jurassickids_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Bum Bum Tam Tam",
+    "artist": "MC Fioti ft. Future, J Balvin, Stefflon Don and Juan Magan",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/da/Bumbumtamtam_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Ça Plane Pour Moi",
+    "artist": "Plastic Bertrand(Bob Platine)",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/35/Caplane_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Calypso",
+    "artist": "Luis Fonsi ft. Stefflon Don",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/af/Calypso_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Cosmic Party (K)",
+    "artist": "Equinox Stars",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/0b/Spacegirlkids_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "DDU-DU DDU-DU",
+    "artist": "BLACKPINK",
+    "difficulty": 3,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/43/Ddudu_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Familiar",
+    "artist": "Liam Payne & J Balvin",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/76/Familiar_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Finesse (Remix)",
+    "artist": "Bruno Mars ft. Cardi B",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/f5/Finesse_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Fire",
+    "artist": "LLP ft. Mike Diamondz",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/5c/Fire_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Fire On The Floor",
+    "artist": "Michelle Delamor",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c6/Fireonthedancefloor_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Friendly Phantom (K)",
+    "artist": "Halloween Thrills",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d4/Ghostkids_cover_online.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Havana",
+    "artist": "Camila Cabello",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/cc/Havana_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "I Feel It Coming",
+    "artist": "The Weeknd ft. Daft Punk",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/39/Ifeelitcoming_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Irish Meadow Dance (K)",
+    "artist": "O’Callaghan’s Orchestra",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/af/Saintpatrickkids_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Jingle Bells (K)",
+    "artist": "Santa Clones",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/29/Merrychristmaskids_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Make Me Feel",
+    "artist": "Janelle Monáe",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/6a/Makemefeel_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Mama Mia",
+    "artist": "Mayra Verónica",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/5f/Mamamia_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Mi Mi Mi",
+    "artist": "Serebro(Hit The Electro Beat)",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/bb/Mimimi_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Monsters of Jazz (K)",
+    "artist": "Jacky Arthur and Harold Geller(credited as Groove Century)",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/48/Monstersacademykids_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Narco",
+    "artist": "Blasterjaxx & Timmy Trumpet",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/ad/Narco_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "New Reality",
+    "artist": "Gigi Rowe",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/0a/Newreality_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "New Rules",
+    "artist": "Dua Lipa",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/8f/Newrules_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "New World",
+    "artist": "Krewella, Yellow Claw ft. Vava",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/ca/Newworld_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "No Tears Left To Cry",
+    "artist": "Ariana Grande",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/e0/Notearsleft_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Not Your Ordinary",
+    "artist": "Stella Mwangi",
+    "difficulty": 2,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/1f/Notyourordinary_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Obsesión",
+    "artist": "Aventura",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/0e/Obsessionretake_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "OMG",
+    "artist": "Arash ft. Snoop Dogg",
+    "difficulty": 3,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/f7/Omg_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "One Kiss",
+    "artist": "Calvin Harris ft. Dua Lipa",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/e4/Onekiss_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Pac-Man",
+    "artist": "Toshio Kai(Dancing Bros.)",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/98/Pacman_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Rave in the Grave",
+    "artist": "AronChupa ft. Little Sis Nora",
+    "difficulty": 2,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/07/Ravein_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Rhythm of the Night",
+    "artist": "Corona(Ultraclub 90)",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/57/Rhythm_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Sangria Wine",
+    "artist": "Pharrell Williams x Camila Cabello",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/fc/Sangriawine_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Shaky Shaky",
+    "artist": "Daddy Yankee",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/86/Shaky_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Shinobi Cat",
+    "artist": "Steve Ouimette(Glorious Black Belts)",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/42/Ninjakids_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Sugar",
+    "artist": "Maroon 5",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/5d/Sugar_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Sweet Little Unforgettable Thing",
+    "artist": "Bea Miller",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/76/Sweetlittle_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Un Poco Loco",
+    "artist": "Gael García Bernal, Anthony Gonzalez(Disney’s Coco)",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/20/Pocoloco_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Tales of the Desert",
+    "artist": "Ian Livingstone(Persian Nights)",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/07/Theexplorerkids_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Water Me",
+    "artist": "Lizzo",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/ab/Waterme_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Where Are You Now?",
+    "artist": "Lady Leshurr ft. Wiley",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/ce/Whereareyou_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Work Work",
+    "artist": "Britney Spears",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/07/Workwork_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "TOY",
+    "artist": "Netta",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/82/Toy_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Into the Unknown (F)",
+    "artist": "Idina Menzel ft. AURORA (Disney's Frozen 2)",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/f1/Lullaby_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "DjaDja",
+    "artist": "Aya Nakamura",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/ad/DjaDja_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "DjaDja",
+    "artist": "Aya Nakamura",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/ad/DjaDja_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Gold Dust",
+    "artist": "DJ Fresh",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/90/Golddust_jdnow_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Satellite",
+    "artist": "Lena Meyer-Landrut",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c7/Satellite.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Here Comes the Hotstepper",
+    "artist": "Ini Kamoze (The Hit Crew)",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c0/Hotstep_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Never Gonna Give You Up",
+    "artist": "Rick Astley",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/4e/NeverGonna_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Giddy on Up (Giddy on Out)",
+    "artist": "Laura Bell Bundy",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/ad/Giddyonup_jdnow_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Mas Que Nada",
+    "artist": "The Black Eyed Peas ft. Sergio Mendes",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/1f/Masquenada.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "365",
+    "artist": "Zedd & Katy Perry",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/f9/365_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "7 rings",
+    "artist": "Ariana Grande",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/4a/7rings_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Always Look On The Bright Side Of Life",
+    "artist": "Monty Python (The Frankie Bostello Orchestra)",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/32/Alwayslookon_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Baby Shark",
+    "artist": "Pinkfong",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/b8/Babyshark_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Bad Boy",
+    "artist": "Riton & Kah-Lo",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/cf/Badboy_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "bad guy",
+    "artist": "Billie Eilish",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d4/Badguy_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Bangarang",
+    "artist": "Skrillex ft. Sirah",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d5/Bangarang_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Bassa Sababa",
+    "artist": "Netta",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/cc/Bassasababa_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Con Altura",
+    "artist": "ROSALÍA & J Balvin ft. El Guincho",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/60/Conaltura_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Con Calma",
+    "artist": "Daddy Yankee ft. Snow",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/60/Concalma_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "FANCY",
+    "artist": "TWICE",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d0/Fancytwice_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Fancy Footwork",
+    "artist": "Chromeo",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/24/Footwork_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Fit But You Know It",
+    "artist": "The Streets",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/1f/Fitbutyouknow_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Freeze Please (K)",
+    "artist": "The Just Dance School",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/21/Freezekids_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Get Busy",
+    "artist": "KOYOTIE",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/aa/Getbusy_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "God Is A Woman",
+    "artist": "Ariana Grande",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/35/Godisawoman_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Happy Birthday (K)",
+    "artist": "Top Culture",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/ac/Birthdaykids_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "High Hopes",
+    "artist": "Panic! at the Disco",
+    "difficulty": 2,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/7f/Highhopes_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "I Am The Best (내가 제일 잘 나가)",
+    "artist": "2NE1",
+    "difficulty": 3,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/28/Iamthebest_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "I Like It",
+    "artist": "Cardi B, Bad Bunny & J Balvin",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/54/ILikeItLike_jdu_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Infernal Galop (Can-Can)",
+    "artist": "Jacques Offenbach (The Just Dance Orchestra)",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/bd/Cancan_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Jungle Dances (K)",
+    "artist": "The Sunlight Shakers",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d0/Adventurerkids_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Just An Illusion",
+    "artist": "Imagination (Equinox Stars)",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/f4/Justanillusion_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Keep in Touch",
+    "artist": "JD McCrary",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/46/Keepintouch_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Kill This Love",
+    "artist": "BLACKPINK",
+    "difficulty": 3,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/e5/Killthislove_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Kitchen Kittens (K)",
+    "artist": "Cooking Meow Meow",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/53/Chefkids_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Le Bal Masqué",
+    "artist": "La Compagnie Créole (Dr. Creole)",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/7f/Balmasque_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Mini Yo School (K)",
+    "artist": "Dancing Bros.",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/69/Schoolyardkids_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "My Friend The Dragon (K)",
+    "artist": "The Just Dance Orchestra",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/56/Medievalkids_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "My New Swag (我的新衣)",
+    "artist": "VAVA ft. Ty & Nina Wang",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/e3/Swag_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Old Town Road (Remix)",
+    "artist": "Lil Nas X ft. Billy Ray Cyrus",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/32/Oldtownroad_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Policeman",
+    "artist": "Eva Simons ft. Konshens",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/ac/Policeman_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Rain Over Me",
+    "artist": "Pitbull ft. Marc Anthony",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/fe/Rainoverme_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Skibidi",
+    "artist": "Little Big",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/0e/Skibidi_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Soy Yo",
+    "artist": "Bomba Estéreo",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/74/Soyyo_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Sushi",
+    "artist": "Merk & Kremont",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/ae/Sushii_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Só Depois do Carnaval",
+    "artist": "Lexa",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/f4/Docarnaval_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Taki Taki",
+    "artist": "DJ Snake ft. Selena Gomez, Ozuna, Cardi B",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c3/Takitaki_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Talk",
+    "artist": "Khalid",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/6d/Talk_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Tel Aviv",
+    "artist": "Omar Adam  Ft. Arisa",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/6b/Telaviv_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "The Frog Concert (K)",
+    "artist": "Groove Century",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/f8/Bandmasterkids_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "The Time (Dirty Bit)",
+    "artist": "The Black Eyed Peas",
+    "difficulty": 2,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/14/Thetime_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Vodovorot",
+    "artist": "XS Project",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/b7/Vodovorot_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Flash (Just Dance Version)",
+    "artist": "Bilal Hassani, Sundy Jules, Paola Locatelli & Sulivan Gwed",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/5f/Flash_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Flash (Just Dance Version)",
+    "artist": "Bilal Hassani, Sundy Jules, Paola Locatelli & Sulivan Gwed",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/5f/Flash_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Born To Be Wild",
+    "artist": "Steppenwolf",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/0c/Borntobewild_jdu_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Jailhouse Rock(Line Dance)",
+    "artist": "Elvis Presley",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/8a/Jailhousealt_jdu_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Starships(Charleston)",
+    "artist": "Nicki Minaj",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/76/Starshipsalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Turn Up the Love(Fanmade)",
+    "artist": "Far East Movement ft. Cover Drive",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/e0/TurnUpTheLoveFAN_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Turn Up the Love(Sumo Version)",
+    "artist": "Far East Movement ft. Cover Drive",
+    "difficulty": 3,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/76/Turnupthelovealt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Let It Go(Sing Along)",
+    "artist": "Idina Menzel (Disney's Frozen)",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/96/Letitgodlc_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Gentleman(Sweat)",
+    "artist": "PSY",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/79/Gentlemanswt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Ghostbusters(Sweat)",
+    "artist": "Ray Parker, Jr.",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/61/Ghostbustersswt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "We No Speak Americano (Fanmade)",
+    "artist": "Yolanda Be Cool and DCUP(Hit The Electro Beat)",
+    "difficulty": 3,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/8e/Americanofan.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "#thatPOWER(Extreme)",
+    "artist": "will.i.am ft.Justin Bieber",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/cd/Thatpoweralt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Blurred Lines(Fanmade)",
+    "artist": "Robin Thicke ft. Pharrell Williams",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/08/Justmaxbl.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Gimme! Gimme! Gimme! (A Man After Midnight)(Sing Along)",
+    "artist": "ABBA",
+    "difficulty": 1,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/ab/Gimmegimmeosc_jdu_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "I Kissed a Girl(Sing Along)",
+    "artist": "Katy Perry",
+    "difficulty": 1,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/9a/Ikissedagirlosc_jdu_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Good Feeling (Extreme)",
+    "artist": "Flo Rida",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/8b/Goodfeelingalt_jdu_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Happy(Sing Along)",
+    "artist": "Pharrell Williams",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/7a/Happyalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Blurred Lines (Extreme)",
+    "artist": "Robin Thicke ft. Pharrell Williams",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/01/Blurredlinesaltdlc_jdu_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Pound The Alarm (Extreme)",
+    "artist": "Nicki Minaj",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/e0/PoundTheAlarmALTDLC_jdu_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "I Kissed a Girl (Sweat)",
+    "artist": "Katy Perry",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d8/Ikissedswt_jdu_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Stadium Flow (Fanmade) (2016)",
+    "artist": "Imposs",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/e8/Stadiumflowfan.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "#thatPOWER(Sing Along)",
+    "artist": "will.i.am ft.Justin Bieber",
+    "difficulty": 1,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c2/Thatpoweroscdlc_jdu_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Walk This Way(Old School)",
+    "artist": "Run DMC & Aerosmith",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/f7/Walkthiswayalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Taste the Feeling(Alternate)",
+    "artist": "Avicii ft. Conrad Sewell",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/82/Tastethefeelingalt.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Tribal Dance (With a Katana)",
+    "artist": "2 Unlimited",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/e1/Tribaldancealt.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "I Will Survive (Sing Along)",
+    "artist": "Gloria Gaynor",
+    "difficulty": 1,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/b1/Iwillsurviveosc_jdu_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Just Dance (Sweat)",
+    "artist": "Lady Gaga ft. Colby O'Donis",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/90/Justdanceswtdlcupdated.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "This Is How We Do (Fanmade) (2016)",
+    "artist": "Katy Perry",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/df/Thisishowfan_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Just Dance (Sing Along)",
+    "artist": "Lady Gaga ft. Colby O'Donis",
+    "difficulty": 1,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a0/Justdanceosc_jdu_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Cake By The Ocean(VIPMADE) (2017)",
+    "artist": "DNCE",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/b6/Cakebytheoceanvip_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Oishii Oishii(VIPMADE) (2017)",
+    "artist": "Wanko Ni Mero Mero",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/15/OishiiVIP_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Chiwawa(Remastered Version) (F)",
+    "artist": "Wanko Ni Mero Mero",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/40/Barbie_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Want To Want Me(Couple Version)",
+    "artist": "Jason Derulo",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/26/WantToWantMeALT_1.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Animals(Extreme Version)",
+    "artist": "Martin Garrix",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/3b/Animalsalt_2cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Born This Way(Nerd Version)",
+    "artist": "Lady Gaga",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/8e/Bornthiswayalt2_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Rabiosa(Latin Fitness Version)",
+    "artist": "Shakira ft. El Cata",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/4f/Rabiosaalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Teacher(Car Version)",
+    "artist": "Nick Jonas",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/12/Teacheralt2_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Uptown Funk(Tuxedo Version)",
+    "artist": "Mark Ronson ft. Bruno Mars",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/b6/Uptownfunkalt2_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Circus(Extreme Version)",
+    "artist": "Britney Spears",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/e6/Circusalt2_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Hey Mama(Geisha Version)",
+    "artist": "David Guetta Ft. Nicki Minaj, Bebe Rexha & Afrojack",
+    "difficulty": 3,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a2/Heymamaalt2_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "This Is How We Do(Aerobics Version)",
+    "artist": "Katy Perry",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d0/Thisishowalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "All About That Bass(Flower & Bee Version)",
+    "artist": "Meghan Trainor",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/16/Aboutthatbassalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Fancy(Indian Version)",
+    "artist": "Iggy Azalea Ft. Charli XCX",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/44/Fancyalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Hit The Road Jack(Line Dance Version)",
+    "artist": "Ray Charles(Charles Percy)",
+    "difficulty": 1,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/bd/Hittheroadalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "I Gotta Feeling(Classroom Version)",
+    "artist": "The Black Eyed Peas",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/99/Igotafeelingalt2_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Wake Me Up Before You Go-Go(From The Emoji Movie)",
+    "artist": "Wham!",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/36/WakeMeUpALT_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "HandClap(Fanmade)",
+    "artist": "Fitz and the Tantrums",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/3d/HandClapFAN_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Cake By The Ocean (Earphones Version)",
+    "artist": "DNCE",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a1/Cakebytheoceanalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Cheap Thrills (Bollywood Version)",
+    "artist": "Sia Ft. Sean Paul",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c3/Cheapthrillsalt.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Cola Song (Candy Version)",
+    "artist": "INNA ft. J Balvin",
+    "difficulty": 2,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/29/Colasongalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "El Tiki (Trio Version)",
+    "artist": "Maluma",
+    "difficulty": 1,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/88/Eltikialt.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Lean On (Scarf Version)",
+    "artist": "Major Lazer ft. MØ & DJ Snake",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/8c/Leanonalt.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "RADICAL (Helmet Version)",
+    "artist": "Dyro & Dannic",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/ed/Radicalalt.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "September (Disco Fitness Version)",
+    "artist": "Earth, Wind & Fire(Equinox Stars)",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/92/Septemberalt.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Sorry (Extreme Version)",
+    "artist": "Justin Bieber",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/ff/Sorryalt.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "What Is Love (Car Version)",
+    "artist": "Haddaway(Ultraclub 90)",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/b8/Whatislovealt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Worth It (Extreme Crew Version)",
+    "artist": "Fifth Harmony ft. Kid Ink",
+    "difficulty": 4,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/10/Worthitalt.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "All You Gotta Do (Is Just Dance) (VIPMADE) (2018) (2019)",
+    "artist": "The Just Dance Band",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/58/AllYouGottaVIP_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Naughty Girl (Rabbid Peach Version) (Switch)",
+    "artist": "Beyoncé",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/6d/Naughtygirlalt_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "24K Magic (Extreme Version)",
+    "artist": "Bruno Mars",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d7/24kalt_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Another One Bites the Dust (Stunt Version)",
+    "artist": "Queen",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/73/Anotheronealt_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Automaton (Tomato Verson)",
+    "artist": "Jamiroquai",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/de/Automatonalt_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Bubble Pop! (Bubble Gum Version)",
+    "artist": "HyunA",
+    "difficulty": 2,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/ce/Bubblepopalt_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Chantaje (Subway Version)",
+    "artist": "Shakira ft. Maluma",
+    "difficulty": 2,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/15/Chantajealt_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Despacito (Extreme Version)",
+    "artist": "Luis Fonsi ft. Daddy Yankee",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/00/Despacitoalt_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Dharma (Fight Version)",
+    "artist": "Headhunterz & KSHMR",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/14/Dharmaalt_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Footloose (Kids Version) (K)",
+    "artist": "Top Culture",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/75/Footloosekids_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "John Wayne (Extreme Version)",
+    "artist": "Lady Gaga",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/e/ef/Johnwalt_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Kissing Strangers (Charleston Version)",
+    "artist": "DNCE ft. Nicki Minaj",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/34/Kissingstrangersalt_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Side to Side (Cycling Version)",
+    "artist": "Ariana Grande ft. Nicki Minaj",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/5c/Sidetoalt_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Tumbum (Extreme Version)",
+    "artist": "Yemi Alade",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/31/Tumbumalt_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Waka Waka (This Time for Africa) (Football Version)",
+    "artist": "Shakira",
+    "difficulty": 1,
+    "coaches": 4,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/09/Wakawakaalt_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Waka Waka (This Time for Africa) (Kids Version) (K)",
+    "artist": "Shakira",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/9/91/Wakawakakids_cover_generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Summer (Sweat)",
+    "artist": "Calvin Harris",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/4/44/Summeralt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Bang Bang Bang (VIPMADE)",
+    "artist": "BIGBANG",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d9/Bang2019VIP_Cover_Generic.jpg",
+    "source": "Unlimited"
+  },
+  {
+    "name": "New Reality (VIPMADE)",
+    "artist": "Gigi Rowe",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/fd/Newrealityvip_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Swish Swish (VIPMADE)",
+    "artist": "Katy Perry ft. Nicki Minaj",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/29/Swishswishalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Medicina (Extreme Version)",
+    "artist": "Anitta",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/cb/MedicinaAlt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Scream & Shout (Extreme Version)",
+    "artist": "will.i.am ft. Britney Spears",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/5d/Screamnshoutalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "A Little Party Never Killed Nobody (All We Got) (Twenties Version)",
+    "artist": "Fergie ft. Q-Tip, GoonRock",
+    "difficulty": 1,
+    "coaches": 3,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/3/3c/Littlepartyalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Bang Bang Bang (Extreme Version)",
+    "artist": "BIGBANG",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/2a/Bang2019alt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Bum Bum Tam Tam (Mad Scientist Version)",
+    "artist": "MC Fioti, Future, J Balvin, Stefflon Don, Juan Magan",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/5/5d/Bumbumtamtamalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Finesse (Remix) (Extreme Version)",
+    "artist": "Bruno Mars ft. Cardi B",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a7/Finessealt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Havana (Tango Version)",
+    "artist": "Camila Cabello",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/7a/Havanaalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Mi Mi Mi (Sassy Version)",
+    "artist": "Serebro(Hit The Electro Beat)",
+    "difficulty": 1,
+    "coaches": -1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/71/Mimimialt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "New Rules (Extreme Version)",
+    "artist": "Dua Lipa",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/c8/Newrulesalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "OMG (Extreme Version)",
+    "artist": "Arash ft. Snoop Dogg",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/67/Omgalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Water Me (Tennis Version)",
+    "artist": "Lizzo",
+    "difficulty": 1,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/0/01/Watermealt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Where Are You Now? (Hide-and-Seek Version)",
+    "artist": "Lady Leshurr ft. Wiley",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/a/a5/Whereareyoualt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Work Work (Extreme Version)",
+    "artist": "Britney Spears",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/cc/Workworkalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Boys (Voguing Version)",
+    "artist": "Lizzo",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/88/BoysALT_Cover_Generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "New World (VIPMADE)",
+    "artist": "Krewella, Yellow Claw ft. Vava",
+    "difficulty": 3,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/76/Newworldalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "7 Rings (Extreme Version)",
+    "artist": "Ariana Grande",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/1/1c/7ringsalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "bad guy (Billie Version)",
+    "artist": "Billie Eilish",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/86/BadGuyALT_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Bangarang (Extreme Version)",
+    "artist": "Skrillex ft. Sirah",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/f/fc/Bangarangalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "God Is a Woman (Goddess Version)",
+    "artist": "Ariana Grande",
+    "difficulty": 1,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/7b/Godisawomanalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Kill This Love (Extreme Version)",
+    "artist": "BLACKPINK",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/d/d3/Killthislovealt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Rain Over Me (Extreme Version)",
+    "artist": "Pitbull ft. Marc Anthony",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/2/28/Rainovermealt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Soy Yo (Snake Version)",
+    "artist": "Bomba Estéreo",
+    "difficulty": 2,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/8/8b/Soyyoalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Sushi (Extreme Version)",
+    "artist": "Merk & Kremont",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/b/bb/Sushiialt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Taki Taki (Caveman Version)",
+    "artist": "DJ Snake ft. Selena Gomez, Ozuna, Cardi B",
+    "difficulty": 2,
+    "coaches": 2,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/6/69/Takitakialt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "Talk (Extreme Version)",
+    "artist": "Khalid",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/c/cb/Talkalt_cover_generic.png",
+    "source": "Unlimited"
+  },
+  {
+    "name": "The Time (Dirty Bit) (Extreme Version)",
+    "artist": "The Black Eyed Peas",
+    "difficulty": 4,
+    "coaches": 1,
+    "thumb": "https://static.wikia.nocookie.net/justdance/images/7/7a/Thetimealt_cover_generic.png",
+    "source": "Unlimited"
+  }
+]

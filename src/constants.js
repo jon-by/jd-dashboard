@@ -6,6 +6,9 @@ export const API = {
   CUSTOM_REWARDS: BASE_URL + "/rewards",
 };
 
+export const TRACKLIST_URL =
+  "https://gist.githubusercontent.com/jon-by/048a3de076cbce13469a7213128cb00e/raw/362735311a0c14cac08bb713c792ac4cb69ec393/jd-track-list";
+
 export const SONG_TYPES = ["Regular", "Alternate Routines", "Kids Mode"];
 
 export const COLORS = {

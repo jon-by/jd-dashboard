@@ -23,10 +23,9 @@ const RewardsList = ({ rewards, onDelete, onEdit }) => {
   return (
     <div>
       <List>
-        <Divider />
         {rewards.map((reward) => (
-          <>
-            <ListItem key={reward.id}>
+          <React.Fragment key={reward}>
+            <ListItem>
               <ListItemText
                 primary={reward.title}
                 secondary={`tickets: ${reward.tickets}`}
@@ -49,7 +48,7 @@ const RewardsList = ({ rewards, onDelete, onEdit }) => {
               </ListItemSecondaryAction>
             </ListItem>
             <Divider />
-          </>
+          </React.Fragment>
         ))}
       </List>
     </div>

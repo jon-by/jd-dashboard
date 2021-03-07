@@ -20,6 +20,7 @@ export const Main = styled.div`
   flex: 1 1 auto;
   width: 100%;
   padding: 0 4px;
+  position: relative;
   /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */

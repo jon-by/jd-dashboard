@@ -2,6 +2,7 @@ import React from "react";
 import TicketIcon from "./TicketIcon";
 import { Card, Thumb, Source, Info, Difficulty } from "./SongCardStyle";
 import SongControls from "./SongControls";
+import Spinner from "./Spinner";
 const getTrackCost = (difficulty) => {
   const cost = difficulty === 4 ? 5 : 1;
   return cost;

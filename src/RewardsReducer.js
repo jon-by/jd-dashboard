@@ -1,6 +1,6 @@
 const initialState = {
   rewards: [],
-  loading: false,
+  loading: true,
   error: null,
   isEditModalOpen: false,
   editingReward: null,
@@ -31,11 +31,13 @@ function reducer(state, { type, payload }) {
       return {
         ...state,
         error: payload,
+        loading: false,
       };
     case "setRewards":
       return {
         ...state,
         rewards: payload,
+        loading: false,
       };
     case "createReward":
       return {

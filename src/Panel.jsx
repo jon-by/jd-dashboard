@@ -5,10 +5,14 @@ import { makeStyles } from "@material-ui/core/styles";
 import { getAllRewards } from "./TwitchApi";
 import RewardForm from "./RewardForm";
 import RewardsList from "./RewardsList";
-import Modal from "@material-ui/core/Modal";
+import Dialog from "@material-ui/core/Dialog";
+import DialogActions from "@material-ui/core/DialogActions";
+import DialogContent from "@material-ui/core/DialogContent";
+import DialogContentText from "@material-ui/core/DialogContentText";
+import DialogTitle from "@material-ui/core/DialogTitle";
 import Fab from "@material-ui/core/Fab";
 import AddIcon from "@material-ui/icons/Add";
-import { green } from "@material-ui/core/colors";
+import Spinner from "./Spinner";
 
 const useStyles = makeStyles((theme) => ({
   fab: {
@@ -22,6 +26,7 @@ const Panel = () => {
   const classes = useStyles();
   const [state, dispatch] = useReducer(reducer, initialState);
   useEffect(() => {
+    dispatch({ type: "setLoading", payload: true });
     getAllRewards((data, error) => {
       if (error) {
         dispatch({ type: "setError", payload: error });
@@ -40,21 +45,29 @@ const Panel = () => {
 
   const handleOpen = () =>
     dispatch({ type: "setEditModalOpen", payload: true });
-
-  return !state.error ? (
+  if (state.error) {
+    return state.error.message;
+  }
+  if (state.loading) {
+    return <Spinner />;
+  }
+  return (
     <div>
-      <Modal
+      <Dialog
         open={state.isEditModalOpen}
         onClose={handleClose}
-        aria-labelledby="simple-modal-title"
-        aria-describedby="simple-modal-description"
+        aria-labelledby="form-dialog-title"
       >
-        <RewardForm
-          onSave={(payload, type) => dispatch({ type, payload })}
-          reward={state.editingReward}
-          onClose={handleClose}
-        />
-      </Modal>
+        <DialogTitle id="form-dialog-title">Custom Reward</DialogTitle>
+        <DialogContent>
+          <RewardForm
+            onSave={(payload, type) => dispatch({ type, payload })}
+            reward={state.editingReward}
+            onClose={handleClose}
+          />
+        </DialogContent>
+      </Dialog>
+
       <RewardsList
         onEdit={handleEdit}
         rewards={state.rewards}
@@ -66,8 +79,6 @@ const Panel = () => {
         </Fab>
       </Tooltip>
     </div>
-  ) : (
-    <div>{state.error.message}</div>
   );
 };
 

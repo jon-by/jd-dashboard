@@ -13,7 +13,7 @@ const SelectedSong = ({ song, onCancel, onConfirm }) => {
         <Button bgColor={COLORS.RED} onClick={onCancel}>
           Cancel
         </Button>
-        <Button onClick={() => onConfirm()} bgColor={COLORS.GREEN}>
+        <Button onClick={onConfirm} bgColor={COLORS.GREEN}>
           Confirm
         </Button>
       </BtnWrapper>
