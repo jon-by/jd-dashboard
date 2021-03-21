@@ -6,12 +6,18 @@ import Requester from "./Requester";
 import { Song } from "./Broadcaster.styled";
 import ListStatus from "./ListStatus";
 import Button from "./Button";
-import { createList } from "./TwitchApi";
+import { createList, removeSongFromList } from "./TwitchApi";
 const Broadcaster = () => {
   const [songList, setSongList] = useState([]);
   const [songListStatus, setSongListStatus] = useState("active");
+  const [token, setToken] = useState(null);
 
   useEffect(() => {
+    window.Twitch.ext.onAuthorized(function (authentication) {
+      console.log("auth: ", authentication);
+      setToken(authentication.token);
+    });
+
     const manager = new Manager("http://localhost:3000", {
       transports: ["websocket"],
     });
@@ -38,7 +44,12 @@ const Broadcaster = () => {
       {songList.map((song, index) => {
         return (
           <Song key={index}>
-            <SongCard showControls={true} {...song.song} />
+            <SongCard
+              showControls={true}
+              {...song.song}
+              removeSong={removeSongFromList}
+              token={token}
+            />
             <Requester {...song.viewer} />
           </Song>
         );

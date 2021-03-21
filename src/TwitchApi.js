@@ -108,3 +108,10 @@ export const addSongToList = (userToken, song) => {
     body: JSON.stringify({ userToken, song }),
   });
 };
+
+export const removeSongFromList = (userToken, songId) => {
+  return fetch(BASE_URL + "/songlist", {
+    ...deleteOptions,
+    body: JSON.stringify({ userToken, songId }),
+  });
+};

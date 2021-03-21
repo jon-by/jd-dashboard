@@ -60,7 +60,7 @@ const Viewer = () => {
     const manager = new Manager("http://localhost:3000", {
       transports: ["websocket"],
     });
-    const socket = manager.socket("/tickets", {
+    const socket = manager.socket("/viewer", {
       auth: { broadcaster: 148003044, viewer: 148003044 },
     });
     socket.on("connect", () => {

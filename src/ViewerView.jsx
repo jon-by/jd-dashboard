@@ -19,7 +19,6 @@ const handleAddSong = (userToken, song, dispatch) => {
 
 const ViewerView = ({ state, dispatch }) => {
   const { loading, selectedSong, auth, filteredSongs } = state;
-  React.useEffect;
   if (loading) {
     return <Spinner />;
   }

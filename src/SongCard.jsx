@@ -19,6 +19,9 @@ const SongCard = ({
   thumb,
   source,
   showControls = false,
+  removeSong,
+  id,
+  token,
   ...props
 }) => {
   return (
@@ -43,7 +46,9 @@ const SongCard = ({
         </div>
       </Info>
 
-      {showControls && <SongControls />}
+      {showControls && (
+        <SongControls removeSong={removeSong} token={token} songId={id} />
+      )}
     </Card>
   );
 };
