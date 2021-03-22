@@ -12,6 +12,7 @@ const difficulties = [null, "Easy", "Medium", "Hard", "Extreme"];
 const modes = [null, "Solo", "Duet", "Trio", "Dance Crew"];
 
 const SongCard = ({
+  id,
   name,
   artist,
   difficulty,
@@ -20,7 +21,6 @@ const SongCard = ({
   source,
   showControls = false,
   removeSong,
-  id,
   token,
   ...props
 }) => {
@@ -47,7 +47,7 @@ const SongCard = ({
       </Info>
 
       {showControls && (
-        <SongControls removeSong={removeSong} token={token} songId={id} />
+        <SongControls removeSong={removeSong} songId={id} token={token} />
       )}
     </Card>
   );

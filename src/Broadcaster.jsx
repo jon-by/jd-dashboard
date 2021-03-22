@@ -10,29 +10,32 @@ import { createList, removeSongFromList } from "./TwitchApi";
 const Broadcaster = () => {
   const [songList, setSongList] = useState([]);
   const [songListStatus, setSongListStatus] = useState("active");
-  const [token, setToken] = useState(null);
+  const [auth, setAuth] = useState(null);
 
   useEffect(() => {
     window.Twitch.ext.onAuthorized(function (authentication) {
-      console.log("auth: ", authentication);
-      setToken(authentication.token);
-    });
-
-    const manager = new Manager("http://localhost:3000", {
-      transports: ["websocket"],
-    });
-    const socket = manager.socket("/songlist", {
-      auth: { broadcaster: 148003044 },
-    });
-    socket.on("connect", () => {
-      console.log("connected");
-    });
-    socket.on("148003044", (list) => {
-      console.log(list);
-      setSongList(list.slice(1));
-      setSongListStatus(list[0]);
+      setAuth(authentication);
     });
   }, []);
+  useEffect(() => {
+    if (auth) {
+      const manager = new Manager("http://localhost:3000", {
+        transports: ["websocket"],
+      });
+      console.log(auth);
+      const socket = manager.socket("/songlist", {
+        auth: { broadcaster: auth.channelId },
+      });
+      socket.on("connect", () => {
+        console.log("connected");
+      });
+      socket.on(auth.channelId, (list) => {
+        console.log(list);
+        setSongList(list.slice(1));
+        setSongListStatus(list[0]);
+      });
+    }
+  }, [auth]);
 
   return songListStatus === STATUS.active ||
     songListStatus === STATUS.paused ? (
@@ -48,7 +51,7 @@ const Broadcaster = () => {
               showControls={true}
               {...song.song}
               removeSong={removeSongFromList}
-              token={token}
+              token={auth.token}
             />
             <Requester {...song.viewer} />
           </Song>

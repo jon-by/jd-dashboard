@@ -5,7 +5,7 @@ import { ControlWrapper } from "./songControls.styled";
 import { DoneIcon, CloseIcon } from "./icons";
 import { IconButton } from "./songControls.styled";
 
-const SongControls = ({ removeSong, songId, token }) => {
+const SongControls = ({ removeSong, token, songId }) => {
   return (
     <ControlWrapper>
       <IconButton color={COLORS.GREEN}>
