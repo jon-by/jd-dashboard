@@ -6,7 +6,8 @@ import { addSongToList } from "./TwitchApi";
 
 const handleAddSong = (userToken, song, dispatch) => {
   dispatch({ type: "setLoading", payload: true });
-  addSongToList(userToken, song)
+
+  addSongToList(userToken, { ...song, danced: false })
     .then((res) => {
       dispatch({ type: "setSelectedSong", payload: null });
     })
