@@ -12,6 +12,7 @@ import { initialState, reducer } from "./ViewerSongListReducer";
 import ViewerView from "./ViewerView";
 
 const handleFilter = (text, songList) => {
+  console.log(songList);
   return songList.filter((song) => {
     return (
       song.name.toLowerCase().indexOf(text.toLowerCase()) > -1 ||
@@ -25,19 +26,16 @@ const Viewer = () => {
   const debouncedFilter = useDebounce(state.filter, 500);
 
   useEffect(() => {
+    if (state.songList.length === 0) return;
     const list = [].concat(
       state.songList[state.currentGame],
       state.unlimited ? state.songList.unlimited : []
     );
-    if (debouncedFilter !== state.filter) {
-      dispatch({
-        type: "setFilteredSongs",
-        payload: handleFilter(debouncedFilter, list),
-      });
-    } else {
-      dispatch({ type: "setFilteredSongs", payload: list });
-    }
-  }, [debouncedFilter, state.unlimited, state.currentGame]);
+    dispatch({
+      type: "setFilteredSongs",
+      payload: handleFilter(debouncedFilter, list),
+    });
+  }, [debouncedFilter, state.songList]);
 
   useEffect(() => {
     window.Twitch.ext.onAuthorized(function (authentication) {

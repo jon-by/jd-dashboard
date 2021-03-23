@@ -115,3 +115,10 @@ export const removeSongFromList = (userToken, songId) => {
     body: JSON.stringify({ userToken, songId }),
   });
 };
+
+export const changeSongStatus = (userToken, songId, danced) => {
+  return fetch(BASE_URL + `/songlist/${songId}`, {
+    ...patchOptions,
+    body: JSON.stringify({ userToken, danced }),
+  });
+};

@@ -19,13 +19,15 @@ const SongCard = ({
   coaches,
   thumb,
   source,
+  danced,
   showControls = false,
   removeSong,
+  changeSongStatus,
   token,
   ...props
 }) => {
   return (
-    <Card {...props}>
+    <Card {...props} danced={danced}>
       <Thumb>
         <img loading="lazy" src={thumb} alt={name + " - " + artist} />
         <Source>{source}</Source>
@@ -47,7 +49,13 @@ const SongCard = ({
       </Info>
 
       {showControls && (
-        <SongControls removeSong={removeSong} songId={id} token={token} />
+        <SongControls
+          danced={danced}
+          removeSong={removeSong}
+          changeSongStatus={changeSongStatus}
+          songId={id}
+          token={token}
+        />
       )}
     </Card>
   );

@@ -2,6 +2,13 @@ import styled from "styled-components";
 import { COLORS } from "./constants";
 
 export const Wrapper = styled.div`
+  ${(props) => {
+    if (props.danced) {
+      return `
+      opacity:.5;      
+      `;
+    }
+  }}
   color: #fff;
   margin-top: -5px;
 `;

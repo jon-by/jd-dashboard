@@ -7,7 +7,8 @@ export const Card = styled.div`
   position: relative;
   box-sizing: border-box;
   display: inline-flex;
-  background-color: white;
+  background-color: ${(props) =>
+    props.danced ? "rgba(255,255,255,.5)" : "#fff"};
   border: 3px solid ${COLORS.DARK_PINK};
   border-radius: 8px;
   font-size: 14px;
@@ -18,6 +19,7 @@ export const Card = styled.div`
   transition: all 150ms ease;
   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
   z-index: 1;
+
   &:hover {
     box-shadow: 0 0 5px 0 ${COLORS.GRAY};
   }

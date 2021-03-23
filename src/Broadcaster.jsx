@@ -3,10 +3,10 @@ import { Manager } from "socket.io-client";
 import SongCard from "./SongCard";
 import { COLORS, STATUS } from "./constants";
 import Requester from "./Requester";
-import { Song } from "./Broadcaster.styled";
+import { Song, ListWrapper } from "./Broadcaster.styled";
 import ListStatus from "./ListStatus";
 import Button from "./Button";
-import { createList, removeSongFromList } from "./TwitchApi";
+import { createList, removeSongFromList, changeSongStatus } from "./TwitchApi";
 const Broadcaster = () => {
   const [songList, setSongList] = useState([]);
   const [songListStatus, setSongListStatus] = useState("active");
@@ -44,19 +44,22 @@ const Broadcaster = () => {
         songListStatus={songListStatus}
         onChange={setSongListStatus}
       />
-      {songList.map((song, index) => {
-        return (
-          <Song key={index}>
-            <SongCard
-              showControls={true}
-              {...song.song}
-              removeSong={removeSongFromList}
-              token={auth.token}
-            />
-            <Requester {...song.viewer} />
-          </Song>
-        );
-      })}
+      <ListWrapper>
+        {songList.map((song, index) => {
+          return (
+            <Song key={index} danced={song.song.danced}>
+              <SongCard
+                showControls={true}
+                {...song.song}
+                removeSong={removeSongFromList}
+                changeSongStatus={changeSongStatus}
+                token={auth.token}
+              />
+              <Requester danced={song.song.danced} {...song.viewer} />
+            </Song>
+          );
+        })}
+      </ListWrapper>
     </div>
   ) : (
     <Button bgColor={COLORS.DARK_PINK} onClick={() => createList("148003044")}>

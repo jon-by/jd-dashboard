@@ -2,18 +2,47 @@ import React from "react";
 import { COLORS } from "./constants";
 
 import { ControlWrapper } from "./songControls.styled";
-import { DoneIcon, CloseIcon } from "./icons";
+import { DoneIcon, CloseIcon, ReturnIcon } from "./icons";
 import { IconButton } from "./songControls.styled";
 
-const SongControls = ({ removeSong, token, songId }) => {
+const SongControls = ({
+  removeSong,
+  changeSongStatus,
+  token,
+  songId,
+  danced,
+}) => {
   return (
     <ControlWrapper>
-      <IconButton color={COLORS.GREEN}>
-        <DoneIcon />
-      </IconButton>
-      <IconButton onClick={() => removeSong(token, songId)} color={COLORS.RED}>
-        <CloseIcon />
-      </IconButton>
+      {danced ? (
+        <>
+          <IconButton
+            color={COLORS.GREEN}
+            onClick={() => {
+              changeSongStatus(token, songId, false);
+            }}
+          >
+            <ReturnIcon size={24} />
+          </IconButton>
+        </>
+      ) : (
+        <>
+          <IconButton
+            onClick={() => {
+              changeSongStatus(token, songId, true);
+            }}
+            color={COLORS.GREEN}
+          >
+            <DoneIcon />
+          </IconButton>
+          <IconButton
+            onClick={() => removeSong(token, songId)}
+            color={COLORS.RED}
+          >
+            <CloseIcon />
+          </IconButton>
+        </>
+      )}
     </ControlWrapper>
   );
 };
