@@ -9,6 +9,8 @@ const initialState = {
   error: null,
   currentGame: "2021",
   unlimited: true,
+  requestedSongs: {},
+  listStatus: null,
 };
 
 function reducer(state, { type, payload }) {

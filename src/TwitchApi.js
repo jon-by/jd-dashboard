@@ -122,3 +122,10 @@ export const changeSongStatus = (userToken, songId, danced) => {
     body: JSON.stringify({ userToken, danced }),
   });
 };
+
+export const changeListStatus = (userToken, status) => {
+  return fetch(BASE_URL + `/songlist`, {
+    ...patchOptions,
+    body: JSON.stringify({ userToken, status }),
+  });
+};

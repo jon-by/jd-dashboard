@@ -39,35 +39,40 @@ const Viewer = () => {
 
   useEffect(() => {
     window.Twitch.ext.onAuthorized(function (authentication) {
-      console.log("auth: ", authentication);
-      dispatch({ type: "setAuth", payload: authentication.token });
-    });
-    fetch(TRACKLIST_URL).then((response) =>
-      response
-        .json()
-        .then((data) => {
-          dispatch({
-            type: "setSongList",
-            payload: data,
-          });
-        })
-        .catch((err) => {
-          dispatch({ type: "setLoading", payload: false });
-        })
-    );
-    const manager = new Manager("http://localhost:3000", {
-      transports: ["websocket"],
-    });
-    const socket = manager.socket("/viewer", {
-      auth: { broadcaster: 148003044, viewer: 148003044 },
-    });
-    socket.on("connect", () => {
-      console.log("connected");
-    });
-    socket.on("148003044-148003044", ({ current }) => {
-      dispatch({ type: "setTickets", payload: current });
+      dispatch({ type: "setAuth", payload: authentication });
     });
   }, []);
+
+  useEffect(() => {
+    if (state.auth) {
+      console.log("teste:", state.auth);
+      fetch(TRACKLIST_URL).then((response) =>
+        response
+          .json()
+          .then((data) => {
+            dispatch({
+              type: "setSongList",
+              payload: data,
+            });
+          })
+          .catch((err) => {
+            dispatch({ type: "setLoading", payload: false });
+          })
+      );
+      const manager = new Manager("http://localhost:3000", {
+        transports: ["websocket"],
+      });
+      const socket = manager.socket("/viewer", {
+        auth: { broadcaster: 148003044, viewer: 148003044 },
+      });
+      socket.on("connect", () => {
+        console.log("connected");
+      });
+      socket.on("148003044-148003044", ({ current }) => {
+        dispatch({ type: "setTickets", payload: current });
+      });
+    }
+  }, [state.auth]);
 
   return (
     <Scope>
@@ -80,7 +85,10 @@ const Viewer = () => {
       )}
 
       <Main>
-        <ViewerView dispatch={dispatch} state={state} />
+        <ViewerView
+          dispatch={dispatch}
+          state={{ ...state, auth: state.auth.token }}
+        />
       </Main>
     </Scope>
   );

@@ -6,7 +6,12 @@ import Requester from "./Requester";
 import { Song, ListWrapper } from "./Broadcaster.styled";
 import ListStatus from "./ListStatus";
 import Button from "./Button";
-import { createList, removeSongFromList, changeSongStatus } from "./TwitchApi";
+import {
+  createList,
+  removeSongFromList,
+  changeSongStatus,
+  changeListStatus,
+} from "./TwitchApi";
 const Broadcaster = () => {
   const [songList, setSongList] = useState([]);
   const [songListStatus, setSongListStatus] = useState("active");
@@ -43,6 +48,8 @@ const Broadcaster = () => {
       <ListStatus
         songListStatus={songListStatus}
         onChange={setSongListStatus}
+        changeListStatus={changeListStatus}
+        token={auth}
       />
       <ListWrapper>
         {songList.map((song, index) => {

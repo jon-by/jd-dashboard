@@ -4,17 +4,18 @@ import Toggle from "./Toggle";
 import { StatusWrapper, StatusToggle } from "./ListStatus.styled";
 import Button from "./Button";
 import { COLORS } from "./constants";
-const ListStatus = ({ songListStatus, onChange }) => {
-  const [value, setValue] = useState(false);
+
+const ListStatus = ({ songListStatus, onChange, changeListStatus, token }) => {
+  console.log(token);
   const handleChangeStatus = (value) => {
-    console.log("toggle");
-    onChange(value ? STATUS.active : STATUS.paused);
+    changeListStatus(token.token, value ? STATUS.active : STATUS.paused);
+    //onChange(value ? STATUS.active : STATUS.paused);
   };
   return (
     <div>
       <StatusWrapper>
         <StatusToggle>
-          Status: {songListStatus}
+          Status: {songListStatus}&nbsp;
           <Toggle
             value={songListStatus === STATUS.active}
             onChange={handleChangeStatus}
