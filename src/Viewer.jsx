@@ -24,17 +24,18 @@ const handleFilter = (text, songList) => {
 const Viewer = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const debouncedFilter = useDebounce(state.filter, 500);
-
   useEffect(() => {
-    if (state.songList.length === 0) return;
-    const list = [].concat(
-      state.songList[state.currentGame],
-      state.unlimited ? state.songList.unlimited : []
-    );
-    dispatch({
-      type: "setFilteredSongs",
-      payload: handleFilter(debouncedFilter, list),
-    });
+    if (state?.songList?.length > 0) {
+      const list = [].concat(
+        state.songList[state.currentGame],
+        state.unlimited ? state.songList.unlimited : []
+      );
+
+      dispatch({
+        type: "setFilteredSongs",
+        payload: handleFilter(debouncedFilter, list),
+      });
+    }
   }, [debouncedFilter, state.songList]);
 
   useEffect(() => {
@@ -45,7 +46,9 @@ const Viewer = () => {
 
   useEffect(() => {
     if (state.auth) {
-      console.log("teste:", state.auth);
+      const broadcaster = state.auth.channelId;
+      const viewer = state.auth.userId.substring(1, state.auth.userId.length);
+
       fetch(TRACKLIST_URL).then((response) =>
         response
           .json()
@@ -63,14 +66,20 @@ const Viewer = () => {
         transports: ["websocket"],
       });
       const socket = manager.socket("/viewer", {
-        auth: { broadcaster: 148003044, viewer: 148003044 },
+        auth: { broadcaster, viewer },
       });
+
       socket.on("connect", () => {
         console.log("connected");
       });
-      socket.on("148003044-148003044", ({ current }) => {
-        dispatch({ type: "setTickets", payload: current });
-      });
+
+      socket.on(
+        `${broadcaster}-${viewer}`,
+        ({ current, listStatus, listIds }) => {
+          console.log(current, listStatus, listIds);
+          dispatch({ type: "setTickets", payload: current });
+        }
+      );
     }
   }, [state.auth]);
 
@@ -80,25 +89,16 @@ const Viewer = () => {
       {!state.loading && !state.selectedSong && (
         <FilterSection
           value={state.filter}
-          onChange={(value) => dispatch({ type: "setFilter", payload: value })}
+          onChange={(value) => {
+            dispatch({ type: "setFilter", payload: value });
+          }}
         />
       )}
 
       <Main>
-        <ViewerView
-          dispatch={dispatch}
-          state={{ ...state, auth: state.auth.token }}
-        />
+        <ViewerView dispatch={dispatch} state={state} />
       </Main>
     </Scope>
   );
 };
-
-const Wrapper = (props) => {
-  if (process.env.REACT_APP_ENV === "dev") {
-    return <Viewer {...props} />;
-  }
-  return <Viewer {...props} />;
-};
-
-export default Wrapper;
+export default Viewer;

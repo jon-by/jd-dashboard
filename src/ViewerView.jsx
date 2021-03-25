@@ -13,7 +13,6 @@ const handleAddSong = (userToken, song, dispatch) => {
     })
     .catch((err) => {
       console.log(err);
-
       dispatch({ type: "setLoading", payload: false });
     });
 };
@@ -28,7 +27,7 @@ const ViewerView = ({ state, dispatch }) => {
       <SelectedSong
         song={selectedSong}
         onCancel={() => dispatch({ type: "setSelectedSong", payload: null })}
-        onConfirm={() => handleAddSong(auth, selectedSong, dispatch)}
+        onConfirm={() => handleAddSong(auth.token, selectedSong, dispatch)}
       />
     );
   }
