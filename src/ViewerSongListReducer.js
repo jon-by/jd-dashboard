@@ -57,6 +57,19 @@ function reducer(state, { type, payload }) {
         loading: payload,
       };
     }
+    case "setListStatus": {
+      return {
+        ...state,
+        listStatus: payload,
+      };
+    }
+
+    case "setRequestedSongs": {
+      return {
+        ...state,
+        requestedSongs: payload,
+      };
+    }
     case "setError":
       return {
         error: payload,

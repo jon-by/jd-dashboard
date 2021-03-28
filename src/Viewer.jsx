@@ -3,7 +3,7 @@ import FilterSection from "./FilterSection";
 import { Manager } from "socket.io-client";
 import SongCard from "./SongCard";
 import { TRACKLIST_URL } from "./constants";
-import { Scope, Main } from "./Viewer.styled";
+import { Scope, Main, PausedList } from "./Viewer.styled";
 import useDebounce from "./useDebounce";
 import ViewerSongList from "./ViewerSongList";
 import ListHeader from "./ListHeader";
@@ -45,6 +45,10 @@ const Viewer = () => {
   }, []);
 
   useEffect(() => {
+    console.log("list status: ", state.listStatus);
+  }, [state.listStatus]);
+
+  useEffect(() => {
     if (state.auth) {
       const broadcaster = state.auth.channelId;
       const viewer = state.auth.userId.substring(1, state.auth.userId.length);
@@ -78,6 +82,8 @@ const Viewer = () => {
         ({ current, listStatus, listIds }) => {
           console.log(current, listStatus, listIds);
           dispatch({ type: "setTickets", payload: current });
+          dispatch({ type: "setListStatus", payload: listStatus });
+          dispatch({ type: "setRequestedSongs", payload: listIds });
         }
       );
     }
@@ -98,6 +104,11 @@ const Viewer = () => {
       <Main>
         <ViewerView dispatch={dispatch} state={state} />
       </Main>
+      {state.listStatus === "paused" && (
+        <PausedList>
+          <span>Paused</span>
+        </PausedList>
+      )}
     </Scope>
   );
 };

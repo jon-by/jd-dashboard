@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from "react";
 import SongCard from "./SongCard";
 
-const ViewerSongList = ({ songList, dispatch }) =>
+const ViewerSongList = ({ songList, dispatch, listStatus }) =>
   songList.map((song, index) => (
     <SongCard
-      onClick={() => dispatch({ type: "setSelectedSong", payload: song })}
+      onClick={() =>
+        listStatus === "active" &&
+        dispatch({ type: "setSelectedSong", payload: song })
+      }
       key={index}
       {...song}
     />

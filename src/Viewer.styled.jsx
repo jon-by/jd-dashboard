@@ -28,3 +28,20 @@ export const Main = styled.div`
     display: none;
   }
 `;
+
+export const PausedList = styled.div`
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: not-allowed;
+
+  span {
+    color: #fff;
+    font-size: 24px;
+  }
+`;

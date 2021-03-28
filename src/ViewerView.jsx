@@ -33,6 +33,7 @@ const ViewerView = ({ state, dispatch }) => {
   }
   return (
     <ViewerSongList
+      listStatus={state.listStatus}
       dispatch={dispatch}
       isLoading={loading}
       songList={filteredSongs}
