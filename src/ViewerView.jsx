@@ -37,6 +37,7 @@ const ViewerView = ({ state, dispatch }) => {
       dispatch={dispatch}
       isLoading={loading}
       songList={filteredSongs}
+      requestedSongs={state.requestedSongs}
     />
   );
 };

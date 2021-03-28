@@ -1,13 +1,10 @@
 import React, { useState, useEffect, useReducer } from "react";
 import FilterSection from "./FilterSection";
 import { Manager } from "socket.io-client";
-import SongCard from "./SongCard";
 import { TRACKLIST_URL } from "./constants";
 import { Scope, Main, PausedList } from "./Viewer.styled";
 import useDebounce from "./useDebounce";
-import ViewerSongList from "./ViewerSongList";
 import ListHeader from "./ListHeader";
-import SelectedSong from "./SelectedSong";
 import { initialState, reducer } from "./ViewerSongListReducer";
 import ViewerView from "./ViewerView";
 
@@ -25,17 +22,18 @@ const Viewer = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const debouncedFilter = useDebounce(state.filter, 500);
   useEffect(() => {
-    if (state?.songList?.length > 0) {
-      const list = [].concat(
-        state.songList[state.currentGame],
-        state.unlimited ? state.songList.unlimited : []
-      );
+    if (state.songList.length === 0) return;
 
-      dispatch({
-        type: "setFilteredSongs",
-        payload: handleFilter(debouncedFilter, list),
-      });
-    }
+    const list = [].concat(
+      state.songList[state.currentGame],
+      state.unlimited ? state.songList.unlimited : []
+    );
+
+    console.log(Object.keys(state.songList));
+    dispatch({
+      type: "setFilteredSongs",
+      payload: handleFilter(debouncedFilter, list),
+    });
   }, [debouncedFilter, state.songList]);
 
   useEffect(() => {

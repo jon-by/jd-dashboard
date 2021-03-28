@@ -9,7 +9,7 @@ const initialState = {
   error: null,
   currentGame: "2021",
   unlimited: true,
-  requestedSongs: {},
+  requestedSongs: [],
   listStatus: null,
 };
 
