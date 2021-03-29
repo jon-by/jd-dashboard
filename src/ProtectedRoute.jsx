@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import { Redirect, Route } from "react-router-dom";
 
 const ProtectedRoute = ({ user, ...rest }) => {

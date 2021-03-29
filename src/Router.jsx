@@ -11,6 +11,8 @@ import Broadcaster from "./Broadcaster";
 import Login from "./Login";
 import { API } from "./constants";
 
+import Config from "./Config";
+
 const fetchUser = (dispatch) => {
   dispatch({ type: "setLoading", payload: true });
   try {
@@ -50,7 +52,13 @@ const Router = () => {
             path="/"
             exact
             children={<Panel />}
-            user={state.token}
+            user={state.user}
+          />
+
+          <ProtectedRoute
+            user={state.user}
+            path="/config"
+            children={<Config user={state.user} />}
           />
           {process.env.REACT_APP_ENV === "dev" && (
             <>

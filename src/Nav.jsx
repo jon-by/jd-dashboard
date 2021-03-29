@@ -6,13 +6,16 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import IconButton from "@material-ui/core/IconButton";
-
 import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
-
 import { Link } from "react-router-dom";
 
-const routes = [{ title: "panel", path: "/" }];
+import { ItensWrapper } from "./Nav.styled";
+
+const routes = [
+  { title: "Panel", path: "/" },
+  { title: "Config", path: "/config" },
+];
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -52,7 +55,7 @@ const Nav = ({ user, logout }) => {
     <nav className={classes.root}>
       <AppBar position="static">
         <Toolbar className={classes.bar}>
-          <div>
+          <ItensWrapper>
             {routes.map(({ title, path }, idx) => {
               return (
                 <Link to={path} key={idx}>
@@ -62,7 +65,7 @@ const Nav = ({ user, logout }) => {
                 </Link>
               );
             })}
-          </div>
+          </ItensWrapper>
           <div>
             <IconButton
               aria-label="account of current user"

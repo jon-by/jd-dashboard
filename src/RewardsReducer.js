@@ -4,6 +4,7 @@ const initialState = {
   error: null,
   isEditModalOpen: false,
   editingReward: null,
+  extremeCost: 5,
 };
 
 function reducer(state, { type, payload }) {
@@ -58,6 +59,11 @@ function reducer(state, { type, payload }) {
       return {
         ...state,
         rewards: state.rewards.filter((rew) => rew.id !== payload),
+      };
+    case "setExtremeCost":
+      return {
+        ...state,
+        extremeCost: payload,
       };
     default:
       return state;

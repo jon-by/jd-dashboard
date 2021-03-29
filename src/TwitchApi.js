@@ -44,6 +44,15 @@ const patchOptions = {
   },
 };
 
+const putOptions = {
+  method: "PUT",
+  credentials: "include",
+  headers: {
+    Accept: "application/json",
+    "Content-Type": "application/json",
+  },
+};
+
 const getOptions = {
   method: "GET",
   credentials: "include",
@@ -68,6 +77,33 @@ export const createReward = ({ title, cost, tickets }, onSave) => {
     .then(handleErrors)
     .then((json) => onSave(json, "createReward"))
     .catch((err) => console.log(err));
+};
+
+export const setExtremeCost = (
+  { broadcasterId, cost },
+  setCostSuccess,
+  setCostError
+) => {
+  //console.log("extreme cost: ", broadcasterId, cost);
+  fetch(BASE_URL + "/extremecost", {
+    ...putOptions,
+    body: JSON.stringify({ broadcasterId, cost }),
+  })
+    .then((response) => response.json())
+    .then((cost) => {
+      setCostSuccess(true);
+      console.log(cost);
+    })
+    .catch((err) => {
+      setCostError(true);
+      console.log(err);
+    });
+};
+
+export const getExtremeCost = ({ broadcasterId }) => {
+  return fetch(BASE_URL + `/extremecost?id=${broadcasterId}`, {
+    ...getOptions,
+  });
 };
 
 export const updateReward = (data, onSave) => {
