@@ -11,6 +11,7 @@ const initialState = {
   unlimited: true,
   requestedSongs: [],
   listStatus: null,
+  extremeCost: 4,
 };
 
 function reducer(state, { type, payload }) {
@@ -70,6 +71,19 @@ function reducer(state, { type, payload }) {
         requestedSongs: payload,
       };
     }
+    case "setExtremeCost":
+      return {
+        ...state,
+        extremeCost: payload,
+      };
+    case "setViewer":
+      return {
+        ...state,
+        tickets: payload.current,
+        listStatus: payload.listStatus,
+        requestedSongs: payload.listIds,
+      };
+
     case "setError":
       return {
         error: payload,

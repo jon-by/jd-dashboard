@@ -27,12 +27,12 @@ const Broadcaster = () => {
       const manager = new Manager("http://localhost:3000", {
         transports: ["websocket"],
       });
-      console.log(auth);
+      //console.log(auth);
       const socket = manager.socket("/songlist", {
         auth: { broadcaster: auth.channelId },
       });
       socket.on("connect", () => {
-        console.log("connected");
+        //console.log("connected");
       });
       socket.on(auth.channelId, (list) => {
         console.log(list);
@@ -61,6 +61,7 @@ const Broadcaster = () => {
                 removeSong={removeSongFromList}
                 changeSongStatus={changeSongStatus}
                 token={auth.token}
+                extremeCost={song.song.difficulty}
               />
               <Requester danced={song.song.danced} {...song.viewer} />
             </Song>

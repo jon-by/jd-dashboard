@@ -6,7 +6,6 @@ import Button from "./Button";
 import { COLORS } from "./constants";
 
 const ListStatus = ({ songListStatus, onChange, changeListStatus, token }) => {
-  console.log(token);
   const handleChangeStatus = (value) => {
     changeListStatus(token.token, value ? STATUS.active : STATUS.paused);
     //onChange(value ? STATUS.active : STATUS.paused);

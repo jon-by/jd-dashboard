@@ -7,9 +7,9 @@ import useDebounce from "./useDebounce";
 import ListHeader from "./ListHeader";
 import { initialState, reducer } from "./ViewerSongListReducer";
 import ViewerView from "./ViewerView";
+import { getExtremeCost } from "./TwitchApi";
 
 const handleFilter = (text, songList) => {
-  console.log(songList);
   return songList.filter((song) => {
     return (
       song.name.toLowerCase().indexOf(text.toLowerCase()) > -1 ||
@@ -29,7 +29,7 @@ const Viewer = () => {
       state.unlimited ? state.songList.unlimited : []
     );
 
-    console.log(Object.keys(state.songList));
+    //console.log(Object.keys(state.songList));
     dispatch({
       type: "setFilteredSongs",
       payload: handleFilter(debouncedFilter, list),
@@ -43,13 +43,22 @@ const Viewer = () => {
   }, []);
 
   useEffect(() => {
-    console.log("list status: ", state.listStatus);
+    // console.log("list status: ", state.listStatus);
   }, [state.listStatus]);
 
   useEffect(() => {
     if (state.auth) {
       const broadcaster = state.auth.channelId;
       const viewer = state.auth.userId.substring(1, state.auth.userId.length);
+
+      //console.log(state.auth);
+
+      getExtremeCost({ broadcasterId: state.auth.channelId })
+        .then((response) => response.json())
+        .then((data) => {
+          dispatch({ type: "setExtremeCost", payload: data });
+        })
+        .catch((err) => console.log(err));
 
       fetch(TRACKLIST_URL).then((response) =>
         response
@@ -72,16 +81,20 @@ const Viewer = () => {
       });
 
       socket.on("connect", () => {
-        console.log("connected");
+        //console.log("connected");
+      });
+
+      socket.on(broadcaster, ({ extremeCost }) => {
+        dispatch({ type: "setExtremeCost", payload: extremeCost });
       });
 
       socket.on(
         `${broadcaster}-${viewer}`,
         ({ current, listStatus, listIds }) => {
-          console.log(current, listStatus, listIds);
-          dispatch({ type: "setTickets", payload: current });
-          dispatch({ type: "setListStatus", payload: listStatus });
-          dispatch({ type: "setRequestedSongs", payload: listIds });
+          dispatch({
+            type: "setViewer",
+            payload: { current, listStatus, listIds },
+          });
         }
       );
     }

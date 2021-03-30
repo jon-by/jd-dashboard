@@ -4,10 +4,10 @@ import { Container, BtnWrapper } from "./SelectedSong.styled";
 import Button from "./Button";
 import { COLORS } from "./constants";
 
-const SelectedSong = ({ song, onCancel, onConfirm }) => {
+const SelectedSong = ({ song, onCancel, onConfirm, extremeCost }) => {
   return (
     <Container>
-      <SongCard {...song} />
+      <SongCard extremeCost={extremeCost} {...song} />
 
       <BtnWrapper>
         <Button bgColor={COLORS.RED} onClick={onCancel}>

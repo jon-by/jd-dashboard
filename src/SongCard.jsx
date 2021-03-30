@@ -3,16 +3,14 @@ import TicketIcon from "./TicketIcon";
 import { Card, Thumb, Source, Info, Difficulty } from "./SongCardStyle";
 import SongControls from "./SongControls";
 import Spinner from "./Spinner";
-const getTrackCost = (difficulty) => {
-  const cost = difficulty === 4 ? 5 : 1;
-  return cost;
-};
 
 const difficulties = [null, "Easy", "Medium", "Hard", "Extreme"];
 const modes = [null, "Solo", "Duet", "Trio", "Dance Crew"];
 
 const SongCard = ({
+  extremeCost,
   id,
+  cost,
   name,
   artist,
   difficulty,
@@ -26,6 +24,10 @@ const SongCard = ({
   token,
   ...props
 }) => {
+  const getTrackCost = (difficulty) => {
+    const cost = difficulty >= 4 ? extremeCost : 1;
+    return cost;
+  };
   return (
     <Card {...props} danced={danced}>
       <Thumb>
@@ -40,10 +42,12 @@ const SongCard = ({
         </p>
         <div>
           <Difficulty>
-            {getTrackCost(difficulty)}&nbsp;
+            {cost ? cost : getTrackCost(difficulty)}&nbsp;
             <TicketIcon />
           </Difficulty>
-          <Difficulty>{difficulties[difficulty]}</Difficulty>
+          <Difficulty>
+            {difficulties[difficulty > 4 ? 4 : difficulty]}
+          </Difficulty>
           <Difficulty>{modes[coaches]}</Difficulty>
         </div>
       </Info>

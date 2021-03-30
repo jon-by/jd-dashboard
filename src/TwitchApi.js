@@ -138,7 +138,7 @@ export const createList = (broadcasterId) => {
 };
 
 export const addSongToList = (userToken, song) => {
-  console.log(userToken, song);
+  console.log("add song: ", userToken, song);
   return fetch(BASE_URL + "/addsong", {
     ...postOptions,
     body: JSON.stringify({ userToken, song }),
