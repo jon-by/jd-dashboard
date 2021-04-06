@@ -22,6 +22,8 @@ const SongCard = ({
   removeSong,
   changeSongStatus,
   token,
+  showBanButton,
+  onBanSong,
   ...props
 }) => {
   const getTrackCost = (difficulty) => {
@@ -59,6 +61,8 @@ const SongCard = ({
           changeSongStatus={changeSongStatus}
           songId={id}
           token={token}
+          showBanButton={showBanButton}
+          onBanSong={onBanSong}
         />
       )}
     </Card>

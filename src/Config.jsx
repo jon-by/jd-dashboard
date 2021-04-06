@@ -4,10 +4,24 @@ import TextField from "@material-ui/core/TextField";
 import Snackbar from "@material-ui/core/Snackbar";
 import MuiAlert from "@material-ui/lab/Alert";
 import Button from "./Button";
-import { ConfigWrapper } from "./Config.styled";
+import {
+  ConfigWrapper,
+  CostsWrapper,
+  BannedControl,
+  SongsToBanWrapper,
+} from "./Config.styled";
 import { setExtremeCost, getExtremeCost } from "./TwitchApi";
+import ExtremeCost from "./ExtremeCost";
+import SongsToBan from "./SongsToBan";
+import BannedCost from "./BannedCost";
+import BannedSongs from "./BannedSongs";
 
 const Config = ({ user }) => {
+  const [cost, setCost] = useState(5);
+  const [costError, setCostError] = useState(false);
+  const [costSuccess, setCostSuccess] = useState(false);
+  const [fullBannedSong, setFullBannedSong] = useState([]);
+
   useEffect(() => {
     getExtremeCost({ broadcasterId: user.id })
       .then((response) => response.json())
@@ -18,18 +32,6 @@ const Config = ({ user }) => {
       });
   }, []);
 
-  const useStyles = makeStyles((theme) => ({
-    form: {
-      width: `calc(25ch + ${theme.spacing(1)}px * 2)`,
-      display: "inline-flex",
-      justifyContent: "center",
-      flexWrap: "wrap",
-      "& > *": {
-        margin: theme.spacing(1),
-        width: "25ch",
-      },
-    },
-  }));
   function Alert(props) {
     return <MuiAlert elevation={6} variant="filled" {...props} />;
   }
@@ -47,42 +49,34 @@ const Config = ({ user }) => {
         break;
     }
   };
-  const classes = useStyles();
-
-  const [cost, setCost] = useState(5);
-  const [costError, setCostError] = useState(false);
-  const [costSuccess, setCostSuccess] = useState(false);
-
-  const handleCost = (e) => {
-    e.preventDefault();
-    setExtremeCost(
-      { broadcasterId: user.id, cost },
-      setCostSuccess,
-      setCostError
-    );
-  };
 
   return (
     <ConfigWrapper>
-      <form className={classes.form}>
-        <TextField
-          id="reward-title"
-          label="Extreme cost"
-          type="number"
-          value={cost}
-          onChange={(e) => setCost(e.target.value)}
-          variant="outlined"
+      <CostsWrapper>
+        <ExtremeCost
+          setCostError={setCostError}
+          setCostSuccess={setCostSuccess}
+          cost={cost}
+          setCost={setCost}
+          costSuccess={costSuccess}
+          costError={costError}
+          user={user}
         />
 
-        <Button
-          onClick={handleCost}
-          variant="contained"
-          color="#fff"
-          type="submit"
-        >
-          Update
-        </Button>
-      </form>
+        <BannedCost></BannedCost>
+      </CostsWrapper>
+
+      <BannedControl>
+        <SongsToBanWrapper>
+          <SongsToBan setFullBannedSong={setFullBannedSong} />
+        </SongsToBanWrapper>
+
+        <BannedSongs
+          fullBannedSong={fullBannedSong}
+          setFullBannedSong={setFullBannedSong}
+        />
+      </BannedControl>
+
       <Snackbar
         open={costSuccess}
         autoHideDuration={3000}

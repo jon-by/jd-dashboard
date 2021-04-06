@@ -2,7 +2,7 @@ import React from "react";
 import { COLORS } from "./constants";
 
 import { ControlWrapper } from "./songControls.styled";
-import { DoneIcon, CloseIcon, ReturnIcon } from "./icons";
+import { DoneIcon, CloseIcon, ReturnIcon, BlockIcon } from "./icons";
 import { IconButton } from "./songControls.styled";
 
 const SongControls = ({
@@ -11,6 +11,8 @@ const SongControls = ({
   token,
   songId,
   danced,
+  showBanButton = true,
+  onBanSong,
 }) => {
   return (
     <ControlWrapper>
@@ -25,6 +27,10 @@ const SongControls = ({
             <ReturnIcon size={24} />
           </IconButton>
         </>
+      ) : showBanButton ? (
+        <IconButton onClick={(e) => onBanSong(songId)} color={COLORS.RED}>
+          <BlockIcon />
+        </IconButton>
       ) : (
         <>
           <IconButton
