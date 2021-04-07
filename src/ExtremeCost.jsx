@@ -5,9 +5,9 @@ import Snackbar from "@material-ui/core/Snackbar";
 import MuiAlert from "@material-ui/lab/Alert";
 import Button from "./Button";
 import { ConfigWrapper } from "./Config.styled";
-import { setExtremeCost, getExtremeCost } from "./TwitchApi";
+import { setExtremeCost } from "./TwitchApi";
 
-const Config = ({
+const ExtremeCost = ({
   user,
   cost,
   setCost,
@@ -95,4 +95,4 @@ const Config = ({
   );
 };
 
-export default Config;
+export default ExtremeCost;

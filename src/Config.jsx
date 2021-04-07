@@ -1,9 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import TextField from "@material-ui/core/TextField";
-import Snackbar from "@material-ui/core/Snackbar";
-import MuiAlert from "@material-ui/lab/Alert";
-import Button from "./Button";
+import React, { useEffect, useState, useReducer } from "react";
+import { initialState, reducer } from "./configReducer";
 import {
   ConfigWrapper,
   CostsWrapper,
@@ -11,73 +7,64 @@ import {
   SongsToBanWrapper,
 } from "./Config.styled";
 import { setExtremeCost, getExtremeCost } from "./TwitchApi";
-import ExtremeCost from "./ExtremeCost";
-import SongsToBan from "./SongsToBan";
-import BannedCost from "./BannedCost";
-import BannedSongs from "./BannedSongs";
+import CostsConfig from "./CostsConfig";
 
 const Config = ({ user }) => {
-  const [cost, setCost] = useState(5);
-  const [costError, setCostError] = useState(false);
-  const [costSuccess, setCostSuccess] = useState(false);
-  const [fullBannedSong, setFullBannedSong] = useState([]);
+  const [state, dispatch] = useReducer(reducer, initialState);
 
   useEffect(() => {
     getExtremeCost({ broadcasterId: user.id })
       .then((response) => response.json())
-      .then((data) => setCost(data))
+      .then((data) => dispatch({ type: "setExtremeCost", payload: data }))
       .catch((err) => {
-        setCostError(true);
-        console.log(err);
+        dispatch({ type: "setError", payload: true });
+        console.error(err);
       });
   }, []);
-
-  function Alert(props) {
-    return <MuiAlert elevation={6} variant="filled" {...props} />;
-  }
-
-  const handleClose = (event) => {
-    switch (event) {
-      case "success":
-        setCostSuccess(false);
-        break;
-      case "error":
-        setCostError(false);
-        break;
-
-      default:
-        break;
-    }
-  };
 
   return (
     <ConfigWrapper>
       <CostsWrapper>
-        <ExtremeCost
-          setCostError={setCostError}
-          setCostSuccess={setCostSuccess}
-          cost={cost}
-          setCost={setCost}
-          costSuccess={costSuccess}
-          costError={costError}
+        <CostsConfig
+          cost={state.extremeCost}
+          error={state.error}
+          setCost={(e) =>
+            dispatch({ type: "setExtremeCost", payload: e.target.value })
+          }
           user={user}
-        />
+        >
+          Extreme Cost
+        </CostsConfig>
 
-        <BannedCost></BannedCost>
+        <CostsConfig
+          cost={state.bannedCost}
+          error={state.error}
+          setCost={(e) =>
+            dispatch({ type: "setBannedCost", payload: e.target.value })
+          }
+          user={user}
+        >
+          Banned Cost
+        </CostsConfig>
       </CostsWrapper>
 
-      <BannedControl>
+      {/* <BannedControl>
         <SongsToBanWrapper>
-          <SongsToBan setFullBannedSong={setFullBannedSong} />
+          <SongsToBan
+            bannedSongs={bannedSongs}
+            setBannedSongs={setBannedSongs}
+            setFullBannedSong={setFullBannedSong}
+          />
         </SongsToBanWrapper>
 
         <BannedSongs
           fullBannedSong={fullBannedSong}
           setFullBannedSong={setFullBannedSong}
+          handleUnBan={handleUnBan}
         />
-      </BannedControl>
+      </BannedControl> */}
 
-      <Snackbar
+      {/* <Snackbar
         open={costSuccess}
         autoHideDuration={3000}
         onClose={() => handleClose("success")}
@@ -90,7 +77,7 @@ const Config = ({ user }) => {
         onClose={() => handleClose("error")}
       >
         <Alert severity="error">Error while updating</Alert>
-      </Snackbar>
+      </Snackbar> */}
     </ConfigWrapper>
   );
 };

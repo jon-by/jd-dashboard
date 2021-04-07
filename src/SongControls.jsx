@@ -10,9 +10,10 @@ const SongControls = ({
   changeSongStatus,
   token,
   songId,
-  danced,
-  showBanButton = true,
+  danced = false,
+  showBanButton = false,
   onBanSong,
+  showUnbanButton = false,
 }) => {
   return (
     <ControlWrapper>
@@ -27,10 +28,6 @@ const SongControls = ({
             <ReturnIcon size={24} />
           </IconButton>
         </>
-      ) : showBanButton ? (
-        <IconButton onClick={(e) => onBanSong(songId)} color={COLORS.RED}>
-          <BlockIcon />
-        </IconButton>
       ) : (
         <>
           <IconButton

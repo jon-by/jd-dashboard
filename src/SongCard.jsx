@@ -3,6 +3,7 @@ import TicketIcon from "./TicketIcon";
 import { Card, Thumb, Source, Info, Difficulty } from "./SongCardStyle";
 import SongControls from "./SongControls";
 import Spinner from "./Spinner";
+import SongCardOverlay from "./SongCardOverlay";
 
 const difficulties = [null, "Easy", "Medium", "Hard", "Extreme"];
 const modes = [null, "Solo", "Duet", "Trio", "Dance Crew"];
@@ -22,8 +23,10 @@ const SongCard = ({
   removeSong,
   changeSongStatus,
   token,
-  showBanButton,
   onBanSong,
+  showOverlay = false,
+  onClick,
+  overlay,
   ...props
 }) => {
   const getTrackCost = (difficulty) => {
@@ -31,7 +34,8 @@ const SongCard = ({
     return cost;
   };
   return (
-    <Card {...props} danced={danced}>
+    <Card onClick={onClick} {...props} danced={danced}>
+      {showOverlay && <SongCardOverlay overlay={overlay} />}
       <Thumb>
         <img loading="lazy" src={thumb} alt={name + " - " + artist} />
         <Source>{source}</Source>
@@ -61,8 +65,6 @@ const SongCard = ({
           changeSongStatus={changeSongStatus}
           songId={id}
           token={token}
-          showBanButton={showBanButton}
-          onBanSong={onBanSong}
         />
       )}
     </Card>

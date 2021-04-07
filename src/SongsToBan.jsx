@@ -1,16 +1,23 @@
 import React, { useEffect, useState } from "react";
 import { TRACKLIST_URL } from "./constants";
 import SongCard from "./SongCard";
-import { BannedSongWrapper, SongList } from "./BannedSong.styled";
+import {
+  BannedSongWrapper,
+  SongList,
+  SongsToBanTitle,
+  SongListWrapper,
+  SongsToBanHeader,
+} from "./SongsToBan.styled";
 import FilterSection from "./FilterSection";
 import useDebounce from "./useDebounce.js";
+import { TrainOutlined } from "@material-ui/icons";
 
-const SongsToBan = ({ setFullBannedSong }) => {
+const SongsToBan = ({ setFullBannedSong, bannedSongs, setBannedSongs }) => {
   const [filterTerm, setFilterTerm] = useState("");
   const debouncedSongs = useDebounce(filterTerm, 500);
   const [songList, setSongList] = useState([]);
   const [filteredSongs, setFilteredSongs] = useState([]);
-  const [bannedSongs, setBannedSongs] = useState([]);
+  const [filteredIds, setFilteredIds] = useState({});
 
   useEffect(() => {
     const text = filterTerm.toLowerCase();
@@ -24,14 +31,6 @@ const SongsToBan = ({ setFullBannedSong }) => {
 
     setFilteredSongs(songs);
   }, [debouncedSongs]);
-
-  useEffect(() => {
-    const fullBannedSong = songList.filter((song) => {
-      return bannedSongs.some((id) => song.id === id) && song;
-    });
-
-    setFullBannedSong(fullBannedSong);
-  }, [bannedSongs]);
 
   useEffect(() => {
     var songs = [];
@@ -51,38 +50,39 @@ const SongsToBan = ({ setFullBannedSong }) => {
     setFilteredSongs(songList);
   }, [songList]);
 
-  const handleBanSong = (id) => {
-    const addNewBanned = [...bannedSongs].concat(id);
+  const handleBanSong = (song) => {
+    const addNewBanned = [...bannedSongs, song];
+    const addNewBannedId = { ...bannedIds, [song.id]: song.id };
     setBannedSongs(addNewBanned);
   };
 
   return (
     <BannedSongWrapper>
-      <FilterSection value={filterTerm} setSearchTerm={setFilterTerm} />
-
-      <SongList>
-        <div>
-          {filteredSongs.map((song, idx) => {
-            if (
-              bannedSongs.some((banned) => {
-                return song.id === banned;
-              })
-            ) {
-              return false;
-            } else {
-              return (
-                <SongCard
-                  key={idx}
-                  showControls={true}
-                  showBanButton={true}
-                  onBanSong={handleBanSong}
-                  {...song}
-                />
-              );
-            }
-          })}
-        </div>
-      </SongList>
+      <SongsToBanHeader>
+        <SongsToBanTitle>Allowed Songs</SongsToBanTitle>
+        <FilterSection value={filterTerm} setSearchTerm={setFilterTerm} />
+      </SongsToBanHeader>
+      <SongListWrapper>
+        <SongList>
+          <div>
+            {filteredSongs.map((song, idx) => {
+              if (bannedIds.hasOwnProperty(song.id)) {
+                return false;
+              } else {
+                return (
+                  <SongCard
+                    showOverlay={true}
+                    overlay={"ban"}
+                    key={idx}
+                    onClick={() => handleBanSong(song)}
+                    {...song}
+                  />
+                );
+              }
+            })}
+          </div>
+        </SongList>
+      </SongListWrapper>
     </BannedSongWrapper>
   );
 };

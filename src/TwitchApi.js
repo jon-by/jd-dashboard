@@ -84,7 +84,6 @@ export const setExtremeCost = (
   setCostSuccess,
   setCostError
 ) => {
-  //console.log("extreme cost: ", broadcasterId, cost);
   fetch(BASE_URL + "/extremecost", {
     ...putOptions,
     body: JSON.stringify({ broadcasterId, cost }),
@@ -163,5 +162,17 @@ export const changeListStatus = (userToken, status) => {
   return fetch(BASE_URL + `/songlist`, {
     ...patchOptions,
     body: JSON.stringify({ userToken, status }),
+  });
+};
+
+export const setConfig = ({
+  userToken,
+  extremeCost,
+  bannedCost,
+  bannedList,
+}) => {
+  return fetch(BASE_URL + "/setconfig", {
+    ...putOptions,
+    body: JSON.stringify({ userToken, extremeCost, bannedCost, bannedList }),
   });
 };

@@ -1,15 +1,25 @@
 import React, { useEffect } from "react";
 import SongCard from "./SongCard";
-const BannedSongs = ({ fullBannedSong, setFullBannedSong }) => {
-  useEffect(() => {
-    console.log();
-  }, []);
+
+import { BannedSongsWrapper, SongList } from "./BannedSongs.styled";
+const BannedSongs = ({ fullBannedSong, handleUnBan }) => {
   return (
-    <div>
-      {fullBannedSong.map((song) => {
-        return <SongCard {...song} />;
-      })}
-    </div>
+    <BannedSongsWrapper>
+      <span>Banned Songs</span>
+      <SongList>
+        {fullBannedSong.map((song, idx) => {
+          return (
+            <SongCard
+              key={idx}
+              onClick={() => handleUnBan(song.id)}
+              showOverlay={true}
+              overlay={"unBan"}
+              {...song}
+            />
+          );
+        })}
+      </SongList>
+    </BannedSongsWrapper>
   );
 };
 

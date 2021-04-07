@@ -1,16 +1,14 @@
 import styled from "styled-components";
 
-export const BannedSongWrapper = styled.div`
+export const BannedSongsWrapper = styled.div`
+  max-width: 300px;
   min-width: 300px;
   display: flex;
   flex-direction: column;
-`;
-
-export const FilterSectionWrapper = styled.div`
-  width: 100%;
-  flex-shrink: 0;
+  align-items: center;
 `;
 
 export const SongList = styled.div`
+  width: 100%;
   overflow: auto;
 `;
