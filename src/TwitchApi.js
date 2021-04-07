@@ -5,6 +5,7 @@ import {
   BASE_URL,
 } from "./constants";
 import { deleteCookies } from "./utils";
+export const twitch = window.Twitch.ext;
 
 async function handleErrors(response) {
   if (!response.ok) {
@@ -175,4 +176,22 @@ export const setConfig = ({
     ...putOptions,
     body: JSON.stringify({ userToken, extremeCost, bannedCost, bannedList }),
   });
+};
+
+export const getTwitchConfig = (callback) => {
+  twitch.configuration.onChanged(() => {
+    let config = twitch.configuration.broadcaster
+      ? twitch.configuration.broadcaster.content
+      : [];
+    try {
+      config = JSON.parse(config);
+    } catch (e) {
+      config = [];
+    }
+    typeof callback === "function" && callback(config);
+  });
+};
+
+export const setTwitchConfig = (data) => {
+  twitch.configuration.set("broadcaster", "0.0.1", JSON.stringify(data));
 };

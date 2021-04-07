@@ -11,6 +11,8 @@ import {
   removeSongFromList,
   changeSongStatus,
   changeListStatus,
+  getTwitchConfig,
+  twitch,
 } from "./TwitchApi";
 const Broadcaster = () => {
   const [songList, setSongList] = useState([]);
@@ -18,7 +20,9 @@ const Broadcaster = () => {
   const [auth, setAuth] = useState(null);
 
   useEffect(() => {
-    window.Twitch.ext.onAuthorized(function (authentication) {
+    const config = getTwitchConfig();
+    console.log(config);
+    twitch.onAuthorized(function (authentication) {
       setAuth(authentication);
     });
   }, []);
@@ -35,7 +39,7 @@ const Broadcaster = () => {
         //console.log("connected");
       });
       socket.on(auth.channelId, (list) => {
-        console.log(list);
+        // console.log(list);
         setSongList(list.slice(1));
         setSongListStatus(list[0]);
       });

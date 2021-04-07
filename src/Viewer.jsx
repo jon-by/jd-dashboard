@@ -21,6 +21,9 @@ const handleFilter = (text, songList) => {
 const Viewer = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const debouncedFilter = useDebounce(state.filter, 500);
+
+  useEffect(() => {}, []);
+
   useEffect(() => {
     if (state.songList.length === 0) return;
 

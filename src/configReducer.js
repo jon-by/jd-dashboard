@@ -1,13 +1,29 @@
 const initialState = {
+  auth: null,
   error: false,
-  extremeCost: 5,
-  bannedCost: 10,
-  bannedSongs: [],
-  bannedIds: [],
+  config: null,
 };
 
 function reducer(state, { type, payload }) {
   switch (type) {
+    case "setAuth":
+      return {
+        ...state,
+        auth: payload,
+      };
+      break;
+    case "setHasConfig":
+      return {
+        ...state,
+        hasConfig: payload,
+      };
+      break;
+    case "setConfig":
+      return {
+        ...state,
+        config: payload,
+      };
+      break;
     case "setError":
       return {
         ...state,
@@ -17,14 +33,14 @@ function reducer(state, { type, payload }) {
     case "setExtremeCost":
       return {
         ...state,
-        extremeCost: payload,
+        config: { ...state.config, extremeCost: payload },
       };
       break;
 
     case "setBannedCost":
       return {
         ...state,
-        bannedCost: payload,
+        config: { ...state.config, bannedCost: payload },
       };
       break;
 
