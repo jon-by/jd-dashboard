@@ -1,6 +1,6 @@
 export const COOKIE_AUTH_KEY = "Authentication";
 export const COOKIE_BROADCASTER_ID_KEY = "broadcasterId";
-export const BASE_URL = "http://localhost:3000";
+export const BASE_URL = "http://localhost:3000/api";
 export const API = {
   USER: BASE_URL + "/user",
   CUSTOM_REWARDS: BASE_URL + "/rewards",

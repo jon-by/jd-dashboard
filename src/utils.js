@@ -29,3 +29,8 @@ export const deleteCookies = (array) => {
     deleteCookie(name);
   });
 };
+
+export const removeFromObject = (key, original) => {
+  const { [key]: value, ...withoutKey } = original;
+  return withoutKey;
+};

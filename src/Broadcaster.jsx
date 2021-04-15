@@ -3,9 +3,10 @@ import { Manager } from "socket.io-client";
 import SongCard from "./SongCard";
 import { COLORS, STATUS } from "./constants";
 import Requester from "./Requester";
-import { Song, ListWrapper } from "./Broadcaster.styled";
 import ListStatus from "./ListStatus";
 import Button from "./Button";
+import RequestedSongList from "./RequestedSongList";
+import { Wrapper } from "./Broadcaster.styled";
 import {
   createList,
   removeSongFromList,
@@ -46,33 +47,24 @@ const Broadcaster = () => {
     }
   }, [auth]);
 
-  return songListStatus === STATUS.active ||
-    songListStatus === STATUS.paused ? (
-    <div>
+  return auth &&
+    (songListStatus === STATUS.active || songListStatus === STATUS.paused) ? (
+    <Wrapper>
       <ListStatus
         songListStatus={songListStatus}
         onChange={setSongListStatus}
         changeListStatus={changeListStatus}
         token={auth}
       />
-      <ListWrapper>
-        {songList.map((song, index) => {
-          return (
-            <Song key={index} danced={song.song.danced}>
-              <SongCard
-                showControls={true}
-                {...song.song}
-                removeSong={removeSongFromList}
-                changeSongStatus={changeSongStatus}
-                token={auth.token}
-                extremeCost={song.song.difficulty}
-              />
-              <Requester danced={song.song.danced} {...song.viewer} />
-            </Song>
-          );
-        })}
-      </ListWrapper>
-    </div>
+      <RequestedSongList
+        songList={songList}
+        onRemove={removeSongFromList}
+        onStatusChange={changeSongStatus}
+        token={auth.token}
+        showControls={true}
+        clickable={false}
+      />
+    </Wrapper>
   ) : (
     <Button bgColor={COLORS.DARK_PINK} onClick={() => createList("148003044")}>
       Create List

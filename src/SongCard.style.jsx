@@ -15,7 +15,7 @@ export const Card = styled.div`
   color: ${COLORS.DARK_GRAY};
   padding: 8px;
   margin: 4px 0;
-  cursor: pointer;
+  cursor: ${(props) => (props.clickable ? "pointer" : "default")};
   transition: all 150ms ease;
   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
   z-index: 1;

@@ -7,6 +7,8 @@ const ViewerSongList = ({
   listStatus,
   requestedSongs,
   extremeCost,
+  bannedCost,
+  bannedIds,
 }) =>
   songList.map((song, index) => {
     if (requestedSongs.some((id) => id === song.id)) {
@@ -19,6 +21,7 @@ const ViewerSongList = ({
             dispatch({ type: "setSelectedSong", payload: song })
           }
           extremeCost={extremeCost}
+          banned={bannedIds.includes(song.id) && bannedCost}
           key={index}
           {...song}
         />

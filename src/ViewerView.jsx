@@ -4,10 +4,10 @@ import ViewerSongList from "./ViewerSongList";
 import Spinner from "./Spinner";
 import { addSongToList } from "./TwitchApi";
 
-const handleAddSong = (userToken, song, dispatch, extremeCost) => {
+const handleAddSong = (userToken, song, dispatch) => {
   song.difficulty >= 4 && (song = { ...song, difficulty: 4 });
 
-  const newSong = { ...song, cost: song.difficulty >= 4 ? extremeCost : 1 };
+  const newSong = { ...song };
 
   dispatch({ type: "setLoading", payload: true });
 
@@ -22,7 +22,14 @@ const handleAddSong = (userToken, song, dispatch, extremeCost) => {
 };
 
 const ViewerView = ({ state, dispatch }) => {
-  const { loading, selectedSong, auth, filteredSongs } = state;
+  const {
+    loading,
+    selectedSong,
+    auth,
+    filteredSongs,
+    bannedCost,
+    bannedIds,
+  } = state;
   if (loading) {
     return <Spinner />;
   }
@@ -31,13 +38,12 @@ const ViewerView = ({ state, dispatch }) => {
       <SelectedSong
         song={selectedSong}
         onCancel={() => dispatch({ type: "setSelectedSong", payload: null })}
-        onConfirm={() =>
-          handleAddSong(auth.token, selectedSong, dispatch, state.extremeCost)
-        }
+        onConfirm={() => handleAddSong(auth.token, selectedSong, dispatch)}
         extremeCost={state.extremeCost}
       />
     );
   }
+  //console.log(filteredSongs);
   return (
     <ViewerSongList
       listStatus={state.listStatus}
@@ -45,6 +51,8 @@ const ViewerView = ({ state, dispatch }) => {
       isLoading={loading}
       songList={filteredSongs}
       extremeCost={state.extremeCost}
+      bannedCost={bannedCost}
+      bannedIds={bannedIds}
       requestedSongs={state.requestedSongs}
     />
   );

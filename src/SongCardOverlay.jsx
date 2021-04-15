@@ -3,9 +3,7 @@ import { Overlay } from "./SongCardOverlay.styled";
 import { BlockIcon, ReturnIcon } from "./icons";
 
 const SongCardOverlay = ({ overlay }) => {
-  return (
-    <Overlay>{overlay === "ban" ? <div>BAN</div> : <div>UNBAN</div>}</Overlay>
-  );
+  return <Overlay>{overlay}</Overlay>;
 };
 
 export default SongCardOverlay;

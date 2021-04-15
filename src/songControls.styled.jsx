@@ -21,6 +21,7 @@ export const IconButton = styled.div`
   border-radius: 50%;
   box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
   background-color: ${(props) => props.color};
+  cursor: pointer;
   &:hover {
     background-color: ${(props) => lighten(0.1, props.color)};
   }

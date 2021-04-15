@@ -13,10 +13,7 @@ export const Overlay = styled.div`
   align-items: center;
   transition: opacity 300ms ease;
   opacity: 0;
-
-  div {
-    color: #fff;
-  }
+  color: white;
 
   &:hover {
     opacity: 1;

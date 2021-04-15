@@ -7,11 +7,14 @@ const initialState = {
   auth: null,
   loading: true,
   error: null,
-  currentGame: "2021",
+  // currentGame: "2021",
   unlimited: true,
   requestedSongs: [],
   listStatus: null,
-  extremeCost: 4,
+  extremeCost: null,
+  bannedCost: null,
+  bannedIds: [],
+  config: null,
 };
 
 function reducer(state, { type, payload }) {
@@ -20,11 +23,20 @@ function reducer(state, { type, payload }) {
       return {
         ...state,
         songList: payload,
-        filteredSongs: [].concat(
-          payload[state.currentGame],
-          state.unlimited ? payload.unlimited : []
-        ),
+        filteredSongs: payload,
         loading: false,
+      };
+    case "setConfig":
+      return {
+        ...state,
+        config: payload,
+      };
+    case "setConfig":
+      return {
+        ...state,
+        extremeCost: payload.extremeCost,
+        bannedCost: payload.bannedCost,
+        bannedIds: payload.bannedIds,
       };
     case "setFilteredSongs":
       return {

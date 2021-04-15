@@ -2,13 +2,13 @@ import React, { useState } from "react";
 
 import { Filter } from "./FilterSection.styled";
 
-const FilterSection = ({ value, setSearchTerm }) => {
+const FilterSection = ({ value, onChange }) => {
   return (
     <Filter>
       <input
         type="text"
         value={value}
-        onChange={(e) => setSearchTerm(e.target.value)}
+        onChange={(e) => onChange(e.target.value)}
         placeholder="Search"
       />
     </Filter>

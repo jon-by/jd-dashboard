@@ -1,6 +1,6 @@
 import React from "react";
 import TicketIcon from "./TicketIcon";
-import { Card, Thumb, Source, Info, Difficulty } from "./SongCardStyle";
+import { Card, Thumb, Source, Info, Difficulty } from "./SongCard.style";
 import SongControls from "./SongControls";
 import Spinner from "./Spinner";
 import SongCardOverlay from "./SongCardOverlay";
@@ -9,7 +9,6 @@ const difficulties = [null, "Easy", "Medium", "Hard", "Extreme"];
 const modes = [null, "Solo", "Duet", "Trio", "Dance Crew"];
 
 const SongCard = ({
-  extremeCost,
   id,
   cost,
   name,
@@ -20,21 +19,36 @@ const SongCard = ({
   source,
   danced,
   showControls = false,
+  clickable = true,
   removeSong,
   changeSongStatus,
   token,
   onBanSong,
   showOverlay = false,
-  onClick,
+  onClick = null,
   overlay,
   ...props
 }) => {
-  const getTrackCost = (difficulty) => {
-    const cost = difficulty >= 4 ? extremeCost : 1;
-    return cost;
-  };
   return (
-    <Card onClick={onClick} {...props} danced={danced}>
+    <Card
+      onClick={() =>
+        onClick &&
+        onClick({
+          id,
+          cost,
+          name,
+          artist,
+          difficulty,
+          coaches,
+          thumb,
+          source,
+          danced,
+        })
+      }
+      {...props}
+      clickable={clickable}
+      danced={danced}
+    >
       {showOverlay && <SongCardOverlay overlay={overlay} />}
       <Thumb>
         <img loading="lazy" src={thumb} alt={name + " - " + artist} />
@@ -48,7 +62,7 @@ const SongCard = ({
         </p>
         <div>
           <Difficulty>
-            {cost ? cost : getTrackCost(difficulty)}&nbsp;
+            {cost}&nbsp;
             <TicketIcon />
           </Difficulty>
           <Difficulty>

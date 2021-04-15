@@ -7,7 +7,7 @@ import useDebounce from "./useDebounce";
 import ListHeader from "./ListHeader";
 import { initialState, reducer } from "./ViewerSongListReducer";
 import ViewerView from "./ViewerView";
-import { getExtremeCost } from "./TwitchApi";
+import { getExtremeCost, getTwitchConfig } from "./TwitchApi";
 
 const handleFilter = (text, songList) => {
   return songList.filter((song) => {
@@ -18,19 +18,22 @@ const handleFilter = (text, songList) => {
   });
 };
 
+const getCost = ({ bannedIds, bannedCost, extremeCost, difficulty, id }) => {
+  const banned = bannedIds.includes(id);
+  if (banned) {
+    return Number(bannedCost);
+  }
+  return difficulty >= 4 ? extremeCost : 1;
+};
+
 const Viewer = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const debouncedFilter = useDebounce(state.filter, 500);
 
-  useEffect(() => {}, []);
-
   useEffect(() => {
     if (state.songList.length === 0) return;
 
-    const list = [].concat(
-      state.songList[state.currentGame],
-      state.unlimited ? state.songList.unlimited : []
-    );
+    const list = state.songList;
 
     //console.log(Object.keys(state.songList));
     dispatch({
@@ -43,18 +46,28 @@ const Viewer = () => {
     window.Twitch.ext.onAuthorized(function (authentication) {
       dispatch({ type: "setAuth", payload: authentication });
     });
+    getTwitchConfig(() => {
+      console.log(window.Twitch.ext.configuration);
+      dispatch({
+        type: "setConfig",
+        payload: JSON.parse(
+          window.Twitch.ext.configuration.broadcaster.content
+        ),
+      });
+    });
+    window.Twitch.ext.listen("broadcast", (target, contentType, msg) => {
+      //console.log(target, contentType, msg);
+      const { type, data } = JSON.parse(msg);
+      if (type === "configChange") {
+        dispatch({ type: "setConfig", payload: data });
+      }
+    });
   }, []);
-
-  useEffect(() => {
-    // console.log("list status: ", state.listStatus);
-  }, [state.listStatus]);
 
   useEffect(() => {
     if (state.auth) {
       const broadcaster = state.auth.channelId;
       const viewer = state.auth.userId.substring(1, state.auth.userId.length);
-
-      //console.log(state.auth);
 
       getExtremeCost({ broadcasterId: state.auth.channelId })
         .then((response) => response.json())
@@ -67,9 +80,25 @@ const Viewer = () => {
         response
           .json()
           .then((data) => {
+            const { bannedIds, bannedCost, extremeCost } = state;
+            const newSongList = []
+              .concat(
+                data[state.config.game],
+                state.config.unlimited ? data["unlimited"] : []
+              )
+              .map((song) => ({
+                ...song,
+                cost: getCost({
+                  bannedIds,
+                  bannedCost,
+                  extremeCost,
+                  difficulty: song.difficulty,
+                  id: song.id,
+                }),
+              }));
             dispatch({
               type: "setSongList",
-              payload: data,
+              payload: newSongList,
             });
           })
           .catch((err) => {
@@ -87,10 +116,6 @@ const Viewer = () => {
         //console.log("connected");
       });
 
-      socket.on(broadcaster, ({ extremeCost }) => {
-        dispatch({ type: "setExtremeCost", payload: extremeCost });
-      });
-
       socket.on(
         `${broadcaster}-${viewer}`,
         ({ current, listStatus, listIds }) => {
@@ -101,7 +126,7 @@ const Viewer = () => {
         }
       );
     }
-  }, [state.auth]);
+  }, [state.auth, state.config]);
 
   return (
     <Scope>
