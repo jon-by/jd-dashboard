@@ -7,7 +7,6 @@ const RequestedSongList = ({
   songList,
   onRemove,
   onStatusChange,
-  token,
   showControls,
 }) => {
   return (
@@ -21,7 +20,6 @@ const RequestedSongList = ({
               {...song.song}
               removeSong={onRemove}
               changeSongStatus={onStatusChange}
-              token={token}
               extremeCost={song.song.difficulty}
             />
             <Requester danced={song.song.danced} {...song.viewer} />

@@ -6,6 +6,10 @@ import {
 } from "./constants";
 import { deleteCookies } from "./utils";
 export const twitch = window.Twitch.ext;
+const routes = {
+  song: BASE_URL + "/song",
+  list: BASE_URL + "/list",
+};
 
 async function handleErrors(response) {
   if (!response.ok) {
@@ -19,16 +23,30 @@ async function handleErrors(response) {
   return response.json();
 }
 
-const getHeaders = (token) => ({
-  Accept: "application/json",
-  "Content-Type": "application/json",
-  Authorization: "Bearer " + token,
-});
+let token;
+
+export const authInit = (callback) => {
+  twitch.onAuthorized((auth) => {
+    token = auth.token;
+    typeof callback === "function" && callback(auth);
+  });
+};
+
+// window.Twitch.ext.onAuthorized(function (authentication) {
+//   dispatch({ type: "setAuth", payload: authentication });
+// }
+const getHeaders = () => {
+  return {
+    Accept: "application/json",
+    "Content-Type": "application/json",
+    Authorization: "Bearer " + token,
+  };
+};
 
 export const deleteReward = (id, onDelete) => {
   fetch(API.CUSTOM_REWARDS, {
     method: "DELETE",
-    headers: getHeaders(userToken),
+    headers: getHeaders(),
     body: JSON.stringify({ id }),
   })
     .then(handleErrors)
@@ -40,7 +58,7 @@ export const deleteReward = (id, onDelete) => {
 export const createReward = ({ title, cost, tickets }, onSave) => {
   fetch(API.CUSTOM_REWARDS, {
     method: "POST",
-    headers: getHeaders(userToken),
+    headers: getHeaders(),
     body: JSON.stringify({ title, cost, tickets }),
   })
     .then(handleErrors)
@@ -48,39 +66,11 @@ export const createReward = ({ title, cost, tickets }, onSave) => {
     .catch((err) => console.log(err));
 };
 
-export const setExtremeCost = (
-  { broadcasterId, cost },
-  setCostSuccess,
-  setCostError
-) => {
-  fetch(BASE_URL + "/extremecost", {
-    method: "PUT",
-    headers: getHeaders(userToken),
-    body: JSON.stringify({ broadcasterId, cost }),
-  })
-    .then((response) => response.json())
-    .then((cost) => {
-      setCostSuccess(true);
-      console.log(cost);
-    })
-    .catch((err) => {
-      setCostError(true);
-      console.log(err);
-    });
-};
-
-export const getExtremeCost = ({ broadcasterId }) => {
-  return fetch(BASE_URL + `/extremecost?id=${broadcasterId}`, {
-    method: "GET",
-    headers: getHeaders(userToken),
-  });
-};
-
 export const updateReward = (data, onSave) => {
   console.log("updateReward", data);
   fetch(API.CUSTOM_REWARDS, {
     method: "PATCH",
-    headers: getHeaders(userToken),
+    headers: getHeaders(),
     body: JSON.stringify(data),
   })
     .then(handleErrors)
@@ -91,7 +81,7 @@ export const updateReward = (data, onSave) => {
 };
 
 export const getAllRewards = (callback) => {
-  fetch(API.CUSTOM_REWARDS, { method: "GET", headers: getHeaders(userToken) })
+  fetch(API.CUSTOM_REWARDS, { method: "GET", headers: getHeaders() })
     .then(handleErrors)
     .then((response) => {
       callback(response.data, null);
@@ -102,56 +92,43 @@ export const getAllRewards = (callback) => {
 };
 
 export const createList = (broadcasterId) => {
-  fetch(BASE_URL + "/createlist", {
+  fetch(routes.list, {
     method: "POST",
-    headers: getHeaders(userToken),
+    headers: getHeaders(),
     body: JSON.stringify({ broadcasterId }),
   });
 };
+export const changeListStatus = (status) => {
+  return fetch(routes.list, {
+    method: "PATCH",
+    headers: getHeaders(),
+    body: JSON.stringify({ status }),
+  });
+};
 
-export const addSongToList = (userToken, song) => {
-  console.log("add song: ", userToken, song);
-  return fetch(BASE_URL + "/addsong", {
+export const addSongToList = (song) => {
+  const headers = getHeaders();
+  console.log("add song: ", song, headers);
+  return fetch(routes.song, {
     method: "POST",
-    headers: getHeaders(userToken),
+    headers,
     body: JSON.stringify({ song }),
   });
 };
 
-export const removeSongFromList = (userToken, songId) => {
-  return fetch(BASE_URL + "/songlist", {
+export const removeSongFromList = (songId) => {
+  return fetch(`${routes.song}`, {
     method: "DELETE",
-    headers: getHeaders(userToken),
-    body: JSON.stringify({ userToken, songId }),
+    headers: getHeaders(),
+    body: JSON.stringify({ songId }),
   });
 };
 
-export const changeSongStatus = (userToken, songId, danced) => {
-  return fetch(BASE_URL + `/songlist/${songId}`, {
+export const changeSongStatus = (songId, danced) => {
+  return fetch(`${routes.song}/${songId}`, {
     method: "PATCH",
-    headers: getHeaders(userToken),
-    body: JSON.stringify({ userToken, danced }),
-  });
-};
-
-export const changeListStatus = (userToken, status) => {
-  return fetch(BASE_URL + `/songlist`, {
-    method: "PATCH",
-    headers: getHeaders(userToken),
-    body: JSON.stringify({ userToken, status }),
-  });
-};
-
-export const setConfig = ({
-  userToken,
-  extremeCost,
-  bannedCost,
-  bannedList,
-}) => {
-  return fetch(BASE_URL + "/setconfig", {
-    method: "PUT",
-    headers: getHeaders(userToken),
-    body: JSON.stringify({ userToken, extremeCost, bannedCost, bannedList }),
+    headers: getHeaders(),
+    body: JSON.stringify({ danced }),
   });
 };
 

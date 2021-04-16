@@ -8,7 +8,6 @@ import { IconButton } from "./songControls.styled";
 const SongControls = ({
   removeSong,
   changeSongStatus,
-  token,
   songId,
   danced = false,
   showBanButton = false,
@@ -22,7 +21,7 @@ const SongControls = ({
           <IconButton
             color={COLORS.GREEN}
             onClick={() => {
-              changeSongStatus(token, songId, false);
+              changeSongStatus(songId, false);
             }}
           >
             <ReturnIcon size={24} />
@@ -32,16 +31,13 @@ const SongControls = ({
         <>
           <IconButton
             onClick={() => {
-              changeSongStatus(token, songId, true);
+              changeSongStatus(songId, true);
             }}
             color={COLORS.GREEN}
           >
             <DoneIcon />
           </IconButton>
-          <IconButton
-            onClick={() => removeSong(token, songId)}
-            color={COLORS.RED}
-          >
+          <IconButton onClick={() => removeSong(songId)} color={COLORS.RED}>
             <CloseIcon />
           </IconButton>
         </>

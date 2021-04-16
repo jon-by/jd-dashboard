@@ -22,17 +22,16 @@ const SongCard = ({
   clickable = true,
   removeSong,
   changeSongStatus,
-  token,
   onBanSong,
   showOverlay = false,
-  onClick = null,
+  onClick,
   overlay,
   ...props
 }) => {
   return (
     <Card
       onClick={() =>
-        onClick &&
+        typeof onClick === "function" &&
         onClick({
           id,
           cost,
@@ -46,7 +45,6 @@ const SongCard = ({
         })
       }
       {...props}
-      clickable={clickable}
       danced={danced}
     >
       {showOverlay && <SongCardOverlay overlay={overlay} />}
@@ -78,7 +76,6 @@ const SongCard = ({
           removeSong={removeSong}
           changeSongStatus={changeSongStatus}
           songId={id}
-          token={token}
         />
       )}
     </Card>

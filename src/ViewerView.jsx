@@ -4,14 +4,14 @@ import ViewerSongList from "./ViewerSongList";
 import Spinner from "./Spinner";
 import { addSongToList } from "./TwitchApi";
 
-const handleAddSong = (userToken, song, dispatch) => {
+const handleAddSong = (song, dispatch) => {
   song.difficulty >= 4 && (song = { ...song, difficulty: 4 });
 
   const newSong = { ...song };
 
   dispatch({ type: "setLoading", payload: true });
 
-  addSongToList(userToken, { ...newSong, danced: false })
+  addSongToList({ ...newSong, danced: false })
     .then((res) => {
       dispatch({ type: "setSelectedSong", payload: null });
     })
@@ -38,7 +38,7 @@ const ViewerView = ({ state, dispatch }) => {
       <SelectedSong
         song={selectedSong}
         onCancel={() => dispatch({ type: "setSelectedSong", payload: null })}
-        onConfirm={() => handleAddSong(auth.token, selectedSong, dispatch)}
+        onConfirm={() => handleAddSong(selectedSong, dispatch)}
         extremeCost={state.extremeCost}
       />
     );

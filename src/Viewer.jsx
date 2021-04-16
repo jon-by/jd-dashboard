@@ -7,7 +7,7 @@ import useDebounce from "./useDebounce";
 import ListHeader from "./ListHeader";
 import { initialState, reducer } from "./ViewerSongListReducer";
 import ViewerView from "./ViewerView";
-import { getExtremeCost, getTwitchConfig } from "./TwitchApi";
+import { getTwitchConfig, authInit } from "./TwitchApi";
 
 const handleFilter = (text, songList) => {
   return songList.filter((song) => {
@@ -35,7 +35,6 @@ const Viewer = () => {
 
     const list = state.songList;
 
-    //console.log(Object.keys(state.songList));
     dispatch({
       type: "setFilteredSongs",
       payload: handleFilter(debouncedFilter, list),
@@ -43,11 +42,11 @@ const Viewer = () => {
   }, [debouncedFilter, state.songList]);
 
   useEffect(() => {
-    window.Twitch.ext.onAuthorized(function (authentication) {
-      dispatch({ type: "setAuth", payload: authentication });
-    });
+    authInit((authentication) =>
+      dispatch({ type: "setAuth", payload: authentication })
+    );
     getTwitchConfig(() => {
-      console.log(window.Twitch.ext.configuration);
+      console.log(window.Twitch.ext.configuration.broadcaster.content);
       dispatch({
         type: "setConfig",
         payload: JSON.parse(
@@ -69,18 +68,11 @@ const Viewer = () => {
       const broadcaster = state.auth.channelId;
       const viewer = state.auth.userId.substring(1, state.auth.userId.length);
 
-      getExtremeCost({ broadcasterId: state.auth.channelId })
-        .then((response) => response.json())
-        .then((data) => {
-          dispatch({ type: "setExtremeCost", payload: data });
-        })
-        .catch((err) => console.log(err));
-
       fetch(TRACKLIST_URL).then((response) =>
         response
           .json()
           .then((data) => {
-            const { bannedIds, bannedCost, extremeCost } = state;
+            const { bannedIds, bannedCost, extremeCost } = state.config;
             const newSongList = []
               .concat(
                 data[state.config.game],
