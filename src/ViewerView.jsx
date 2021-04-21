@@ -3,6 +3,7 @@ import SelectedSong from "./SelectedSong";
 import ViewerSongList from "./ViewerSongList";
 import Spinner from "./Spinner";
 import { addSongToList } from "./TwitchApi";
+import FilterSection from "./FilterSection";
 
 const handleAddSong = (song, dispatch) => {
   song.difficulty >= 4 && (song = { ...song, difficulty: 4 });
@@ -43,18 +44,25 @@ const ViewerView = ({ state, dispatch }) => {
       />
     );
   }
-  //console.log(filteredSongs);
   return (
-    <ViewerSongList
-      listStatus={state.listStatus}
-      dispatch={dispatch}
-      isLoading={loading}
-      songList={filteredSongs}
-      extremeCost={state.extremeCost}
-      bannedCost={bannedCost}
-      bannedIds={bannedIds}
-      requestedSongs={state.requestedSongs}
-    />
+    <>
+      <FilterSection
+        value={state.filter}
+        onChange={(value) => {
+          dispatch({ type: "setFilter", payload: value });
+        }}
+      />
+      <ViewerSongList
+        listStatus={state.listStatus}
+        dispatch={dispatch}
+        isLoading={loading}
+        songList={filteredSongs}
+        extremeCost={state.extremeCost}
+        bannedCost={bannedCost}
+        bannedIds={bannedIds}
+        requestedSongs={state.requestedSongs}
+      />
+    </>
   );
 };
 

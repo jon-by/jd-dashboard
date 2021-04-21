@@ -17,10 +17,10 @@ import { TRACKLIST_URL } from "./constants";
 
 import { initialState, reducer } from "./configReducer";
 import {
-  setExtremeCost,
-  getExtremeCost,
   getTwitchConfig,
   setTwitchConfig,
+  getBroadcaster,
+  authInit,
 } from "./TwitchApi";
 import {
   Panel,
@@ -97,6 +97,20 @@ const Config = () => {
   }
 
   useEffect(() => {
+    if (state.auth) {
+      getBroadcaster()
+        .then((response) => response.json())
+        .then((data) => {
+          dispatch({
+            type: "setBroadcasterType",
+            payload: data.broadcasterType,
+          });
+        })
+        .catch((err) => console.log(err));
+    }
+  }, [state.auth]);
+
+  useEffect(() => {
     getTwitchConfig((config) => {
       if (config) {
         dispatch({ type: "setConfig", payload: config });
@@ -120,9 +134,10 @@ const Config = () => {
         initialConfigSet.current = true;
       }
     });
-    window.Twitch.ext.onAuthorized(function (authentication) {
-      dispatch({ type: "setAuth", payload: authentication });
-    });
+
+    authInit((authentication) =>
+      dispatch({ type: "setAuth", payload: authentication })
+    );
   }, []);
 
   useEffect(() => {
@@ -141,8 +156,6 @@ const Config = () => {
         console.error(err);
       });
   }, []);
-
-  // useEffect(() => {}, [auth]);
 
   const SaveChangedData = () => {
     const config = {
@@ -166,7 +179,7 @@ const Config = () => {
     dispatch({ type: "setConfig", payload: { ...state.config, ...data } });
   };
 
-  return state.config ? (
+  return state.config && state.broadcasterType ? (
     <div className={classes.root}>
       <ConfigForm>
         <AppBar position="static">
@@ -262,8 +275,10 @@ const Config = () => {
         </Snackbar>
       </ConfigActions>
     </div>
-  ) : (
+  ) : state.broadcasterType ? (
     <Spinner />
+  ) : (
+    <div>=D</div>
   );
 };
 

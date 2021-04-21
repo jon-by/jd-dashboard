@@ -3,6 +3,7 @@ import { COLORS } from "./constants";
 
 export const Filter = styled.div`
   display: flex;
+  width: 100%;
   border: 2px solid ${COLORS.PURPLE};
   & input {
     box-sizing: border-box;

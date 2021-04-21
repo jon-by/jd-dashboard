@@ -15,6 +15,7 @@ const initialState = {
   bannedCost: null,
   bannedIds: [],
   config: null,
+  gameList: null,
 };
 
 function reducer(state, { type, payload }) {
@@ -25,6 +26,11 @@ function reducer(state, { type, payload }) {
         songList: payload,
         filteredSongs: payload,
         loading: false,
+      };
+    case "setGameList":
+      return {
+        ...state,
+        gameList: payload,
       };
     case "setConfig":
       return {

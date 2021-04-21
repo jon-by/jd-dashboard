@@ -5,6 +5,7 @@ const initialState = {
   bannedSongs: {},
   alert: "",
   songList: [],
+  broadcasterType: null,
 };
 
 function reducer(state, { type, payload }) {
@@ -13,6 +14,11 @@ function reducer(state, { type, payload }) {
       return {
         ...state,
         auth: payload,
+      };
+    case "setBroadcasterType":
+      return {
+        ...state,
+        broadcasterType: payload,
       };
     case "setSongList":
       return {

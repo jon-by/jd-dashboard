@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useReducer } from "react";
 import FilterSection from "./FilterSection";
 import { Manager } from "socket.io-client";
-import { TRACKLIST_URL } from "./constants";
+import { LIST_STATUS, TRACKLIST_URL } from "./constants";
 import { Scope, Main, PausedList } from "./Viewer.styled";
 import useDebounce from "./useDebounce";
 import ListHeader from "./ListHeader";
@@ -32,9 +32,7 @@ const Viewer = () => {
 
   useEffect(() => {
     if (state.songList.length === 0) return;
-
     const list = state.songList;
-
     dispatch({
       type: "setFilteredSongs",
       payload: handleFilter(debouncedFilter, list),
@@ -42,11 +40,9 @@ const Viewer = () => {
   }, [debouncedFilter, state.songList]);
 
   useEffect(() => {
-    authInit((authentication) =>
-      dispatch({ type: "setAuth", payload: authentication })
-    );
+    authInit((auth) => dispatch({ type: "setAuth", payload: auth }));
+
     getTwitchConfig(() => {
-      console.log(window.Twitch.ext.configuration.broadcaster.content);
       dispatch({
         type: "setConfig",
         payload: JSON.parse(
@@ -55,48 +51,54 @@ const Viewer = () => {
       });
     });
     window.Twitch.ext.listen("broadcast", (target, contentType, msg) => {
-      //console.log(target, contentType, msg);
       const { type, data } = JSON.parse(msg);
       if (type === "configChange") {
         dispatch({ type: "setConfig", payload: data });
       }
     });
+
+    fetch(TRACKLIST_URL).then((response) =>
+      response
+        .json()
+        .then((data) => {
+          dispatch({
+            type: "setGameList",
+            payload: data,
+          });
+        })
+        .catch((err) => {
+          dispatch({ type: "setLoading", payload: false });
+        })
+    );
   }, []);
+
+  useEffect(() => {
+    if (state.config && state.gameList) {
+      const { bannedIds, bannedCost, extremeCost } = state.config;
+      const newSongList = []
+        .concat(
+          state.gameList[state.config.game],
+          state.config.unlimited ? state.gameList["unlimited"] : []
+        )
+        .map((song) => ({
+          ...song,
+          cost: getCost({
+            bannedIds,
+            bannedCost,
+            extremeCost,
+            difficulty: song.difficulty,
+            id: song.id,
+          }),
+        }));
+
+      dispatch({ type: "setSongList", payload: newSongList });
+    }
+  }, [state.config, state.gameList]);
 
   useEffect(() => {
     if (state.auth) {
       const broadcaster = state.auth.channelId;
       const viewer = state.auth.userId.substring(1, state.auth.userId.length);
-
-      fetch(TRACKLIST_URL).then((response) =>
-        response
-          .json()
-          .then((data) => {
-            const { bannedIds, bannedCost, extremeCost } = state.config;
-            const newSongList = []
-              .concat(
-                data[state.config.game],
-                state.config.unlimited ? data["unlimited"] : []
-              )
-              .map((song) => ({
-                ...song,
-                cost: getCost({
-                  bannedIds,
-                  bannedCost,
-                  extremeCost,
-                  difficulty: song.difficulty,
-                  id: song.id,
-                }),
-              }));
-            dispatch({
-              type: "setSongList",
-              payload: newSongList,
-            });
-          })
-          .catch((err) => {
-            dispatch({ type: "setLoading", payload: false });
-          })
-      );
       const manager = new Manager("http://localhost:3000", {
         transports: ["websocket"],
       });
@@ -105,12 +107,13 @@ const Viewer = () => {
       });
 
       socket.on("connect", () => {
-        //console.log("connected");
+        console.log("connected");
       });
 
       socket.on(
         `${broadcaster}-${viewer}`,
         ({ current, listStatus, listIds }) => {
+          console.log(listStatus);
           dispatch({
             type: "setViewer",
             payload: { current, listStatus, listIds },
@@ -123,21 +126,20 @@ const Viewer = () => {
   return (
     <Scope>
       <ListHeader tickets={state.tickets} />
-      {!state.loading && !state.selectedSong && (
-        <FilterSection
-          value={state.filter}
-          onChange={(value) => {
-            dispatch({ type: "setFilter", payload: value });
-          }}
-        />
+
+      {state.listStatus !== LIST_STATUS.CLOSED ? (
+        <>
+          <Main>
+            <ViewerView dispatch={dispatch} state={state} />
+          </Main>
+        </>
+      ) : (
+        <div>=D</div>
       )}
 
-      <Main>
-        <ViewerView dispatch={dispatch} state={state} />
-      </Main>
-      {state.listStatus === "paused" && (
+      {state.listStatus === LIST_STATUS.PAUSED && (
         <PausedList>
-          <span>Paused</span>
+          <span>{LIST_STATUS.PAUSED}</span>
         </PausedList>
       )}
     </Scope>

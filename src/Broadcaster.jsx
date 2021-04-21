@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Manager } from "socket.io-client";
 import SongCard from "./SongCard";
-import { COLORS, STATUS } from "./constants";
+import { COLORS, LIST_STATUS } from "./constants";
 import Requester from "./Requester";
 import ListStatus from "./ListStatus";
 import Button from "./Button";
@@ -12,13 +12,12 @@ import {
   removeSongFromList,
   changeSongStatus,
   changeListStatus,
-  getTwitchConfig,
-  twitch,
   authInit,
+  deleteList,
 } from "./TwitchApi";
 const Broadcaster = () => {
   const [songList, setSongList] = useState([]);
-  const [songListStatus, setSongListStatus] = useState("active");
+  const [songListStatus, setSongListStatus] = useState(LIST_STATUS.ACTIVE);
 
   useEffect(() => {
     authInit(function (authentication) {
@@ -37,13 +36,14 @@ const Broadcaster = () => {
     });
   }, []);
 
-  return songListStatus === STATUS.active ||
-    songListStatus === STATUS.paused ? (
+  return songListStatus === LIST_STATUS.ACTIVE ||
+    songListStatus === LIST_STATUS.PAUSED ? (
     <Wrapper>
       <ListStatus
         songListStatus={songListStatus}
         onChange={setSongListStatus}
         changeListStatus={changeListStatus}
+        deleteList={deleteList}
       />
       <RequestedSongList
         songList={songList}

@@ -46,7 +46,6 @@ const BannedControl = ({ bannedIds, dispatch, bannedSongs, songList }) => {
   }, [songList]);
 
   useEffect(() => {
-    console.log(bannedIds);
     if (bannedIds.length > 0 && songList.length > 0) {
       const bannedSongs = bannedIds.reduce((acc, curr) => {
         const song = songList.find((song) => song.id === curr);
@@ -54,7 +53,6 @@ const BannedControl = ({ bannedIds, dispatch, bannedSongs, songList }) => {
         return acc;
       }, []);
       dispatch({ type: "setBannedSongs", payload: bannedSongs });
-      console.log("bannedSongs:", bannedSongs);
     }
   }, [bannedIds, songList]);
 

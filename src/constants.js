@@ -28,8 +28,8 @@ export const COLORS = {
   GREEN: "#19bc10",
 };
 
-export const STATUS = {
-  active: "active",
-  paused: "paused",
-  done: "done",
+export const LIST_STATUS = {
+  CLOSED: "Closed",
+  ACTIVE: "Active",
+  PAUSED: "Paused",
 };

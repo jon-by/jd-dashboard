@@ -9,6 +9,7 @@ export const twitch = window.Twitch.ext;
 const routes = {
   song: BASE_URL + "/song",
   list: BASE_URL + "/list",
+  broadcaster: BASE_URL + "/broadcaster",
 };
 
 async function handleErrors(response) {
@@ -32,9 +33,6 @@ export const authInit = (callback) => {
   });
 };
 
-// window.Twitch.ext.onAuthorized(function (authentication) {
-//   dispatch({ type: "setAuth", payload: authentication });
-// }
 const getHeaders = () => {
   return {
     Accept: "application/json",
@@ -105,6 +103,12 @@ export const changeListStatus = (status) => {
     body: JSON.stringify({ status }),
   });
 };
+export const deleteList = () => {
+  return fetch(routes.list, {
+    method: "DELETE",
+    headers: getHeaders(),
+  });
+};
 
 export const addSongToList = (song) => {
   const headers = getHeaders();
@@ -129,6 +133,13 @@ export const changeSongStatus = (songId, danced) => {
     method: "PATCH",
     headers: getHeaders(),
     body: JSON.stringify({ danced }),
+  });
+};
+
+export const getBroadcaster = () => {
+  return fetch(routes.broadcaster, {
+    method: "GET",
+    headers: getHeaders(),
   });
 };
 

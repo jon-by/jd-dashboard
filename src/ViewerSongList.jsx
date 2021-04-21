@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
+import { LIST_STATUS } from "./constants";
 import SongCard from "./SongCard";
 
 const ViewerSongList = ({
@@ -17,7 +18,7 @@ const ViewerSongList = ({
       return (
         <SongCard
           onClick={() =>
-            listStatus === "active" &&
+            listStatus === LIST_STATUS.ACTIVE &&
             dispatch({ type: "setSelectedSong", payload: song })
           }
           extremeCost={extremeCost}
