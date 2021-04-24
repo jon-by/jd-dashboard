@@ -10,6 +10,7 @@ const routes = {
   song: BASE_URL + "/song",
   list: BASE_URL + "/list",
   broadcaster: BASE_URL + "/broadcaster",
+  reward: BASE_URL + "/reward",
 };
 
 async function handleErrors(response) {
@@ -28,6 +29,7 @@ let token;
 
 export const authInit = (callback) => {
   twitch.onAuthorized((auth) => {
+    console.log(auth);
     token = auth.token;
     typeof callback === "function" && callback(auth);
   });
@@ -41,6 +43,13 @@ const getHeaders = () => {
   };
 };
 
+export const updateRewardsCost = ({ bannedCost, extremeCost }) => {
+  return fetch(routes.reward, {
+    method: "PUT",
+    headers: getHeaders(),
+    body: JSON.stringify({ bannedCost, extremeCost }),
+  });
+};
 export const deleteReward = (id, onDelete) => {
   fetch(API.CUSTOM_REWARDS, {
     method: "DELETE",

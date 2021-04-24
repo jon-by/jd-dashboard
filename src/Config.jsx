@@ -21,6 +21,7 @@ import {
   setTwitchConfig,
   getBroadcaster,
   authInit,
+  updateRewardsCost,
 } from "./TwitchApi";
 import {
   Panel,
@@ -165,13 +166,22 @@ const Config = () => {
       unlimited: state.config.unlimited,
       game: state.config.game,
     };
-    setTwitchConfig(config, () =>
-      dispatch({ type: "setAlert", payload: "success" })
-    );
-    window.Twitch.ext.send("broadcast", "application/json", {
-      type: "configChange",
-      data: config,
-    });
+
+    updateRewardsCost({
+      bannedCost: config.bannedCost,
+      extremeCost: config.extremeCost,
+    })
+      .then((raw) => raw.json())
+      .then((result) => {
+        setTwitchConfig(config, () =>
+          dispatch({ type: "setAlert", payload: "success" })
+        );
+        window.Twitch.ext.send("broadcast", "application/json", {
+          type: "configChange",
+          data: config,
+        });
+      })
+      .catch((err) => console.error(err));
   };
 
   const updateConfig = (data) => {
